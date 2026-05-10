@@ -1,0 +1,170 @@
+{
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\vite.config.ts": {
+    "mtime": 1778402183.1405692,
+    "hash": "65483e434528a88f846368a70ad7174c"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\app.vue": {
+    "mtime": 1778402183.1142461,
+    "hash": "48814e7b8138f956c68948dff9e0b579"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\bootstrap.ts": {
+    "mtime": 1778402183.1142461,
+    "hash": "f3be47ab4f2483b870811014811fe595"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\main.ts": {
+    "mtime": 1778402183.1202471,
+    "hash": "b99f15057a5c3e572ca75a62b3aa2533"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\preferences.ts": {
+    "mtime": 1778402572.749281,
+    "hash": "2a38fe5cedd7ab846012086030a335d1"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\adapter\\form.ts": {
+    "mtime": 1778402183.111246,
+    "hash": "c163f0a76a2991ad11ea97b4c1b18cea"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\adapter\\vxe-table.ts": {
+    "mtime": 1778402183.111246,
+    "hash": "3c6ef4b35fc20061902db85564536771"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\adapter\\component\\index.ts": {
+    "mtime": 1778402183.1102464,
+    "hash": "372c36d8ef49bb988d2bb7e9b53e4f71"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\index.ts": {
+    "mtime": 1778402634.5116732,
+    "hash": "270c8eceeaa24b1c7701dffc1eaa1ab7"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\request.ts": {
+    "mtime": 1778402183.1142461,
+    "hash": "d505b54a26a5c90095d3c0a185681aed"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\auth.ts": {
+    "mtime": 1778402183.112246,
+    "hash": "9461ec03ac242984d3a7d3790c2f1942"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\index.ts": {
+    "mtime": 1778402183.112246,
+    "hash": "e133852f9532a8b82c6d1522be5d8d0a"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\menu.ts": {
+    "mtime": 1778402183.1132462,
+    "hash": "0e7aa693b77f36d001427ef53f752c90"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\user.ts": {
+    "mtime": 1778402183.1132462,
+    "hash": "911ba5b1843d5330001084c872b8e7cc"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\index.ts": {
+    "mtime": 1778402634.3943622,
+    "hash": "269d4b9b7a7557d93587b00cbcd35410"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\model.ts": {
+    "mtime": 1778402634.0258882,
+    "hash": "697fc4a5f82adf8cfe6aa2b40cd1c439"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\role.ts": {
+    "mtime": 1778402634.1550596,
+    "hash": "9406ea628983a9b5bfb327da01d22ddb"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\user.ts": {
+    "mtime": 1778402634.277239,
+    "hash": "ae67020fa4c75494de629ea0d44837a4"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\layouts\\auth.vue": {
+    "mtime": 1778402183.1152463,
+    "hash": "f54fa69e3b6dab9ac7996cc154af0d0c"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\layouts\\basic.vue": {
+    "mtime": 1778402785.5836036,
+    "hash": "c32603e43cc55391bd29138bb32d61da"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\layouts\\index.ts": {
+    "mtime": 1778402183.116247,
+    "hash": "c6a6b9d5bea59d6b45c689bb56cd74de"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\locales\\index.ts": {
+    "mtime": 1778402183.117247,
+    "hash": "6d55cf50e1ba276cd23319c0217b3c81"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\access.ts": {
+    "mtime": 1778402183.121248,
+    "hash": "1790604f09047af2fc74aa8f0d26c659"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\guard.ts": {
+    "mtime": 1778402183.1222508,
+    "hash": "309a8fb34c651087e1ad8b6788794d2a"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\index.ts": {
+    "mtime": 1778402183.1228518,
+    "hash": "34614c1fc5870b9884665cd5222b1a9e"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\core.ts": {
+    "mtime": 1778402764.5536172,
+    "hash": "b4006e67c5d109eda9c831775669731a"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\index.ts": {
+    "mtime": 1778402183.1238558,
+    "hash": "563be98780da8cbb78b9c0e241834469"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\modules\\dashboard.ts": {
+    "mtime": 1778402572.98201,
+    "hash": "6a4b23d79379a37b0ae8d9362c59e768"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\modules\\system.ts": {
+    "mtime": 1778402573.4048848,
+    "hash": "b8c4c29d53200c6b9b2eee71b72010e3"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\store\\auth.ts": {
+    "mtime": 1778402183.1258552,
+    "hash": "98d79a20556a117d941f2c45bb80803b"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\store\\index.ts": {
+    "mtime": 1778402183.1258552,
+    "hash": "41b6cf4f1fb0e18863b36a06b0965384"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\dashboard\\index.vue": {
+    "mtime": 1778402573.5235798,
+    "hash": "98983b7e6ffb698fa17e5281c6753813"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\system\\user\\index.vue": {
+    "mtime": 1778415923.305536,
+    "hash": "6c2daf2b31c5d2212300e2b9609335d6"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\authentication\\login.vue": {
+    "mtime": 1778417293.933081,
+    "hash": "eb13689c11f01f3f3ff8f81371a10b93"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\coming-soon.vue": {
+    "mtime": 1778402183.1308565,
+    "hash": "42f389dd53db4896dc556c250f309d16"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\forbidden.vue": {
+    "mtime": 1778402183.1308565,
+    "hash": "65878dd87eb5212ed5a33e6543330372"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\internal-error.vue": {
+    "mtime": 1778402183.1318562,
+    "hash": "74790bd039498529d281a99c607c36de"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\not-found.vue": {
+    "mtime": 1778402183.1318562,
+    "hash": "39daf9c7ccf392f1887540abf8cdfe65"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\offline.vue": {
+    "mtime": 1778402183.1318562,
+    "hash": "ec0f4d9f39f5c6e49964794cbb72c822"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\index.html": {
+    "mtime": 1778402183.1082473,
+    "hash": "63a248b87f2b61c71974aaa29bb14459"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\locales\\README.md": {
+    "mtime": 1778402183.116247,
+    "hash": "b78460ba0f45ffa068261f79bf90d844"
+  },
+  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\README.md": {
+    "mtime": 1778402183.126855,
+    "hash": "eeb56c071d14232f7cec41fbd2f4a188"
+  }
+}
