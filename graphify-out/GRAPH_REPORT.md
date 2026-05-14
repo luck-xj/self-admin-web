@@ -1,20 +1,24 @@
-# Graph Report - self-admin-web  (2026-05-14)
+# Graph Report - self-admin-web (2026-05-14)
 
 ## Corpus Check
+
 - 912 files · ~162,313 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
+
 - 2674 nodes · 2940 edges · 715 communities (650 shown, 65 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 81 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
+
 - Built from commit: `5bde1768`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
+
 - [[_COMMUNITY_Community 0|Community 0]]
 - [[_COMMUNITY_Community 1|Community 1]]
 - [[_COMMUNITY_Community 2|Community 2]]
@@ -225,6 +229,7 @@
 - [[_COMMUNITY_Community 235|Community 235]]
 
 ## God Nodes (most connected - your core abstractions)
+
 1. `useResponseSuccess()` - 34 edges
 2. `unAuthorizedResponse()` - 34 edges
 3. `verifyAccessToken()` - 33 edges
@@ -237,623 +242,600 @@
 10. `VxeGridApi` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `runDepcheck()` --calls--> `getPackages()`  [INFERRED]
-  scripts/vsh/src/check-dep/index.ts → internal/node-utils/src/monorepo.ts
-- `bootstrap()` --calls--> `initStores()`  [INFERRED]
-  apps/web-antd/src/bootstrap.ts → packages/stores/src/setup.ts
-- `bootstrap()` --calls--> `registerAccessDirective()`  [INFERRED]
-  apps/web-antd/src/bootstrap.ts → packages/effects/access/src/directive.ts
-- `bootstrap()` --calls--> `registerLoadingDirective()`  [INFERRED]
-  apps/web-antd/src/bootstrap.ts → packages/effects/common-ui/src/components/loading/directive.ts
-- `initSetupVbenForm()` --calls--> `setupVbenForm()`  [INFERRED]
-  apps/web-antd/src/adapter/form.ts → packages/@core/ui-kit/form-ui/src/config.ts
+
+- `runDepcheck()` --calls--> `getPackages()` [INFERRED] scripts/vsh/src/check-dep/index.ts → internal/node-utils/src/monorepo.ts
+- `bootstrap()` --calls--> `initStores()` [INFERRED] apps/web-antd/src/bootstrap.ts → packages/stores/src/setup.ts
+- `bootstrap()` --calls--> `registerAccessDirective()` [INFERRED] apps/web-antd/src/bootstrap.ts → packages/effects/access/src/directive.ts
+- `bootstrap()` --calls--> `registerLoadingDirective()` [INFERRED] apps/web-antd/src/bootstrap.ts → packages/effects/common-ui/src/components/loading/directive.ts
+- `initSetupVbenForm()` --calls--> `setupVbenForm()` [INFERRED] apps/web-antd/src/adapter/form.ts → packages/@core/ui-kit/form-ui/src/config.ts
 
 ## Communities (715 total, 65 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.05
-Nodes (46): defineApplicationConfig(), getCommonConfig(), defineConfig(), defineLibraryConfig(), getLoadingRawByHtmlTemplate(), viteInjectAppLoadingPlugin(), viteArchiverPlugin(), getConfigSource() (+38 more)
+
+Cohesion: 0.05 Nodes (46): defineApplicationConfig(), getCommonConfig(), defineConfig(), defineLibraryConfig(), getLoadingRawByHtmlTemplate(), viteInjectAppLoadingPlugin(), viteArchiverPlugin(), getConfigSource() (+38 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.05
-Nodes (37): command, comments, ignores(), importPluginConfig, mergeOxlintConfigs(), oxlintConfig, javascript(), rulesCoveredByOxlint (+29 more)
+
+Cohesion: 0.05 Nodes (37): command, comments, ignores(), importPluginConfig, mergeOxlintConfigs(), oxlintConfig, javascript(), rulesCoveredByOxlint (+29 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.06
-Nodes (33): { apiURL }, baseRequestClient, requestClient, getAccessCodesApi(), loginApi(), LoginParams, LoginResult, logoutApi() (+25 more)
+
+Cohesion: 0.06 Nodes (33): { apiURL }, baseRequestClient, requestClient, getAccessCodesApi(), loginApi(), LoginParams, LoginResult, logoutApi() (+25 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.05
-Nodes (25): ModalApi, ExtendedModalApi, ModalApiOptions, ModalProps, ModalState, DEFAULT_MODAL_PROPS, USER_MODAL_INJECT_KEY, getDefaultState() (+17 more)
+
+Cohesion: 0.05 Nodes (25): ModalApi, ExtendedModalApi, ModalApiOptions, ModalProps, ModalState, DEFAULT_MODAL_PROPS, USER_MODAL_INJECT_KEY, getDefaultState() (+17 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.06
-Nodes (26): runNitroServer(), injectPluginsOptions(), VbenPluginsComponentsOptions, VbenPluginsFormOptions, VbenPluginsMessageOptions, VbenPluginsModalOptions, VbenPluginsOptions, mergeWithArrayOverride (+18 more)
+
+Cohesion: 0.06 Nodes (26): runNitroServer(), injectPluginsOptions(), VbenPluginsComponentsOptions, VbenPluginsFormOptions, VbenPluginsMessageOptions, VbenPluginsModalOptions, VbenPluginsOptions, mergeWithArrayOverride (+18 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.06
-Nodes (37): generateMenus(), convertRoutes(), generateRoutesByBackend(), normalizeViewPath(), generateRoutesByFrontend(), hasAuthority(), menuHasVisibleWithForbidden(), resetStaticRoutes() (+29 more)
+
+Cohesion: 0.06 Nodes (37): generateMenus(), convertRoutes(), generateRoutesByBackend(), normalizeViewPath(), generateRoutesByFrontend(), hasAuthority(), menuHasVisibleWithForbidden(), resetStaticRoutes() (+29 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.06
-Nodes (37): body, user, userinfo, { status }, body, id, user, userinfo (+29 more)
+
+Cohesion: 0.06 Nodes (37): body, user, userinfo, { status }, body, id, user, userinfo (+29 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.1
-Nodes (24): logo, logoDark, AuthPageLayout(), BasicLayout(), IFrameView(), forbiddenComponent(), generateAccess(), createRouterGuard() (+16 more)
+
+Cohesion: 0.1 Nodes (24): logo, logoDark, AuthPageLayout(), BasicLayout(), IFrameView(), forbiddenComponent(), generateAccess(), createRouterGuard() (+16 more)
 
 ### Community 8 - "Community 8"
-Cohesion: 0.07
-Nodes (16): DrawerApi, CloseIconPlacement, DrawerApiOptions, DrawerPlacement, DrawerProps, DrawerState, ExtendedDrawerApi, DEFAULT_DRAWER_PROPS (+8 more)
+
+Cohesion: 0.07 Nodes (16): DrawerApi, CloseIconPlacement, DrawerApiOptions, DrawerPlacement, DrawerProps, DrawerState, ExtendedDrawerApi, DEFAULT_DRAWER_PROPS (+8 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.12
-Nodes (22): userinfo, userinfo, userinfo, userinfo, userinfo, id, menu, userinfo (+14 more)
+
+Cohesion: 0.12 Nodes (22): userinfo, userinfo, userinfo, userinfo, userinfo, id, menu, userinfo (+14 more)
 
 ### Community 10 - "Community 10"
-Cohesion: 0.07
-Nodes (23): userinfo, id, userinfo, userinfo, { id, name }, namesMap, userinfo, { id, path } (+15 more)
+
+Cohesion: 0.07 Nodes (23): userinfo, id, userinfo, userinfo, { id, name }, namesMap, userinfo, { id, path } (+15 more)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.06
-Nodes (28): [injectRenderFormProps, provideFormRenderProps], ActionButtonOptions, ArrayToStringFields, Breakpoints, ComponentProps, CustomParamsRenderType, CustomRenderType, FieldMappingTime (+20 more)
+
+Cohesion: 0.06 Nodes (28): [injectRenderFormProps, provideFormRenderProps], ActionButtonOptions, ArrayToStringFields, Breakpoints, ComponentProps, CustomParamsRenderType, CustomRenderType, FieldMappingTime (+20 more)
 
 ### Community 12 - "Community 12"
-Cohesion: 0.12
-Nodes (31): AdapterUploadProps, AutoComplete, Button, Cascader, Checkbox, CheckboxGroup, createDefaultUploadSlots(), cropImage() (+23 more)
+
+Cohesion: 0.12 Nodes (31): AdapterUploadProps, AutoComplete, Button, Cascader, Checkbox, CheckboxGroup, createDefaultUploadSlots(), cropImage() (+23 more)
 
 ### Community 13 - "Community 13"
-Cohesion: 0.06
-Nodes (31): 后端后续工作清单, 1. 当前对接结论, 2.1 接口字段命名以 `openapi.yaml` 为准, 2.2 用户列表分页参数需支持 `pageSize`, 2.3 `/api/auth/codes` 需要 Bearer 鉴权并返回真实权限码, 2.4 跨域 Cookie 配置需要可按环境配置, 2.5 错误提示建议改为可直接展示的中文, 2. P0：当前对接契约基准和稳定性补充 (+23 more)
+
+Cohesion: 0.06 Nodes (31): 后端后续工作清单, 1. 当前对接结论, 2.1 接口字段命名以 `openapi.yaml` 为准, 2.2 用户列表分页参数需支持 `pageSize`, 2.3 `/api/auth/codes` 需要 Bearer 鉴权并返回真实权限码, 2.4 跨域 Cookie 配置需要可按环境配置, 2.5 错误提示建议改为可直接展示的中文, 2. P0：当前对接契约基准和稳定性补充 (+23 more)
 
 ### Community 14 - "Community 14"
-Cohesion: 0.09
-Nodes (21): createCustomImage(), createDefaultTiptapExtensions(), createUploadProcess(), findPlaceholderPos(), UploadContext, createHeadingMenuItems(), createToolbarGroups(), editorColorPresets (+13 more)
+
+Cohesion: 0.09 Nodes (21): createCustomImage(), createDefaultTiptapExtensions(), createUploadProcess(), findPlaceholderPos(), UploadContext, createHeadingMenuItems(), createToolbarGroups(), editorColorPresets (+13 more)
 
 ### Community 15 - "Community 15"
-Cohesion: 0.08
-Nodes (15): back(), descText, fallbackIcon, Icon404, Icon500, IconHello, IconOffline, { push } (+7 more)
+
+Cohesion: 0.08 Nodes (15): back(), descText, fallbackIcon, Icon404, Icon500, IconHello, IconOffline, { push } (+7 more)
 
 ### Community 16 - "Community 16"
-Cohesion: 0.11
-Nodes (8): PreferenceManager, getFirstNonNullOrUndefined(), isBoolean(), isEmpty(), isHttpUrl(), isMacOs(), isUndefined(), isWindow()
+
+Cohesion: 0.11 Nodes (8): PreferenceManager, getFirstNonNullOrUndefined(), isBoolean(), isEmpty(), isHttpUrl(), isMacOs(), isUndefined(), isWindow()
 
 ### Community 18 - "Community 18"
-Cohesion: 0.08
-Nodes (23): AnyCustomPreferencesField, AppPreferences, BaseCustomPreferencesField, BreadcrumbPreferences, CopyrightPreferences, CustomPreferencesInputField, CustomPreferencesNumberField, CustomPreferencesOption (+15 more)
+
+Cohesion: 0.08 Nodes (23): AnyCustomPreferencesField, AppPreferences, BaseCustomPreferencesField, BreadcrumbPreferences, CopyrightPreferences, CustomPreferencesInputField, CustomPreferencesNumberField, CustomPreferencesOption (+15 more)
 
 ### Community 19 - "Community 19"
-Cohesion: 0.11
-Nodes (13): menuContextKey, useSubMenuContext(), MenuItemClicked, MenuItemProps, MenuItemRegistered, MenuProps, MenuProvider, SubMenuProps (+5 more)
+
+Cohesion: 0.11 Nodes (13): menuContextKey, useSubMenuContext(), MenuItemClicked, MenuItemProps, MenuItemRegistered, MenuProps, MenuProvider, SubMenuProps (+5 more)
 
 ### Community 20 - "Community 20"
-Cohesion: 0.16
-Nodes (16): accessToken, findUser, refreshToken, refreshToken, accessToken, findUser, refreshToken, userinfo (+8 more)
+
+Cohesion: 0.16 Nodes (16): accessToken, findUser, refreshToken, refreshToken, accessToken, findUser, refreshToken, userinfo (+8 more)
 
 ### Community 21 - "Community 21"
-Cohesion: 0.1
-Nodes (16): SvgAntdvLogoIcon, SvgAntdvNextLogoIcon, SvgAvatar1Icon, SvgAvatar2Icon, SvgAvatar3Icon, SvgAvatar4Icon, SvgBellIcon, SvgCakeIcon (+8 more)
+
+Cohesion: 0.1 Nodes (16): SvgAntdvLogoIcon, SvgAntdvNextLogoIcon, SvgAvatar1Icon, SvgAvatar2Icon, SvgAvatar3Icon, SvgAvatar4Icon, SvgBellIcon, SvgCakeIcon (+8 more)
 
 ### Community 22 - "Community 22"
-Cohesion: 0.14
-Nodes (12): calcSliceIndex(), close(), closeMenu(), debounce(), enableScroll, getActivePaths(), getSlot, handleResize() (+4 more)
+
+Cohesion: 0.14 Nodes (12): calcSliceIndex(), close(), closeMenu(), debounce(), enableScroll, getActivePaths(), getSlot, handleResize() (+4 more)
 
 ### Community 23 - "Community 23"
-Cohesion: 0.11
-Nodes (18): AnyFunction, AnyNormalFunction, AnyPromiseFunction, DeepPartial, DeepReadonly, EmitType, Increment, IntervalHandle (+10 more)
+
+Cohesion: 0.11 Nodes (18): AnyFunction, AnyNormalFunction, AnyPromiseFunction, DeepPartial, DeepReadonly, EmitType, Increment, IntervalHandle (+10 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.19
-Nodes (10): VbenFormProps, VbenFormSchema, OnActionClickFn, OnActionClickParams, renderTableDefault(), useVbenVxeGrid(), ComponentPropsMap, ComponentType (+2 more)
+
+Cohesion: 0.19 Nodes (10): VbenFormProps, VbenFormSchema, OnActionClickFn, OnActionClickParams, renderTableDefault(), useVbenVxeGrid(), ComponentPropsMap, ComponentType (+2 more)
 
 ### Community 25 - "Community 25"
-Cohesion: 0.11
-Nodes (18): 精简管理后台, 安装依赖, 启动开发服务, 构建, 环境要求, 类型检查, 默认账号, 当前功能 (+10 more)
+
+Cohesion: 0.11 Nodes (18): 精简管理后台, 安装依赖, 启动开发服务, 构建, 环境要求, 类型检查, 默认账号, 当前功能 (+10 more)
 
 ### Community 26 - "Community 26"
-Cohesion: 0.18
-Nodes (16): d, formatted, guessed, result, sampleTimestamp, spy, tz, currentTimezone (+8 more)
+
+Cohesion: 0.18 Nodes (16): d, formatted, guessed, result, sampleTimestamp, spy, tz, currentTimezone (+8 more)
 
 ### Community 27 - "Community 27"
-Cohesion: 0.15
-Nodes (11): AlertContext, AlertProps, BeforeCloseScope, IconType, [injectAlertContext, provideAlertContext], PromptProps, alerts, { $t } (+3 more)
+
+Cohesion: 0.15 Nodes (11): AlertContext, AlertProps, BeforeCloseScope, IconType, [injectAlertContext, provideAlertContext], PromptProps, alerts, { $t } (+3 more)
 
 ### Community 28 - "Community 28"
-Cohesion: 0.14
-Nodes (11): formattedValue, value, values, BaseFormComponentType, ExtendedFormApi, FormActions, FormSchema, VbenFormProps (+3 more)
+
+Cohesion: 0.14 Nodes (11): formattedValue, value, values, BaseFormComponentType, ExtendedFormApi, FormActions, FormSchema, VbenFormProps (+3 more)
 
 ### Community 29 - "Community 29"
-Cohesion: 0.19
-Nodes (9): antdLocale, loadAntdLocale(), loadDayjsLocale(), loadMessages(), loadThirdPartyMessage(), localesMap, modules, routes (+1 more)
+
+Cohesion: 0.19 Nodes (9): antdLocale, loadAntdLocale(), loadDayjsLocale(), loadMessages(), loadThirdPartyMessage(), localesMap, modules, routes (+1 more)
 
 ### Community 30 - "Community 30"
-Cohesion: 0.22
-Nodes (13): i18n, loadLocaleMessages(), loadLocalesMap(), loadLocalesMapFromDir(), localesMap, modules, setI18nLanguage(), { setSimpleLocale } (+5 more)
+
+Cohesion: 0.22 Nodes (13): i18n, loadLocaleMessages(), loadLocalesMap(), loadLocalesMapFromDir(), localesMap, modules, setI18nLanguage(), { setSimpleLocale } (+5 more)
 
 ### Community 31 - "Community 31"
-Cohesion: 0.12
-Nodes (15): AccessModeType, AuthPageLayoutType, BreadcrumbStyleType, BuiltinThemeType, ContentCompactType, LayoutHeaderMenuAlignType, LayoutHeaderModeType, LayoutType (+7 more)
+
+Cohesion: 0.12 Nodes (15): AccessModeType, AuthPageLayoutType, BreadcrumbStyleType, BuiltinThemeType, ContentCompactType, LayoutHeaderMenuAlignType, LayoutHeaderModeType, LayoutType (+7 more)
 
 ### Community 32 - "Community 32"
-Cohesion: 0.17
-Nodes (7): StorageItem, StorageManager, StorageManagerOptions, StorageType, user, user1, user2
+
+Cohesion: 0.17 Nodes (7): StorageItem, StorageManager, StorageManagerOptions, StorageType, user, user1, user2
 
 ### Community 33 - "Community 33"
-Cohesion: 0.22
-Nodes (13): options, downloadFileFromBase64(), downloadFileFromBlob(), downloadFileFromBlobPart(), downloadFileFromImageUrl(), downloadFileFromUrl(), DownloadOptions, resolveFileName() (+5 more)
+
+Cohesion: 0.22 Nodes (13): options, downloadFileFromBase64(), downloadFileFromBlob(), downloadFileFromBlobPart(), downloadFileFromImageUrl(), downloadFileFromUrl(), DownloadOptions, resolveFileName() (+5 more)
 
 ### Community 34 - "Community 34"
-Cohesion: 0.12
-Nodes (14): aNum, aStr, aValue, bNum, bStr, bValue, ItemType, listData (+6 more)
+
+Cohesion: 0.12 Nodes (14): aNum, aStr, aValue, bNum, bStr, bValue, ItemType, listData (+6 more)
 
 ### Community 35 - "Community 35"
-Cohesion: 0.14
-Nodes (8): active, contentProps, currentLevel, isFirstLevel, item, menuIcon, mode, rounded
+
+Cohesion: 0.14 Nodes (8): active, contentProps, currentLevel, isFirstLevel, item, menuIcon, mode, rounded
 
 ### Community 36 - "Community 36"
-Cohesion: 0.18
-Nodes (11): cache, checkCircular(), CheckCircularConfig, CircularDependencyResult, circularScannerCli, CommandOptions, DEFAULT_CONFIG, detectCircularDependencies() (+3 more)
+
+Cohesion: 0.18 Nodes (11): cache, checkCircular(), CheckCircularConfig, CircularDependencyResult, circularScannerCli, CommandOptions, DEFAULT_CONFIG, detectCircularDependencies() (+3 more)
 
 ### Community 37 - "Community 37"
-Cohesion: 0.15
-Nodes (12): addNewTab, addTargetTab, affixTab, currentTab, initialTab, newTab, normalTab, router (+4 more)
+
+Cohesion: 0.15 Nodes (12): addNewTab, addTargetTab, affixTab, currentTab, initialTab, newTab, normalTab, router (+4 more)
 
 ### Community 38 - "Community 38"
-Cohesion: 0.18
-Nodes (11): preferences, mergedPreference, mergedState, preferencesManager, sanitizedUpdates, STORAGE_KEYS, CustomPreferencesField, CustomPreferencesRecord (+3 more)
+
+Cohesion: 0.18 Nodes (11): preferences, mergedPreference, mergedState, preferencesManager, sanitizedUpdates, STORAGE_KEYS, CustomPreferencesField, CustomPreferencesRecord (+3 more)
 
 ### Community 39 - "Community 39"
-Cohesion: 0.17
-Nodes (10): CaptchaData, CaptchaPoint, CaptchaVerifyPassingData, PointSelectionCaptchaCardProps, PointSelectionCaptchaProps, SliderCaptchaActionType, SliderCaptchaProps, SliderRotateCaptchaProps (+2 more)
+
+Cohesion: 0.17 Nodes (10): CaptchaData, CaptchaPoint, CaptchaVerifyPassingData, PointSelectionCaptchaCardProps, PointSelectionCaptchaProps, SliderCaptchaActionType, SliderCaptchaProps, SliderRotateCaptchaProps (+2 more)
 
 ### Community 40 - "Community 40"
-Cohesion: 0.19
-Nodes (6): resolveValueByFieldName(), resolveFieldNamePath(), FormItemDependencies, FormSchemaRuleType, MaybeComponentProps, if()
+
+Cohesion: 0.19 Nodes (6): resolveValueByFieldName(), resolveFieldNamePath(), FormItemDependencies, FormSchemaRuleType, MaybeComponentProps, if()
 
 ### Community 41 - "Community 41"
-Cohesion: 0.15
-Nodes (11): listData, mapped, userinfo, { username, page = 1, pageSize = 20, status }, value, { keyword, page = 1, pageSize = 20, role, status }, listData, userinfo (+3 more)
+
+Cohesion: 0.15 Nodes (11): listData, mapped, userinfo, { username, page = 1, pageSize = 20, status }, value, { keyword, page = 1, pageSize = 20, role, status }, listData, userinfo (+3 more)
 
 ### Community 42 - "Community 42"
-Cohesion: 0.26
-Nodes (8): initSetupVbenForm(), initComponentAdapter(), withDefaultPlaceholder(), withPreviewUpload(), unmountGlobalLoading(), setupI18n(), bootstrap(), initApplication()
+
+Cohesion: 0.26 Nodes (8): initSetupVbenForm(), initComponentAdapter(), withDefaultPlaceholder(), withPreviewUpload(), unmountGlobalLoading(), setupI18n(), bootstrap(), initApplication()
 
 ### Community 43 - "Community 43"
-Cohesion: 0.26
-Nodes (10): CACHE_FILE, getCacheFile(), getLintFiles(), printResult(), PubLintCommandOptions, readCache(), runPublint(), ensureFile() (+2 more)
+
+Cohesion: 0.26 Nodes (10): CACHE_FILE, getCacheFile(), getLintFiles(), printResult(), PubLintCommandOptions, readCache(), runPublint(), ensureFile() (+2 more)
 
 ### Community 44 - "Community 44"
-Cohesion: 0.18
-Nodes (9): {
-  applyPaletteColor,
-  canRunAction,
-  canRunMenuItem,
-  clearPaletteColor,
-  getActionIndicatorColor,
-  getMenuItemClass,
-  getPaletteCurrentColor,
-  getPaletteSwatchClass,
-  getToolbarButtonClass,
-  isMenuItemActive,
-  runAction,
-  runMenuItem,
-}, contentMaxHeight, currentValue, editor, handleMenuItemClick(), previewContent, [PreviewModal, previewModalApi], setMenuOpen() (+1 more)
+
+Cohesion: 0.18 Nodes (9): { applyPaletteColor, canRunAction, canRunMenuItem, clearPaletteColor, getActionIndicatorColor, getMenuItemClass, getPaletteCurrentColor, getPaletteSwatchClass, getToolbarButtonClass, isMenuItemActive, runAction, runMenuItem, }, contentMaxHeight, currentValue, editor, handleMenuItemClick(), previewContent, [PreviewModal, previewModalApi], setMenuOpen() (+1 more)
 
 ### Community 45 - "Community 45"
-Cohesion: 0.26
-Nodes (7): useExtraMenu(), useMixedMenu(), useNavigation(), AccessState, AccessToken, store, useAccessStore
+
+Cohesion: 0.26 Nodes (7): useExtraMenu(), useMixedMenu(), useNavigation(), AccessState, AccessToken, store, useAccessStore
 
 ### Community 46 - "Community 46"
-Cohesion: 0.2
-Nodes (9): defaultPreferences, expected, extension, initialCustomPreferences, originalCustomPreferences, originalPreferences, overrides, preferences (+1 more)
+
+Cohesion: 0.2 Nodes (9): defaultPreferences, expected, extension, initialCustomPreferences, originalCustomPreferences, originalPreferences, overrides, preferences (+1 more)
 
 ### Community 47 - "Community 47"
-Cohesion: 0.17
-Nodes (12): 3.3 菜单管理, 3.3.1 获取用户菜单（侧边栏导航）, 3.3.2 获取菜单管理列表（全量树形）, 3.3.3 检查菜单名称是否存在, 3.3.4 检查路由路径是否存在, 3.3.5 新增菜单, 3.3.6 更新菜单, 3.3.7 删除菜单 (+4 more)
+
+Cohesion: 0.17 Nodes (12): 3.3 菜单管理, 3.3.1 获取用户菜单（侧边栏导航）, 3.3.2 获取菜单管理列表（全量树形）, 3.3.3 检查菜单名称是否存在, 3.3.4 检查路由路径是否存在, 3.3.5 新增菜单, 3.3.6 更新菜单, 3.3.7 删除菜单 (+4 more)
 
 ### Community 48 - "Community 48"
-Cohesion: 0.29
-Nodes (8): defineCheckCircularCommand(), defineDepcheckCommand(), defineCodeWorkspaceCommand(), defineLintCommand(), LintCommandOptions, definePubLintCommand(), COMMAND_DESCRIPTIONS, main()
+
+Cohesion: 0.29 Nodes (8): defineCheckCircularCommand(), defineDepcheckCommand(), defineCodeWorkspaceCommand(), defineLintCommand(), LintCommandOptions, definePubLintCommand(), COMMAND_DESCRIPTIONS, main()
 
 ### Community 49 - "Community 49"
-Cohesion: 0.24
-Nodes (6): equalTab(), getTabKey(), getTabKeyFromTab(), RouteCached, routeToTab(), TabbarState
+
+Cohesion: 0.24 Nodes (6): equalTab(), getTabKey(), getTabKeyFromTab(), RouteCached, routeToTab(), TabbarState
 
 ### Community 50 - "Community 50"
-Cohesion: 0.18
-Nodes (8): fetchMock, headers, init, interceptor, messages, onEnd, onMessage, spy
+
+Cohesion: 0.18 Nodes (8): fetchMock, headers, init, interceptor, messages, onEnd, onMessage, spy
 
 ### Community 51 - "Community 51"
-Cohesion: 0.29
-Nodes (7): DownloadRequestConfig, ExtendOptions, HttpResponse, RequestClientConfig, RequestClientOptions, RequestContentType, RequestResponse
+
+Cohesion: 0.29 Nodes (7): DownloadRequestConfig, ExtendOptions, HttpResponse, RequestClientConfig, RequestClientOptions, RequestContentType, RequestResponse
 
 ### Community 52 - "Community 52"
-Cohesion: 0.18
-Nodes (7): fitHeight, fitWidth, newDimension, padding, scaleRatio, timeout, [width, height]
+
+Cohesion: 0.18 Nodes (7): fitHeight, fitWidth, newDimension, padding, scaleRatio, timeout, [width, height]
 
 ### Community 53 - "Community 53"
-Cohesion: 0.18
-Nodes (10): consoleErrorSpy, formActions, handleSubmitMock, newSchema, originalValuesSnapshot, resetFormMock, setFieldValueMock, staleMap (+2 more)
+
+Cohesion: 0.18 Nodes (10): consoleErrorSpy, formActions, handleSubmitMock, newSchema, originalValuesSnapshot, resetFormMock, setFieldValueMock, staleMap (+2 more)
 
 ### Community 54 - "Community 54"
-Cohesion: 0.18
-Nodes (10): collapse, getCollapseShowTitle, hiddenTitle, iconArrowStyle, iconComp, isFirstLevel, mode, nsMenu (+2 more)
+
+Cohesion: 0.18 Nodes (10): collapse, getCollapseShowTitle, hiddenTitle, iconArrowStyle, iconComp, isFirstLevel, mode, nsMenu (+2 more)
 
 ### Community 55 - "Community 55"
-Cohesion: 0.18
-Nodes (10): 特性, 安装, 使用方法, 示例, 注意事项, code:bash (pnpm add -D @vben/turbo-run), code:bash (turbo-run [script]), code:bash (turbo-run dev) (+2 more)
+
+Cohesion: 0.18 Nodes (10): 特性, 安装, 使用方法, 示例, 注意事项, code:bash (pnpm add -D @vben/turbo-run), code:bash (turbo-run [script]), code:bash (turbo-run dev) (+2 more)
 
 ### Community 56 - "Community 56"
-Cohesion: 0.18
-Nodes (10): 功能特性, 安装, 使用方法, 全局安装, 本地使用, 命令列表, code:bash (# 使用 pnpm 安装), code:bash (# 全局安装) (+2 more)
+
+Cohesion: 0.18 Nodes (10): 功能特性, 安装, 使用方法, 全局安装, 本地使用, 命令列表, code:bash (# 使用 pnpm 安装), code:bash (# 全局安装) (+2 more)
 
 ### Community 57 - "Community 57"
-Cohesion: 0.31
-Nodes (8): createCssOptions(), resolveMonorepoDependencies(), resolvePackageVersion(), viteMetadataPlugin(), findMonorepoRoot(), getPackage(), getPackages(), getPackagesSync()
+
+Cohesion: 0.31 Nodes (8): createCssOptions(), resolveMonorepoDependencies(), resolvePackageVersion(), viteMetadataPlugin(), findMonorepoRoot(), getPackage(), getPackages(), getPackagesSync()
 
 ### Community 58 - "Community 58"
-Cohesion: 0.2
-Nodes (7): cleanupTargets, deleteLockFile, endTime, rootDir, SKIP_DIRS, startTime, targets
+
+Cohesion: 0.2 Nodes (7): cleanupTargets, deleteLockFile, endTime, rootDir, SKIP_DIRS, startTime, targets
 
 ### Community 59 - "Community 59"
-Cohesion: 0.2
-Nodes (5): EchartsThemeType, EchartsUIType, useEcharts(), useLayoutHook(), usePreferences()
+
+Cohesion: 0.2 Nodes (5): EchartsThemeType, EchartsUIType, useEcharts(), useLayoutHook(), usePreferences()
 
 ### Community 60 - "Community 60"
-Cohesion: 0.29
-Nodes (7): BUILT_IN_THEME_PRESETS, BuiltinThemePreset, COLOR_PRESETS, DEFAULT_TIME_ZONE_OPTIONS, isDarkTheme(), updateCSSVariables(), updateMainColorVariables()
+
+Cohesion: 0.29 Nodes (7): BUILT_IN_THEME_PRESETS, BuiltinThemePreset, COLOR_PRESETS, DEFAULT_TIME_ZONE_OPTIONS, isDarkTheme(), updateCSSVariables(), updateMainColorVariables()
 
 ### Community 61 - "Community 61"
-Cohesion: 0.24
-Nodes (4): TabConfig, TabsEmits, TabsProps, DomElement
+
+Cohesion: 0.24 Nodes (4): TabConfig, TabsEmits, TabsProps, DomElement
 
 ### Community 63 - "Community 63"
-Cohesion: 0.22
-Nodes (8): appendSpy, existing, p1, p2, promise, script, scripts, loadScript()
+
+Cohesion: 0.22 Nodes (8): appendSpy, existing, p1, p2, promise, script, scripts, loadScript()
 
 ### Community 64 - "Community 64"
-Cohesion: 0.22
-Nodes (5): useScrollLock(), element, getElementVisibleRect(), getScrollbarWidth(), VisibleDomRect
+
+Cohesion: 0.22 Nodes (5): useScrollLock(), element, getElementVisibleRect(), getScrollbarWidth(), VisibleDomRect
 
 ### Community 65 - "Community 65"
-Cohesion: 0.2
-Nodes (9): 仓库协作说明, 开发命令, 项目结构, 当前功能范围, 编码规范, 验证要求, 安全与配置, 核心架构（来自 graphify 知识图谱） (+1 more)
+
+Cohesion: 0.2 Nodes (9): 仓库协作说明, 开发命令, 项目结构, 当前功能范围, 编码规范, 验证要求, 安全与配置, 核心架构（来自 graphify 知识图谱） (+1 more)
 
 ### Community 66 - "Community 66"
-Cohesion: 0.31
-Nodes (7): findMenuByPath(), findRootMenuByPath(), { findMenu, rootMenu, rootMenuPath }, menu, menuEmptyPath, menus, menuUndefinedPath
+
+Cohesion: 0.31 Nodes (7): findMenuByPath(), findRootMenuByPath(), { findMenu, rootMenu, rootMenuPath }, menu, menuEmptyPath, menus, menuUndefinedPath
 
 ### Community 67 - "Community 67"
-Cohesion: 0.36
-Nodes (6): for(), if(), capitalizeFirstLetter(), kebabToCamelCase(), toCamelCase(), toLowerCaseFirstLetter()
+
+Cohesion: 0.36 Nodes (6): for(), if(), capitalizeFirstLetter(), kebabToCamelCase(), toCamelCase(), toLowerCaseFirstLetter()
 
 ### Community 68 - "Community 68"
-Cohesion: 0.22
-Nodes (4): enableLockScreenShortcutKey, enableLogoutShortcutKey, enableShortcutKey, keys
+
+Cohesion: 0.22 Nodes (4): enableLockScreenShortcutKey, enableLogoutShortcutKey, enableShortcutKey, keys
 
 ### Community 69 - "Community 69"
-Cohesion: 0.25
-Nodes (5): useTabbarStore, useContentMaximize(), useRefresh(), useTabs(), useTabbar()
+
+Cohesion: 0.25 Nodes (5): useTabbarStore, useContentMaximize(), useRefresh(), useTabs(), useTabbar()
 
 ### Community 70 - "Community 70"
-Cohesion: 0.36
-Nodes (6): convertToHsl(), convertToHslCssVar(), convertToRgb(), isValidColor(), ColorItem, generatorColorVariables()
+
+Cohesion: 0.36 Nodes (6): convertToHsl(), convertToHslCssVar(), convertToRgb(), isValidColor(), ColorItem, generatorColorVariables()
 
 ### Community 71 - "Community 71"
-Cohesion: 0.22
-Nodes (6): FileUploader, customConfig, file, mockAxiosInstance, mockResponse, url
+
+Cohesion: 0.22 Nodes (6): FileUploader, customConfig, file, mockAxiosInstance, mockResponse, url
 
 ### Community 72 - "Community 72"
-Cohesion: 0.22
-Nodes (5): defaultRequestInterceptorConfig, defaultResponseInterceptorConfig, InterceptorManager, RequestInterceptorConfig, ResponseInterceptorConfig
+
+Cohesion: 0.22 Nodes (5): defaultRequestInterceptorConfig, defaultResponseInterceptorConfig, InterceptorManager, RequestInterceptorConfig, ResponseInterceptorConfig
 
 ### Community 73 - "Community 73"
-Cohesion: 0.22
-Nodes (4): ComponentsState, GlobalShareState, IGlobalSharedState, MessageState
+
+Cohesion: 0.22 Nodes (4): ComponentsState, GlobalShareState, IGlobalSharedState, MessageState
 
 ### Community 74 - "Community 74"
-Cohesion: 0.28
-Nodes (6): userinfo, allowed, body, userinfo, getTimezone(), setTimezone()
+
+Cohesion: 0.28 Nodes (6): userinfo, allowed, body, userinfo, getTimezone(), setTimezone()
 
 ### Community 75 - "Community 75"
-Cohesion: 0.22
-Nodes (7): id, index, userinfo, id, role, userinfo, MOCK_ROLE_LIST
+
+Cohesion: 0.22 Nodes (7): id, index, userinfo, id, role, userinfo, MOCK_ROLE_LIST
 
 ### Community 76 - "Community 76"
-Cohesion: 0.22
-Nodes (8): 仓库协作说明, 开发命令, 当前功能范围, 项目结构, 编码规范, 验证要求, 安全与配置, graphify
+
+Cohesion: 0.22 Nodes (8): 仓库协作说明, 开发命令, 当前功能范围, 项目结构, 编码规范, 验证要求, 安全与配置, graphify
 
 ### Community 77 - "Community 77"
-Cohesion: 0.22
-Nodes (9): 3.1 认证模块, 3.1.1 登录, 3.1.2 刷新 Token, 3.1.3 退出登录, 3.1.4 获取权限码, code:json ({), code:json ("eyJhbGciOiJIUzI1NiIs..."), code:json ({) (+1 more)
+
+Cohesion: 0.22 Nodes (9): 3.1 认证模块, 3.1.1 登录, 3.1.2 刷新 Token, 3.1.3 退出登录, 3.1.4 获取权限码, code:json ({), code:json ("eyJhbGciOiJIUzI1NiIs..."), code:json ({) (+1 more)
 
 ### Community 78 - "Community 78"
-Cohesion: 0.22
-Nodes (9): 3.4 角色管理, 3.4.1 获取角色列表, 3.4.2 获取角色选项（下拉用）, 3.4.3 新增角色, 3.4.4 更新角色, 3.4.5 删除角色, code:json ({), code:json ({) (+1 more)
+
+Cohesion: 0.22 Nodes (9): 3.4 角色管理, 3.4.1 获取角色列表, 3.4.2 获取角色选项（下拉用）, 3.4.3 新增角色, 3.4.4 更新角色, 3.4.5 删除角色, code:json ({), code:json ({) (+1 more)
 
 ### Community 79 - "Community 79"
-Cohesion: 0.22
-Nodes (9): 3.5 用户管理, 3.5.1 获取用户列表, 3.5.2 新增用户, 3.5.3 更新用户, 3.5.4 删除用户, 3.5.5 启用/禁用用户, 3.5.6 重置密码, code:json ({) (+1 more)
+
+Cohesion: 0.22 Nodes (9): 3.5 用户管理, 3.5.1 获取用户列表, 3.5.2 新增用户, 3.5.3 更新用户, 3.5.4 删除用户, 3.5.5 启用/禁用用户, 3.5.6 重置密码, code:json ({) (+1 more)
 
 ### Community 80 - "Community 80"
-Cohesion: 0.22
-Nodes (8): 导出, 使用, 类型, 预置组件, 预置图表, code:ts (import { EchartsUI, useEcharts, ECOption } from '@vben/plugi), code:ts (import type { ECOption } from '@vben/plugins/echarts';), ECharts Plugin
+
+Cohesion: 0.22 Nodes (8): 导出, 使用, 类型, 预置组件, 预置图表, code:ts (import { EchartsUI, useEcharts, ECOption } from '@vben/plugi), code:ts (import type { ECOption } from '@vben/plugins/echarts';), ECharts Plugin
 
 ### Community 81 - "Community 81"
-Cohesion: 0.22
-Nodes (8): 导出, 使用, 初始化, 类型, code:ts (import {), code:ts (import { setupVbenVxeTable } from '@vben/plugins/vxe-table';), code:ts (import type {), VXE Table Plugin
+
+Cohesion: 0.22 Nodes (8): 导出, 使用, 初始化, 类型, code:ts (import {), code:ts (import { setupVbenVxeTable } from '@vben/plugins/vxe-table';), code:ts (import type {), VXE Table Plugin
 
 ### Community 82 - "Community 82"
-Cohesion: 0.25
-Nodes (5): DEFAULT_CONFIG, DepcheckConfig, DepcheckResult, PackageInfo, runDepcheck()
+
+Cohesion: 0.25 Nodes (5): DEFAULT_CONFIG, DepcheckConfig, DepcheckResult, PackageInfo, runDepcheck()
 
 ### Community 84 - "Community 84"
-Cohesion: 0.25
-Nodes (5): FileDownloader, customConfig, mockAxiosInstance, mockBlob, url
+
+Cohesion: 0.25 Nodes (5): FileDownloader, customConfig, mockAxiosInstance, mockBlob, url
 
 ### Community 85 - "Community 85"
-Cohesion: 0.25
-Nodes (7): children, currentTreeData, hasSelectedChild, id, index, item, P
+
+Cohesion: 0.25 Nodes (7): children, currentTreeData, hasSelectedChild, id, index, item, P
 
 ### Community 86 - "Community 86"
-Cohesion: 0.25
-Nodes (6): collapseShowTitle, isHttp, isTopLevelMenuItem, menuIcon, MenuItemRegistered, showTooltip
+
+Cohesion: 0.25 Nodes (6): collapseShowTitle, isHttp, isTopLevelMenuItem, menuIcon, MenuItemRegistered, showTooltip
 
 ### Community 87 - "Community 87"
-Cohesion: 0.25
-Nodes (6): LOADING_INSTANCE_KEY, loadingDirective, loadingDirectiveParams, registerLoadingDirective(), SPINNER_INSTANCE_KEY, spinningDirective
+
+Cohesion: 0.25 Nodes (6): LOADING_INSTANCE_KEY, loadingDirective, loadingDirectiveParams, registerLoadingDirective(), SPINNER_INSTANCE_KEY, spinningDirective
 
 ### Community 88 - "Community 88"
-Cohesion: 0.25
-Nodes (8): 1. 通用约定, 1.1 请求路径前缀, 1.2 统一响应格式, 1.3 错误码, 1.4 分页响应格式, code:env (VITE_GLOB_API_URL=/api), code:json ({), code:json ({)
+
+Cohesion: 0.25 Nodes (8): 1. 通用约定, 1.1 请求路径前缀, 1.2 统一响应格式, 1.3 错误码, 1.4 分页响应格式, code:env (VITE_GLOB_API_URL=/api), code:json ({), code:json ({)
 
 ### Community 89 - "Community 89"
-Cohesion: 0.33
-Nodes (5): CODE_WORKSPACE_FILE, CodeWorkspaceCommandOptions, createCodeWorkspace(), runCodeWorkspace(), formatFile()
+
+Cohesion: 0.33 Nodes (5): CODE_WORKSPACE_FILE, CodeWorkspaceCommandOptions, createCodeWorkspace(), runCodeWorkspace(), formatFile()
 
 ### Community 90 - "Community 90"
-Cohesion: 0.33
-Nodes (5): toPosixPath(), invalidCharsPath, mixedPath, startingSeparatorPath, windowsPath
+
+Cohesion: 0.33 Nodes (5): toPosixPath(), invalidCharsPath, mixedPath, startingSeparatorPath, windowsPath
 
 ### Community 91 - "Community 91"
-Cohesion: 0.38
-Nodes (5): mergeRouteModules(), RouteModuleType, expectedRoutes, mergedRoutes, routeModules
+
+Cohesion: 0.38 Nodes (5): mergeRouteModules(), RouteModuleType, expectedRoutes, mergedRoutes, routeModules
 
 ### Community 92 - "Community 92"
-Cohesion: 0.43
-Nodes (5): authDirective, isAccessible(), mounted(), registerAccessDirective(), useAccess()
+
+Cohesion: 0.43 Nodes (5): authDirective, isAccessible(), mounted(), registerAccessDirective(), useAccess()
 
 ### Community 93 - "Community 93"
-Cohesion: 0.33
-Nodes (5): AccessState, BasicUserInfo, store, userInfo, useUserStore
+
+Cohesion: 0.33 Nodes (5): AccessState, BasicUserInfo, store, userInfo, useUserStore
 
 ### Community 94 - "Community 94"
-Cohesion: 0.38
-Nodes (3): safeJoinUrl(), SSE, SseRequestOptions
+
+Cohesion: 0.38 Nodes (3): safeJoinUrl(), SSE, SseRequestOptions
 
 ### Community 95 - "Community 95"
-Cohesion: 0.33
-Nodes (4): useTippyDirective(), initTippy(), { isDark }, TippyProps
+
+Cohesion: 0.33 Nodes (4): useTippyDirective(), initTippy(), { isDark }, TippyProps
 
 ### Community 97 - "Community 97"
-Cohesion: 0.29
-Nodes (5): bodyStyle, collapsibleRows, finalVisibleCount, open, visibleRows
+
+Cohesion: 0.29 Nodes (5): bodyStyle, collapsibleRows, finalVisibleCount, open, visibleRows
 
 ### Community 98 - "Community 98"
-Cohesion: 0.29
-Nodes (6): COMPONENT_BIND_EVENT_MAP, COMPONENT_MAP, DEFAULT_FORM_COMMON_CONFIG, setupVbenForm(), FormCommonConfig, VbenFormAdapterOptions
+
+Cohesion: 0.29 Nodes (6): COMPONENT_BIND_EVENT_MAP, COMPONENT_MAP, DEFAULT_FORM_COMMON_CONFIG, setupVbenForm(), FormCommonConfig, VbenFormAdapterOptions
 
 ### Community 99 - "Community 99"
-Cohesion: 0.33
-Nodes (4): obj1, obj2, diff(), DiffResult
+
+Cohesion: 0.33 Nodes (4): obj1, obj2, diff(), DiffResult
 
 ### Community 100 - "Community 100"
-Cohesion: 0.29
-Nodes (5): InitStoreOptions, initStores(), SecureLSCtor, secureLSModule, SecureLSStorage
+
+Cohesion: 0.29 Nodes (5): InitStoreOptions, initStores(), SecureLSCtor, secureLSModule, SecureLSStorage
 
 ### Community 101 - "Community 101"
-Cohesion: 0.57
-Nodes (3): overridesPreferences, preferencesExtension, WebAntdPreferencesExtension
+
+Cohesion: 0.57 Nodes (3): overridesPreferences, preferencesExtension, WebAntdPreferencesExtension
 
 ### Community 102 - "Community 102"
-Cohesion: 0.29
-Nodes (6): 后端接口需求文档, 2. 认证机制, 2.1 整体流程, 2.2 Access Token, 2.3 Refresh Token, code:block4 (登录                      后续请求)
+
+Cohesion: 0.29 Nodes (6): 后端接口需求文档, 2. 认证机制, 2.1 整体流程, 2.2 Access Token, 2.3 Refresh Token, code:block4 (登录 后续请求)
 
 ### Community 103 - "Community 103"
-Cohesion: 0.29
-Nodes (7): 4. 前端切换指南, 4.1 关闭 Mock, 4.2 代理配置（可选）, 4.3 接口对照速查表, code:diff (- VITE_NITRO_MOCK=true), code:diff (- VITE_GLOB_API_URL=/api), code:ts (server: {)
+
+Cohesion: 0.29 Nodes (7): 4. 前端切换指南, 4.1 关闭 Mock, 4.2 代理配置（可选）, 4.3 接口对照速查表, code:diff (- VITE_NITRO_MOCK=true), code:diff (- VITE_GLOB_API_URL=/api), code:ts (server: {)
 
 ### Community 104 - "Community 104"
-Cohesion: 0.29
-Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (// 推荐加上 type), @vben/types
+
+Cohesion: 0.29 Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (// 推荐加上 type), @vben/types
 
 ### Community 105 - "Community 105"
-Cohesion: 0.29
-Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { LOGIN_PATH } from '@vben/constants';), @vben/constants
+
+Cohesion: 0.29 Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { LOGIN_PATH } from '@vben/constants';), @vben/constants
 
 ### Community 106 - "Community 106"
-Cohesion: 0.29
-Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { isString } from '@vben/utils';), @vben/utils
+
+Cohesion: 0.29 Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { isString } from '@vben/utils';), @vben/utils
 
 ### Community 107 - "Community 107"
-Cohesion: 0.29
-Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import '@vben/styles';), @vben/styles
+
+Cohesion: 0.29 Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import '@vben/styles';), @vben/styles
 
 ### Community 108 - "Community 108"
-Cohesion: 0.29
-Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { X } from '@vben/icons';), @vben/icons
+
+Cohesion: 0.29 Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { X } from '@vben/icons';), @vben/icons
 
 ### Community 109 - "Community 109"
-Cohesion: 0.29
-Nodes (6): 导出, 使用, 类型, code:ts (import { MotionPlugin, Motion, MotionDirective } from '@vben), code:ts (import type { MotionOptions, MotionVariants } from '@vben/pl), Motion Plugin
+
+Cohesion: 0.29 Nodes (6): 导出, 使用, 类型, code:ts (import { MotionPlugin, Motion, MotionDirective } from '@vben), code:ts (import type { MotionOptions, MotionVariants } from '@vben/pl), Motion Plugin
 
 ### Community 110 - "Community 110"
-Cohesion: 0.29
-Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { useNamespace } from '@vben/hooks';), @vben/hooks
+
+Cohesion: 0.29 Nodes (6): 用法, 使用, 添加依赖, code:bash (# 进入目标应用目录，例如 apps/xxxx-app), code:ts (import { useNamespace } from '@vben/hooks';), @vben/hooks
 
 ### Community 111 - "Community 111"
-Cohesion: 0.4
-Nodes (4): generatorContentHash(), actualHash, expectedHash, generatedHash
+
+Cohesion: 0.4 Nodes (4): generatorContentHash(), actualHash, expectedHash, generatedHash
 
 ### Community 112 - "Community 112"
-Cohesion: 0.33
-Nodes (5): ApplicationConfig, AuthConfig, RouteMeta, VbenAdminProAppConfigRaw, Window
+
+Cohesion: 0.33 Nodes (5): ApplicationConfig, AuthConfig, RouteMeta, VbenAdminProAppConfigRaw, Window
 
 ### Community 113 - "Community 113"
-Cohesion: 0.4
-Nodes (4): getDefaultTimezoneHandler(), getTimezoneHandler(), TimezoneHandler, useTimezoneStore
+
+Cohesion: 0.4 Nodes (4): getDefaultTimezoneHandler(), getTimezoneHandler(), TimezoneHandler, useTimezoneStore
 
 ### Community 114 - "Community 114"
-Cohesion: 0.33
-Nodes (5): fileData, mockData, mockFileContent, postData, putData
+
+Cohesion: 0.33 Nodes (5): fileData, mockData, mockFileContent, postData, putData
 
 ### Community 115 - "Community 115"
-Cohesion: 0.47
-Nodes (5): createRequestClient(), authenticateResponseInterceptor(), defaultResponseInterceptor(), errorMessageResponseInterceptor(), MakeErrorMessageFn
+
+Cohesion: 0.47 Nodes (5): createRequestClient(), authenticateResponseInterceptor(), defaultResponseInterceptor(), errorMessageResponseInterceptor(), MakeErrorMessageFn
 
 ### Community 116 - "Community 116"
-Cohesion: 0.33
-Nodes (5): AnalysisOverviewItem, WorkbenchProjectItem, WorkbenchQuickNavItem, WorkbenchTodoItem, WorkbenchTrendItem
+
+Cohesion: 0.33 Nodes (5): AnalysisOverviewItem, WorkbenchProjectItem, WorkbenchQuickNavItem, WorkbenchTodoItem, WorkbenchTrendItem
 
 ### Community 117 - "Community 117"
-Cohesion: 0.33
-Nodes (5): actionEl, barEl, barNode, contentEl, contentNode
+
+Cohesion: 0.33 Nodes (5): actionEl, barEl, barNode, contentEl, contentNode
 
 ### Community 118 - "Community 118"
-Cohesion: 0.4
-Nodes (4): useSortable(), customOptions, { initializeSortable }, mockElement
+
+Cohesion: 0.4 Nodes (4): useSortable(), customOptions, { initializeSortable }, mockElement
 
 ### Community 119 - "Community 119"
-Cohesion: 0.47
-Nodes (4): useSimpleLocale, getMessages(), Locale, messages
+
+Cohesion: 0.47 Nodes (4): useSimpleLocale, getMessages(), Locale, messages
 
 ### Community 120 - "Community 120"
-Cohesion: 0.33
-Nodes (4): CustomRenderType, ValueType, VbenButtonGroupProps, VbenButtonProps
+
+Cohesion: 0.33 Nodes (4): CustomRenderType, ValueType, VbenButtonGroupProps, VbenButtonProps
 
 ### Community 121 - "Community 121"
-Cohesion: 0.33
-Nodes (4): computedShadowClasses, showShadowBottom, showShadowLeft, showShadowRight
+
+Cohesion: 0.33 Nodes (4): computedShadowClasses, showShadowBottom, showShadowLeft, showShadowRight
 
 ### Community 122 - "Community 122"
-Cohesion: 0.33
-Nodes (5): BasicOption, BasicUserInfo, ClassType, SelectOption, TabOption
+
+Cohesion: 0.33 Nodes (5): BasicOption, BasicUserInfo, ClassType, SelectOption, TabOption
 
 ### Community 123 - "Community 123"
-Cohesion: 0.33
-Nodes (4): formatterCN, listData, mockData, userinfo
+
+Cohesion: 0.33 Nodes (4): formatterCN, listData, mockData, userinfo
 
 ### Community 125 - "Community 125"
-Cohesion: 0.5
-Nodes (3): turboRun, run(), RunOptions
+
+Cohesion: 0.5 Nodes (3): turboRun, run(), RunOptions
 
 ### Community 126 - "Community 126"
-Cohesion: 0.4
-Nodes (4): allowedScopes, { packages }, scopeComplete, userConfig
+
+Cohesion: 0.4 Nodes (4): allowedScopes, { packages }, scopeComplete, userConfig
 
 ### Community 127 - "Community 127"
-Cohesion: 0.4
-Nodes (4): animate, clipPath, endRadius, transition
+
+Cohesion: 0.4 Nodes (4): animate, clipPath, endRadius, transition
 
 ### Community 128 - "Community 128"
-Cohesion: 0.4
-Nodes (3): cachedOptions, unmountedHooked, watermark
+
+Cohesion: 0.4 Nodes (3): cachedOptions, unmountedHooked, watermark
 
 ### Community 129 - "Community 129"
-Cohesion: 0.4
-Nodes (3): IconifyResponse, ICONS_MAP, PENDING_REQUESTS
+
+Cohesion: 0.4 Nodes (3): IconifyResponse, ICONS_MAP, PENDING_REQUESTS
 
 ### Community 130 - "Community 130"
-Cohesion: 0.4
-Nodes (4): ApiComponentLabelFn, ApiComponentOptionsItem, ApiComponentProps, ApiComponentSharedProps
+
+Cohesion: 0.4 Nodes (4): ApiComponentLabelFn, ApiComponentOptionsItem, ApiComponentProps, ApiComponentSharedProps
 
 ### Community 131 - "Community 131"
-Cohesion: 0.4
-Nodes (4): JsonViewerAction, JsonViewerProps, JsonViewerToggle, JsonViewerValue
+
+Cohesion: 0.4 Nodes (4): JsonViewerAction, JsonViewerProps, JsonViewerToggle, JsonViewerValue
 
 ### Community 133 - "Community 133"
-Cohesion: 0.4
-Nodes (3): DragCallback, DragElements, DragOptions
+
+Cohesion: 0.4 Nodes (3): DragCallback, DragElements, DragOptions
 
 ### Community 134 - "Community 134"
-Cohesion: 0.4
-Nodes (4): [], fields, newFieldValue, oldFieldValue
+
+Cohesion: 0.4 Nodes (4): [], fields, newFieldValue, oldFieldValue
 
 ### Community 135 - "Community 135"
-Cohesion: 0.4
-Nodes (4): ComponentRecordType, GenerateMenuAndRoutesOptions, RouteMeta, RouteRecordStringComponent
+
+Cohesion: 0.4 Nodes (4): ComponentRecordType, GenerateMenuAndRoutesOptions, RouteMeta, RouteRecordStringComponent
 
 ### Community 136 - "Community 136"
-Cohesion: 0.5
-Nodes (3): styleElement, updatedVariables, updateCSSVariables()
+
+Cohesion: 0.5 Nodes (3): styleElement, updatedVariables, updateCSSVariables()
 
 ### Community 137 - "Community 137"
-Cohesion: 0.5
-Nodes (3): items, uniqueItems, uniqueByField()
+
+Cohesion: 0.5 Nodes (3): items, uniqueItems, uniqueByField()
 
 ### Community 138 - "Community 138"
-Cohesion: 0.4
-Nodes (5): 5. 补充说明, 5.1 菜单与角色的关联, 5.2 按钮级权限, 5.3 错误处理, 5.4 安全性建议
+
+Cohesion: 0.4 Nodes (5): 5. 补充说明, 5.1 菜单与角色的关联, 5.2 按钮级权限, 5.3 错误处理, 5.4 安全性建议
 
 ### Community 139 - "Community 139"
-Cohesion: 0.4
-Nodes (4): 注意, code:json ("exports": {), code:ts (import { useEcharts } from '@vben/plugins/echarts';), @vben/plugins
+
+Cohesion: 0.4 Nodes (4): 注意, code:json ("exports": {), code:ts (import { useEcharts } from '@vben/plugins/echarts';), @vben/plugins
 
 ### Community 140 - "Community 140"
-Cohesion: 0.4
-Nodes (4): code:bash (# development), Description, Running the app, @vben/backend-mock
+
+Cohesion: 0.4 Nodes (4): code:bash (# development), Description, Running the app, @vben/backend-mock
 
 ### Community 142 - "Community 142"
-Cohesion: 0.5
-Nodes (3): FormSchemaItem, Props, SettingProps
+
+Cohesion: 0.5 Nodes (3): FormSchemaItem, Props, SettingProps
 
 ### Community 145 - "Community 145"
-Cohesion: 0.5
-Nodes (3): CountToProps, TransitionPresets, TransitionPresetsKeys
+
+Cohesion: 0.5 Nodes (3): CountToProps, TransitionPresets, TransitionPresetsKeys
 
 ### Community 151 - "Community 151"
-Cohesion: 0.5
-Nodes (3): CollapsibleParamOption, CollapsibleParamSchema, CollapsibleParamsProps
+
+Cohesion: 0.5 Nodes (3): CollapsibleParamOption, CollapsibleParamSchema, CollapsibleParamsProps
 
 ### Community 153 - "Community 153"
-Cohesion: 0.5
-Nodes (3): baseRules, formCollapsed, formComponentProps
+
+Cohesion: 0.5 Nodes (3): baseRules, formCollapsed, formComponentProps
 
 ### Community 154 - "Community 154"
-Cohesion: 0.5
-Nodes (3): ExRouteRecordRaw, MenuRecordBadgeRaw, MenuRecordRaw
+
+Cohesion: 0.5 Nodes (3): ExRouteRecordRaw, MenuRecordBadgeRaw, MenuRecordRaw
 
 ### Community 155 - "Community 155"
-Cohesion: 0.5
-Nodes (3): IStorageCache, StorageType, StorageValue
+
+Cohesion: 0.5 Nodes (3): IStorageCache, StorageType, StorageValue
 
 ### Community 156 - "Community 156"
-Cohesion: 0.83
-Nodes (3): loadNprogress(), startProgress(), stopProgress()
+
+Cohesion: 0.83 Nodes (3): loadNprogress(), startProgress(), stopProgress()
 
 ### Community 157 - "Community 157"
-Cohesion: 0.5
-Nodes (4): 3. 接口清单, 3.2 用户信息, 3.2.1 获取当前用户信息, code:json ({)
+
+Cohesion: 0.5 Nodes (4): 3. 接口清单, 3.2 用户信息, 3.2.1 获取当前用户信息, code:json ({)
 
 ## Knowledge Gaps
-- **856 isolated node(s):** `rootDir`, `loadingAssets`, `IImportMap`, `HtmlPluginOptions`, `ApplicationOptions` (+851 more)
-  These have ≤1 connection - possible missing edges or undocumented components.
+
+- **856 isolated node(s):** `rootDir`, `loadingAssets`, `IImportMap`, `HtmlPluginOptions`, `ApplicationOptions` (+851 more) These have ≤1 connection - possible missing edges or undocumented components.
 - **65 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
+
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `bindMethods()` connect `Community 3` to `Community 83`, `Community 4`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `RequestClient` connect `Community 83` to `Community 40`, `Community 114`, `Community 51`, `Community 115`, `Community 50`, `Community 94`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **What connects `rootDir`, `loadingAssets`, `IImportMap` to the rest of the system?**
-  _856 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.06 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+- **Why does `bindMethods()` connect `Community 3` to `Community 83`, `Community 4`?** _High betweenness centrality (0.048) - this node is a cross-community bridge._
+- **Why does `RequestClient` connect `Community 83` to `Community 40`, `Community 114`, `Community 51`, `Community 115`, `Community 50`, `Community 94`?** _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **What connects `rootDir`, `loadingAssets`, `IImportMap` to the rest of the system?** _856 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?** _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?** _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+- **Should `Community 2` be split into smaller, more focused modules?** _Cohesion score 0.06 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?** _Cohesion score 0.05 - nodes in this community are weakly interconnected._
