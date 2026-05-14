@@ -1,170 +1,3742 @@
 {
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\vite.config.ts": {
-    "mtime": 1778402183.1405692,
-    "hash": "65483e434528a88f846368a70ad7174c"
+  "/Users/w/Desktop/web/self-admin-web/stylelint.config.mjs": {
+    "mtime": 1778575688.2182972,
+    "hash": "f5bcf1ccd53040af7b95a463ed68b835"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\app.vue": {
-    "mtime": 1778402183.1142461,
+  "/Users/w/Desktop/web/self-admin-web/oxlint.config.ts": {
+    "mtime": 1778575688.1001425,
+    "hash": "02738d32701380d11fc86223f6b3da1c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/vitest.config.ts": {
+    "mtime": 1778575688.2186337,
+    "hash": "f62927710373cd829a0971897fdaf92e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/eslint.config.mjs": {
+    "mtime": 1778575688.086819,
+    "hash": "92eb727b81f87fc0881e82e524d94652"
+  },
+  "/Users/w/Desktop/web/self-admin-web/oxfmt.config.ts": {
+    "mtime": 1778575688.100058,
+    "hash": "12ce35c79db762b53ae831431edd849d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/tailwind-config/src/index.ts": {
+    "mtime": 1778575688.09587,
+    "hash": "12bd93b56618f50895ad902ca0f4ebef"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/tsdown.config.ts": {
+    "mtime": 1778575688.0998437,
+    "hash": "c904bc8d32ac00b39197ee18c47ef6b9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/typing.ts": {
+    "mtime": 1778575688.0995038,
+    "hash": "81ef5b604b606d86f9615d6968078a05"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/index.ts": {
+    "mtime": 1778575688.097542,
+    "hash": "a5808d8d7de5ac32537f24ad4d5ae699"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/options.ts": {
+    "mtime": 1778575688.097648,
+    "hash": "c203756517a66f863f823193fb822238"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/config/common.ts": {
+    "mtime": 1778575688.0972471,
+    "hash": "4dc78bf626fa3d1066c3e4588150c07f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/config/application.ts": {
+    "mtime": 1778575688.097144,
+    "hash": "490033fa405d7a35e9ea7ba67007bec8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/config/index.ts": {
+    "mtime": 1778575688.097346,
+    "hash": "7d19e2cd984ffed44fc793b2e66c1ece"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/config/library.ts": {
+    "mtime": 1778575688.097448,
+    "hash": "939422e5b949c08805a7577df50d4514"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/inject-metadata.ts": {
+    "mtime": 1778575688.098881,
+    "hash": "8d48ee67701e5e99b9214d1b6f80d12e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/license.ts": {
+    "mtime": 1778575688.0989823,
+    "hash": "5b09ad46dbe28ba51302263d1cd9db24"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/extra-app-config.ts": {
+    "mtime": 1778575688.0979404,
+    "hash": "5eb451b6263d9d8cd253e0d9477718fa"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/print.ts": {
+    "mtime": 1778575688.0991879,
+    "hash": "7aa407926f3eeda3cab7b4793347f589"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/tailwind-reference.ts": {
+    "mtime": 1778575688.0992875,
+    "hash": "4f5c8080d3921c1ce6a211acaff928fa"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/nitro-mock.ts": {
+    "mtime": 1778575688.0990906,
+    "hash": "23d211bb98e7607233c2238194c85acf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/html.ts": {
+    "mtime": 1778575688.098051,
+    "hash": "f5dcfc67970f3093ae2f00d97b2ae2e2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/archiver.ts": {
+    "mtime": 1778575688.0978153,
+    "hash": "88580bd0d374ee67413a3c625d8da9d4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/index.ts": {
+    "mtime": 1778575688.098309,
+    "hash": "3992c2334f39e0b42ca636d182f382f4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/vxe-table.ts": {
+    "mtime": 1778575688.0993876,
+    "hash": "2b6902c0e65705410f696c739bf3c3e7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/importmap.ts": {
+    "mtime": 1778575688.0981886,
+    "hash": "0a2d807cc24d9510e7b822365344ca5c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/inject-app-loading/index.ts": {
+    "mtime": 1778575688.0987813,
+    "hash": "136092747f7175bca5ae1fd487ad4431"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/utils/env.ts": {
+    "mtime": 1778575688.0996559,
+    "hash": "f93a8a77f11610e5a66ac9ecf600e245"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/tsdown.config.ts": {
+    "mtime": 1778575688.095528,
+    "hash": "2d6e6a93164e76d8f4ba04c559a35802"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/scripts/build.mjs": {
+    "mtime": 1778575688.0939348,
+    "hash": "1b4015a036d284394f1fd21d271fa010"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/monorepo.ts": {
+    "mtime": 1778575688.095054,
+    "hash": "7d61a92e5e8ecf02f0425593821328d6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/date.ts": {
+    "mtime": 1778575688.0944736,
+    "hash": "2a58db0f987e7bac17805ab5ba9c52dc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/path.ts": {
+    "mtime": 1778575688.09515,
+    "hash": "de39bdb0260fb8c3aa2ef1a0b7192b9d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/spinner.ts": {
+    "mtime": 1778575688.09525,
+    "hash": "0f5df39935c503d506eb5e1ca8417008"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/fs.ts": {
+    "mtime": 1778575688.0946722,
+    "hash": "cfb650d343cebaf3362ca32e01d657f4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/hash.ts": {
+    "mtime": 1778575688.09487,
+    "hash": "217e1f82a7664f7d8a6640ebf3cbf516"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/constants.ts": {
+    "mtime": 1778575688.0943608,
+    "hash": "a07d67d3458e1408af840d5592c63605"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/index.ts": {
+    "mtime": 1778575688.094965,
+    "hash": "c865bb3058ec09dac6cfe852a5e1a5a6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/git.ts": {
+    "mtime": 1778575688.094774,
+    "hash": "54a6a97aea08de360613c52e538cc96b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/formatter.ts": {
+    "mtime": 1778575688.0945687,
+    "hash": "fbcbab42b88347c4fbf7dfa6e6f2487c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/__tests__/path.test.ts": {
+    "mtime": 1778575688.094266,
+    "hash": "d3de76bb71e7c545de3ff87b40f89423"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/node-utils/src/__tests__/hash.test.ts": {
+    "mtime": 1778575688.0941644,
+    "hash": "8a38dc2acac47f2357831d62a3dfc715"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/commitlint-config/index.mjs": {
+    "mtime": 1778575688.088269,
+    "hash": "07f5ca31d14fd6f8e0623724986a03b2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/tsdown.config.ts": {
+    "mtime": 1778575688.093321,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/index.ts": {
+    "mtime": 1778575688.0931208,
+    "hash": "f6378318ab39f71ad14c10d258bf79a2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/vue.ts": {
+    "mtime": 1778575688.0930219,
+    "hash": "674fdf6d7d09a390161e2103b0e2970d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/comments.ts": {
+    "mtime": 1778575688.091724,
+    "hash": "a921c3e3b063286b3b51a60f3f507ba7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/javascript.ts": {
+    "mtime": 1778575688.092172,
+    "hash": "2bd4d05cd2d5b3ce11627379c9e26db4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/node.ts": {
+    "mtime": 1778575688.0922775,
+    "hash": "40744ca787c8a4e106b797fc38f79f63"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/tailwindcss.ts": {
+    "mtime": 1778575688.09261,
+    "hash": "4f388991b70df7bc73b9b7cf581e1a29"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/test.ts": {
+    "mtime": 1778575688.0927162,
+    "hash": "8e5908ab7dcdf9f3d66d3cb41e1f8e16"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/overrides.ts": {
+    "mtime": 1778575688.0923839,
+    "hash": "9149daa7c706ed7ed0292481735bbfe1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/ignores.ts": {
+    "mtime": 1778575688.0918286,
+    "hash": "f53a454b408462a7d45ae73b2c8405ba"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/typescript.ts": {
+    "mtime": 1778575688.0928233,
+    "hash": "a67e6df62816c01fba01852f16942650"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/unicorn.ts": {
+    "mtime": 1778575688.0929275,
+    "hash": "d0c512332ff77c55dcc8cff3100e3cf9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/index.ts": {
+    "mtime": 1778575688.0920503,
+    "hash": "2ea3ba59a66154071eced8576297bd4f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/command.ts": {
+    "mtime": 1778575688.0916266,
+    "hash": "d87d000da3cfc525d4ef29928bf8be02"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/import.ts": {
+    "mtime": 1778575688.0919344,
+    "hash": "98801cd48eb99ad8363ed017b3941a4a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxlint-config/src/configs/plugins.ts": {
+    "mtime": 1778575688.092495,
+    "hash": "c814ea2ba4d7b7bd91dc94aa10c0e2f0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/stylelint-config/index.mjs": {
+    "mtime": 1778575688.093525,
+    "hash": "43b00706945a5313b035cfb2cbabecfb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/tsdown.config.ts": {
+    "mtime": 1778575688.0906,
+    "hash": "5626aeed18a61b0f9cbc39266d5e9b80"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/custom-config.ts": {
+    "mtime": 1778575688.0901494,
+    "hash": "50874d203c6acc94cc1675168e2cc3b3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/util.ts": {
+    "mtime": 1778575688.0903661,
+    "hash": "29abc746f79225d599451366d4f87080"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/index.ts": {
+    "mtime": 1778575688.0902536,
+    "hash": "6919c74ebb9e13052d8bfdc052b81f45"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/vue.ts": {
+    "mtime": 1778575688.08992,
+    "hash": "8d68c971ad612a84a0fa50d7419a6200"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/jsonc.ts": {
+    "mtime": 1778575688.089233,
+    "hash": "d67b8cf07438870aa58a3375f7065e67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/javascript.ts": {
+    "mtime": 1778575688.0890977,
+    "hash": "9ad93ac7f6e3e9000100657183f56203"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/node.ts": {
+    "mtime": 1778575688.0893388,
+    "hash": "54f4134af12ee6efa1e15dee7070c4ea"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/perfectionist.ts": {
+    "mtime": 1778575688.0894547,
+    "hash": "cc42b3e337c26e17a9ffc53853692646"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/yaml.ts": {
+    "mtime": 1778575688.0900352,
+    "hash": "c45a5f980c78786ef5ca50d865f18478"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/ignores.ts": {
+    "mtime": 1778575688.0888588,
+    "hash": "e457c9d32a48887ac4f63eff68ac049f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/typescript.ts": {
+    "mtime": 1778575688.089674,
+    "hash": "304bbe55d33bd9beb9b46ed66a2fea0c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/unicorn.ts": {
+    "mtime": 1778575688.0897832,
+    "hash": "493b288fa37bc7377b50556ecf4f35ae"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/index.ts": {
+    "mtime": 1778575688.0889678,
+    "hash": "c2fbbc2fdad14d3b7ffea0e4c447925b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/eslint-config/src/configs/pnpm.ts": {
+    "mtime": 1778575688.0895631,
+    "hash": "9ea0ed48f2267067841d87d5cbf11b61"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxfmt-config/tsdown.config.ts": {
+    "mtime": 1778575688.0911975,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/lint-configs/oxfmt-config/src/index.ts": {
+    "mtime": 1778575688.090988,
+    "hash": "78314a8736215be57510b2f0287efd05"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/clean.mjs": {
+    "mtime": 1778575688.2143862,
+    "hash": "a8b9ad2f06f4b5a771811dc0dbc5550a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/turbo-run/tsdown.config.ts": {
+    "mtime": 1778575688.2156713,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/turbo-run/bin/turbo-run.mjs": {
+    "mtime": 1778575688.2150805,
+    "hash": "ef62e5e97dd7917d12761a057d291c5b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/turbo-run/src/index.ts": {
+    "mtime": 1778575688.2153637,
+    "hash": "35a6cb7bc54b2651cfb39ec6d1857910"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/turbo-run/src/run.ts": {
+    "mtime": 1778575688.2154708,
+    "hash": "580a5e4d660cb4199185f593add55b6e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/env.d.ts": {
+    "mtime": 1778575688.2161899,
+    "hash": "18c78bede5d92f1f583384786dc1f4ec"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/tsdown.config.ts": {
+    "mtime": 1778575688.2181826,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/bin/vsh.mjs": {
+    "mtime": 1778575688.2160103,
+    "hash": "ef62e5e97dd7917d12761a057d291c5b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/src/index.ts": {
+    "mtime": 1778575688.2171988,
+    "hash": "821383b5f109474490066f83141f0e3a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/src/lint/index.ts": {
+    "mtime": 1778575688.2177095,
+    "hash": "842fb23d1caaa53c2803355dd96e4176"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/src/publint/index.ts": {
+    "mtime": 1778575688.2179234,
+    "hash": "ba924337fb93f49d33b42443891ffee5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/src/code-workspace/index.ts": {
+    "mtime": 1778575688.217086,
+    "hash": "146d446b9e4be4a02a7d529d1fe55aa4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/src/check-dep/index.ts": {
+    "mtime": 1778575688.2169073,
+    "hash": "d4fcffd624500dce22deee9ddc1432b1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/src/check-circular/index.ts": {
+    "mtime": 1778575688.2166905,
+    "hash": "ba363d882bc71abf1bf11b714fce49d9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/preferences/src/index.ts": {
+    "mtime": 1778575688.2042065,
+    "hash": "3fe7a92c979f10718262042d874ca9fe"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/types/global.d.ts": {
+    "mtime": 1778575688.2084408,
+    "hash": "f9572589182de941fa613811ea351e71"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/types/src/index.ts": {
+    "mtime": 1778575688.2087393,
+    "hash": "4427be0ce7a6e4182cda77820a120a9d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/types/src/user.ts": {
+    "mtime": 1778575688.2088284,
+    "hash": "63edd7f06b4753c14c9360320ed7dbdc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/locales/src/typing.ts": {
+    "mtime": 1778575688.2036707,
+    "hash": "b1c2a9d1aef5062659074a83e8f3a56c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/locales/src/i18n.ts": {
+    "mtime": 1778575688.201848,
+    "hash": "0b9272802da48d278c6573e1e295d89c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/locales/src/index.ts": {
+    "mtime": 1778575688.201952,
+    "hash": "72bd1f36054cb5c4d25c1685574c1460"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/constants/src/core.ts": {
+    "mtime": 1778575688.1615627,
+    "hash": "647583020c203a1c0f4a070f20d71860"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/constants/src/index.ts": {
+    "mtime": 1778575688.1616504,
+    "hash": "01b8daead36fcac9788127b777498c77"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/shim-pinia.d.ts": {
+    "mtime": 1778575688.2046304,
+    "hash": "d8768978f0556d46dc24e52d62f015ad"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/setup.ts": {
+    "mtime": 1778575688.2063818,
+    "hash": "cf8c16e94a12a0d4c98161daf5e301b5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/index.ts": {
+    "mtime": 1778575688.2048247,
+    "hash": "05c7ab9a2ce517ce7f743ca37a754113"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/tabbar.test.ts": {
+    "mtime": 1778575688.2053947,
+    "hash": "827e3d6164c236c042bd9e7cbb7644db"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/access.test.ts": {
+    "mtime": 1778575688.2050254,
+    "hash": "3095c46ac0008a7d0e84dc58bb728f99"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/timezone.ts": {
+    "mtime": 1778575688.2060773,
+    "hash": "df251722e3025d9114d21e6c22e2e21b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/user.test.ts": {
+    "mtime": 1778575688.206174,
+    "hash": "4ee57ea5f40a3db5d935e129bba9885f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/tabbar.ts": {
+    "mtime": 1778575688.2055545,
+    "hash": "d824e08ca963a33f5b22fe5dbcab5aac"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/access.ts": {
+    "mtime": 1778575688.2051518,
+    "hash": "7a398362ae552de69372b85369793103"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/index.ts": {
+    "mtime": 1778575688.2052615,
+    "hash": "f903b4e6611d86abef31d9c84dcc3725"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/stores/src/modules/user.ts": {
+    "mtime": 1778575688.2062693,
+    "hash": "3d7f318f88e7efa9740f82f50f4dc7df"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/index.ts": {
+    "mtime": 1778575688.2107205,
+    "hash": "744162829e8a978c62b88fbb9c04512f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/generate-routes-backend.ts": {
+    "mtime": 1778575688.210065,
+    "hash": "f6c54c7d1839cf276ea72b9504516023"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/generate-routes-frontend.ts": {
+    "mtime": 1778575688.210163,
+    "hash": "e6f6c23d346c1802e6e043ad52d3c443"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/merge-route-modules.ts": {
+    "mtime": 1778575688.2104461,
+    "hash": "5751631851700816bddd22eaaf9faaae"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/reset-routes.ts": {
+    "mtime": 1778575688.210539,
+    "hash": "66c2609cc053cf74c50eaae4873811c8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/get-popup-container.ts": {
+    "mtime": 1778575688.2102587,
+    "hash": "d5fdb6262451b244ad580f85d65f7866"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/index.ts": {
+    "mtime": 1778575688.2103493,
+    "hash": "5ddb6cb17eabdc92a400e70f1793e7c2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/generate-menus.ts": {
+    "mtime": 1778575688.2099574,
+    "hash": "e1afcad17cbb14ec28fd744117ab65b9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/find-menu-by-path.ts": {
+    "mtime": 1778575688.209861,
+    "hash": "28f7a6baf66994e7da4cae9eb9e07b93"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/unmount-global-loading.ts": {
+    "mtime": 1778575688.2106323,
+    "hash": "572e42569e4fd4979d17c926f58767bb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/__tests__/generate-menus.test.ts": {
+    "mtime": 1778575688.2095482,
+    "hash": "e2a0cdb6cc590628cde19f220b3fd1eb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/__tests__/merge-route-modules.test.ts": {
+    "mtime": 1778575688.2097585,
+    "hash": "5a1f43a212f95e0c943a4686c4849e94"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/__tests__/find-menu-by-path.test.ts": {
+    "mtime": 1778575688.2094233,
+    "hash": "bab943e4d5a0b5c41007652af4c70f56"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/src/helpers/__tests__/generate-routes-frontend.test.ts": {
+    "mtime": 1778575688.2096543,
+    "hash": "45bf2b68c3200ef2982266c3597fee3c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/styles/src/style-exports.d.ts": {
+    "mtime": 1778575688.2080693,
+    "hash": "f20285f1f383932f32b4c9281c3c181f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/styles/src/index.ts": {
+    "mtime": 1778575688.2077665,
+    "hash": "201503152b45557af7b20033e69d4892"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/index.ts": {
+    "mtime": 1778575688.1983325,
+    "hash": "2687068229aaad1ac2e3dc77471fc4db"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/load.ts": {
+    "mtime": 1778575688.2013624,
+    "hash": "f7e6d7cb9a345612b4367eb857a4f286"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/index.ts": {
+    "mtime": 1778575688.2012413,
+    "hash": "8b6a3a18e151d914256cf451f65cd4c7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/iconify/index.ts": {
+    "mtime": 1778575688.1980867,
+    "hash": "17e7b2da1a28222c9c18917f2ccbb8f3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/icons/empty-icon.vue": {
+    "mtime": 1778575688.1982455,
+    "hash": "61953e265b186b82d85d4b99cf2c8f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/access/src/accessible.ts": {
+    "mtime": 1778575688.1624506,
+    "hash": "3f8bd4813bd4ab83c5b6c68857fdce09"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/access/src/directive.ts": {
+    "mtime": 1778575688.1625717,
+    "hash": "efee96fd1b966f59fdb35c85ba9b4204"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/access/src/use-access.ts": {
+    "mtime": 1778575688.1627553,
+    "hash": "694564512b0f9436e42efa3d3bf9cad9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/access/src/index.ts": {
+    "mtime": 1778575688.162662,
+    "hash": "9feb7ec174562ceb7c7b56558ef6efd3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/access/src/access-control.vue": {
+    "mtime": 1778575688.1622999,
+    "hash": "c3960940c24ad846e844254f98974dcc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/types.ts": {
+    "mtime": 1778575688.1941628,
+    "hash": "c2d5214fa1a196af9a9d682a4f1d92ad"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/index.ts": {
+    "mtime": 1778575688.1922133,
+    "hash": "45516e9d463996b699b94ca23398c6a4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/plugins-context.ts": {
+    "mtime": 1778575688.192632,
+    "hash": "e3affc7091f286ce3fb924a127532108"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/tiptap/tiptap.vue": {
+    "mtime": 1778575688.1933773,
+    "hash": "aa4954fa4fb862d43af51d53b4627c3a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/tiptap/preview.vue": {
+    "mtime": 1778575688.1931353,
+    "hash": "f479598a5bd43b061b8ca5b88c4e826a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/tiptap/use-tiptap-toolbar.ts": {
+    "mtime": 1778575688.1940582,
+    "hash": "0a6e20155e47e138f5988727aa8656ee"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/tiptap/toolbar.ts": {
+    "mtime": 1778575688.1937578,
+    "hash": "7c21d88010a919fad76821fcfd36c59e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/tiptap/extensions.ts": {
+    "mtime": 1778575688.1929588,
+    "hash": "91adfca41fb26490253c04e2d2ae88e2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/tiptap/types.ts": {
+    "mtime": 1778575688.1939218,
+    "hash": "5d5086aa3d16a2bb4d9b70260db10de1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/tiptap/index.ts": {
+    "mtime": 1778575688.1930444,
+    "hash": "618172f2d58928362df5d6f2ae56a421"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/motion/types.ts": {
+    "mtime": 1778575688.1925435,
+    "hash": "0b79bcc35404720f3c6789ed5a9ff7f2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/motion/index.ts": {
+    "mtime": 1778575688.1924512,
+    "hash": "8e338439bcfa79f5c3591f7612994937"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/echarts/use-echarts.ts": {
+    "mtime": 1778575688.1921248,
+    "hash": "acffa8df4d368dfee996cfddd18dcb15"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/echarts/types.ts": {
+    "mtime": 1778575688.1920123,
+    "hash": "b32e38f8391cff22c52d79bfc8550115"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/echarts/echarts.ts": {
+    "mtime": 1778575688.1918359,
+    "hash": "0b718f107cd5b64bfcbc88158feb3e08"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/echarts/echarts-ui.vue": {
+    "mtime": 1778575688.1917405,
+    "hash": "61251646af704ed354458cddc3edc9d9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/echarts/index.ts": {
+    "mtime": 1778575688.1919236,
+    "hash": "5686197d961e8fd5870966b525785012"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/init.ts": {
+    "mtime": 1778575688.1947486,
+    "hash": "a4de6adf6908122cdf2e9464e6509fbe"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/api.ts": {
+    "mtime": 1778575688.194443,
+    "hash": "e6f5ec3ed89eb8d8577e4dc0f6a80269"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/types.ts": {
+    "mtime": 1778575688.1951,
+    "hash": "f4488ae28cfd5ac9a5be40b2bbb45ac9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/use-vxe-grid.vue": {
+    "mtime": 1778575688.195712,
+    "hash": "6deba387cb18ac761231035c8054c0a8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/index.ts": {
+    "mtime": 1778575688.1946409,
+    "hash": "eb8ea69837b3d922d562e6d418a9b693"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/extends.ts": {
+    "mtime": 1778575688.1945448,
+    "hash": "4ebc5822255b8382b13b53244f95acc1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/use-vxe-grid.ts": {
+    "mtime": 1778575688.1953268,
+    "hash": "7fe3caa9016cf794ad3a2efd76f69129"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/index.ts": {
+    "mtime": 1778575688.182823,
+    "hash": "079c1edcaaf888ff9a500029067022e1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/iframe/iframe-router-view.vue": {
+    "mtime": 1778575688.1825628,
+    "hash": "ac5f64586ddfbb619e01d6631300713d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/iframe/iframe-view.vue": {
+    "mtime": 1778575688.1826584,
+    "hash": "548e685e2a7bbf0ccc2731e6c5172831"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/iframe/index.ts": {
+    "mtime": 1778575688.1827385,
+    "hash": "76654edbb58b1cff9e598f831e95339c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/layout.vue": {
+    "mtime": 1778575688.1811805,
+    "hash": "cc4012b97d22e6064b4128ca36d1767c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/index.ts": {
+    "mtime": 1778575688.1809478,
+    "hash": "c1e36901dd11ef384817ed528e32ef9f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/footer/footer.vue": {
+    "mtime": 1778575688.180517,
+    "hash": "28ce5f1e42c3de6d32d29c86c588ed00"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/footer/index.ts": {
+    "mtime": 1778575688.1805975,
+    "hash": "ba7d16af26762a7b9d9be06b7d75f69d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/tabbar/use-tabbar.ts": {
+    "mtime": 1778575688.1822493,
+    "hash": "e32a172f89334495792196d8692cb489"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/tabbar/index.ts": {
+    "mtime": 1778575688.1820488,
+    "hash": "e6de5df375ac24b0b01e4623eb15a6a2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/tabbar/tabbar.vue": {
+    "mtime": 1778575688.1821382,
+    "hash": "1f7fb40d7909bc3e8db011aa47c99665"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/content/content.vue": {
+    "mtime": 1778575688.17991,
+    "hash": "e1167eec41562750d25eeaa3fd02b9af"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/content/use-content-spinner.ts": {
+    "mtime": 1778575688.180109,
+    "hash": "4c026119c54e17481a544ccb676e7246"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/content/content-spinner.vue": {
+    "mtime": 1778575688.1798065,
+    "hash": "df735d39d0b23d3066e0b1c4bae578cc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/content/index.ts": {
+    "mtime": 1778575688.180005,
+    "hash": "0cf6921a3166a2eb184d7ff862b0c173"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/menu/use-extra-menu.ts": {
+    "mtime": 1778575688.1817014,
+    "hash": "9a79ad5aba038c81d2b991b8b9b553b6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/menu/mixed-menu.vue": {
+    "mtime": 1778575688.1816068,
+    "hash": "aac3eab9862eb2e3a8b1d6029a332467"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/menu/extra-menu.vue": {
+    "mtime": 1778575688.18134,
+    "hash": "ae83969d55b3fc6fee406d28308e17a2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/menu/menu.vue": {
+    "mtime": 1778575688.181515,
+    "hash": "87404fb3616d27db94dd32b6b1fce23f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/menu/index.ts": {
+    "mtime": 1778575688.1814265,
+    "hash": "20012880e00f8661bfe235c9db57eeb3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/menu/use-mixed-menu.ts": {
+    "mtime": 1778575688.181808,
+    "hash": "28aedd89eba1533e792f78cfdf11f48b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/menu/use-navigation.ts": {
+    "mtime": 1778575688.1819022,
+    "hash": "f7a2c83ba0f094fc1f96ccf2b29fcbf2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/copyright/copyright.vue": {
+    "mtime": 1778575688.1802804,
+    "hash": "c835a2d6c246e939b7eb37cdb3c00a80"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/copyright/index.ts": {
+    "mtime": 1778575688.1803713,
+    "hash": "e2ea02c0132ddd03b49603352fde8e5f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/header/header.vue": {
+    "mtime": 1778575688.1807725,
+    "hash": "babe245da6c82baf7daed01d0350472f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/header/index.ts": {
+    "mtime": 1778575688.1808536,
+    "hash": "c0fdba24bd70a41ef8047b6890cbbea4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/route-cached/route-cached-page.vue": {
+    "mtime": 1778575688.1830537,
+    "hash": "5eec9adcf1cfdda5c5294357eabf951b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/route-cached/index.ts": {
+    "mtime": 1778575688.182964,
+    "hash": "8431eab3fbc196263e872a480bad7ca9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/route-cached/route-cached-view.vue": {
+    "mtime": 1778575688.1831424,
+    "hash": "ddbdcc6495cfafabfb9a4a9f452bfff4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/hooks/index.ts": {
+    "mtime": 1778575688.1824036,
+    "hash": "9f77868fef84b28f9a58f3b8f725c76a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/authentication/authentication.vue": {
+    "mtime": 1778575688.1785982,
+    "hash": "17ef81cd16bdb0de711ed19b7bfcff0d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/authentication/toolbar.vue": {
+    "mtime": 1778575688.179369,
+    "hash": "d9e4e51788c4916459a2390f742f59a3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/authentication/types.ts": {
+    "mtime": 1778575688.1794612,
+    "hash": "8c339fdf08ed1c6c32929f2a0840e379"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/authentication/index.ts": {
+    "mtime": 1778575688.179263,
+    "hash": "559560a7c35e1a12f673be560131e461"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/authentication/form.vue": {
+    "mtime": 1778575688.1787062,
+    "hash": "fe8fb48c45337e76439fb9da648c2c15"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/authentication/icons/slogan.vue": {
+    "mtime": 1778575688.1791313,
+    "hash": "0a7c162a8a90fc7201428215f4dd2563"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/layout-toggle.vue": {
+    "mtime": 1778575688.1846313,
+    "hash": "d6c2a6c732341bf239572eae9079fbd8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/language-toggle.vue": {
+    "mtime": 1778575688.1845329,
+    "hash": "4d26f7a5ee09d378446957e8e193c360"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/breadcrumb.vue": {
+    "mtime": 1778575688.1832902,
+    "hash": "378f564d134c8c62ea5f63a465cdb2fc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/color-toggle.vue": {
+    "mtime": 1778575688.1836288,
+    "hash": "4542c6c75473582a6d7a3328fd587b49"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/index.ts": {
+    "mtime": 1778575688.1844213,
+    "hash": "ab7b4b5cccc549b08c72563881042149"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/preferences-button.vue": {
+    "mtime": 1778575688.1896818,
+    "hash": "b8faea021ae3be96acef200debc18557"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/index.ts": {
+    "mtime": 1778575688.1895626,
+    "hash": "c13d3e0098c36d5ade439645897285e6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/preferences.vue": {
+    "mtime": 1778575688.18998,
+    "hash": "6f3b69b0dd34a98fcf8347290f134645"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/use-open-preferences.ts": {
+    "mtime": 1778575688.1900835,
+    "hash": "0b4c32ace2c1668a538274bc6bc5d40d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/preferences-drawer.vue": {
+    "mtime": 1778575688.189823,
+    "hash": "6c630f5d87cc186b371dffa8b1febd15"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/number-field-item.vue": {
+    "mtime": 1778575688.1873946,
+    "hash": "3f357da0c5d5326ac768c0520a0423a8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/input-item.vue": {
+    "mtime": 1778575688.186301,
+    "hash": "0d0c3aada7eefe4c5191a8d6d0837a71"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/toggle-item.vue": {
+    "mtime": 1778575688.1883705,
+    "hash": "b9999051fc8556371ae51eb482cfa336"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/switch-item.vue": {
+    "mtime": 1778575688.1877425,
+    "hash": "ebe215156363d6000689a9ce9153e834"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/block.vue": {
+    "mtime": 1778575688.1856053,
+    "hash": "145a89af727dd2043acc58b27472f9cc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/index.ts": {
+    "mtime": 1778575688.1861944,
+    "hash": "e90bd28b641622753b0ded26bfc255f8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/checkbox-item.vue": {
+    "mtime": 1778575688.1857004,
+    "hash": "8455299c1b2e94e5f928b5051763b0bd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/select-item.vue": {
+    "mtime": 1778575688.1874964,
+    "hash": "5d4a2674e733225f8ca75de3690ba209"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/general/animation.vue": {
+    "mtime": 1778575688.1860068,
+    "hash": "510644c414e95b22c05bc8ad5d288085"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/general/general.vue": {
+    "mtime": 1778575688.1860993,
+    "hash": "19368d0ff4ff0fa69aff9013a3e0bbc3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/content.vue": {
+    "mtime": 1778575688.1865506,
+    "hash": "dcf0e40e741425ac51aa75db802d5cfc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/copyright.vue": {
+    "mtime": 1778575688.1866415,
+    "hash": "90ef422164d7723cf565f6eddf2e2981"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/footer.vue": {
+    "mtime": 1778575688.1867287,
+    "hash": "46b69691c97e04ae189a291e110e0d5e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/breadcrumb.vue": {
+    "mtime": 1778575688.1864572,
+    "hash": "18c2790a062752dfc321ff218ea50d19"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/layout.vue": {
+    "mtime": 1778575688.1869133,
+    "hash": "b1cdca92259bf8eeb3f66aed9b43b68d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/header.vue": {
+    "mtime": 1778575688.1868172,
+    "hash": "38e03d4a3a5dbf0b375cc9cf8d5df488"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/sidebar.vue": {
+    "mtime": 1778575688.187092,
+    "hash": "268648f9518fda8013066b7c2414dded"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/navigation.vue": {
+    "mtime": 1778575688.1870015,
+    "hash": "72ea200149d78db15025a721a3251115"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/tabbar.vue": {
+    "mtime": 1778575688.1871836,
+    "hash": "1212a7cc0fade89f11e0705f5b48a4d9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/layout/widget.vue": {
+    "mtime": 1778575688.187278,
+    "hash": "192f3130ff62b32883a25b7029b9871a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/shortcut-keys/global.vue": {
+    "mtime": 1778575688.1876495,
+    "hash": "e0296741a242838a72095f5a03b4fa34"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/theme/font-size.vue": {
+    "mtime": 1778575688.188094,
+    "hash": "ccfab4f8120b3ca2bf33e0512b6faa50"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/theme/builtin.vue": {
+    "mtime": 1778575688.1879106,
+    "hash": "058cfe2eaf491f770a8577170eab3fb8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/theme/radius.vue": {
+    "mtime": 1778575688.188182,
+    "hash": "5dfd868735d01a87a46440dc543dc048"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/theme/theme.vue": {
+    "mtime": 1778575688.188274,
+    "hash": "30c69b5ce6ed35fd206db5091e01242f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/theme/color-mode.vue": {
+    "mtime": 1778575688.1880038,
+    "hash": "799f4757026a9a713f23c4ce997e4a78"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/blocks/custom/custom.vue": {
+    "mtime": 1778575688.1858559,
+    "hash": "c029780afb7e830cb2df384ba918ccc5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/full-content.vue": {
+    "mtime": 1778575688.1886468,
+    "hash": "c86c9033c6255f528b11fe5e77f79174"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/mixed-nav.vue": {
+    "mtime": 1778575688.189153,
+    "hash": "ebf42e7ac5cebcdb9688c5dcd7c04962"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/content-compact.vue": {
+    "mtime": 1778575688.188552,
+    "hash": "d3be59f3edfeaf9a107da435de1be422"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/header-nav.vue": {
+    "mtime": 1778575688.188839,
+    "hash": "8cddcbd71a1de7b061be325f76d0b640"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/header-sidebar-nav.vue": {
+    "mtime": 1778575688.1889617,
+    "hash": "c875db72ed8b1e3bc95fa66f1334d122"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/setting.vue": {
+    "mtime": 1778575688.1892443,
+    "hash": "1e4eba0467711db338d7315993c53cd3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/index.ts": {
+    "mtime": 1778575688.1890492,
+    "hash": "bbece8825f7582fcf687a751091e08e1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/header-mixed-nav.vue": {
+    "mtime": 1778575688.1887493,
+    "hash": "c860ff006d7e3de11a86dcc0e32f47f7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/sidebar-nav.vue": {
+    "mtime": 1778575688.1894696,
+    "hash": "683d47351cc3defc99af6ebab22ff54a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/preferences/icons/sidebar-mixed-nav.vue": {
+    "mtime": 1778575688.1893568,
+    "hash": "049a0b3f2c256f293f1a2927eb91543c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/global-search/global-search.vue": {
+    "mtime": 1778575688.183797,
+    "hash": "aae50242f1ae3a5b992eaf3438f5dc23"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/global-search/search-panel.vue": {
+    "mtime": 1778575688.184314,
+    "hash": "f4e0a3f130298ad14079a264b00b396d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/global-search/index.ts": {
+    "mtime": 1778575688.1841643,
+    "hash": "22057de273c5b150b8c27f7c9c45cbc7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/user-dropdown/user-dropdown.vue": {
+    "mtime": 1778575688.1910205,
+    "hash": "05eb405f4ad68ae50f8c09f188c48d99"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/user-dropdown/index.ts": {
+    "mtime": 1778575688.1908834,
+    "hash": "e386219f82a9a10cb28aeaeab89342c2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/timezone/index.ts": {
+    "mtime": 1778575688.1906152,
+    "hash": "b8cd773d3347b546731b574d0b730fbf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/timezone/timezone-button.vue": {
+    "mtime": 1778575688.1907244,
+    "hash": "6e56744104c590560b55e29679770dc7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/notification/types.ts": {
+    "mtime": 1778575688.1853921,
+    "hash": "d942e6d43886832a5da6e32c4c910733"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/notification/index.ts": {
+    "mtime": 1778575688.1851673,
+    "hash": "795598722fa08c4f51930d688d72f340"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/notification/notification.vue": {
+    "mtime": 1778575688.1852949,
+    "hash": "06c65a0db0aba771cd23446c89fe0bcc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/check-updates/index.ts": {
+    "mtime": 1778575688.183532,
+    "hash": "f5be427fc386cec059ba6046e7ce2c5b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/check-updates/check-updates.vue": {
+    "mtime": 1778575688.1834445,
+    "hash": "02f37d07f061c4ccd0106341e7b89120"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/lock-screen/lock-screen.vue": {
+    "mtime": 1778575688.1850111,
+    "hash": "00f4c8f00a1422d27b390cc5dd4e6a48"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/lock-screen/index.ts": {
+    "mtime": 1778575688.1847904,
+    "hash": "3c0ebeb53a7ede7a28755a4fd9315838"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/lock-screen/lock-screen-modal.vue": {
+    "mtime": 1778575688.1848931,
+    "hash": "2b851954242c5dda86c50fb256b368cf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/theme-toggle/index.ts": {
+    "mtime": 1778575688.1902428,
+    "hash": "fe1598b32319967af69cda4d2d289e41"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/theme-toggle/theme-button.vue": {
+    "mtime": 1778575688.190368,
+    "hash": "7ac712523a05d01e2b4e2f2d876f4da0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/widgets/theme-toggle/theme-toggle.vue": {
+    "mtime": 1778575688.1904685,
+    "hash": "38cd325d742cb6f15564ddd7afc88ccf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/use-tabs.ts": {
+    "mtime": 1778575688.1780357,
+    "hash": "afff26e950e17c2821555117fea0816f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/use-hover-toggle.ts": {
+    "mtime": 1778575688.1777463,
+    "hash": "57efee6b323d9397f351d128112c8447"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/use-watermark.ts": {
+    "mtime": 1778575688.1781304,
+    "hash": "9e070e4fab22dfb9afead22daa07b06b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/use-app-config.ts": {
+    "mtime": 1778575688.1773918,
+    "hash": "a89c8a7ca617df0206b1a757710f6264"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/index.ts": {
+    "mtime": 1778575688.1772993,
+    "hash": "db2979bad8e29ff85b78a55eb5d4c1d0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/use-pagination.ts": {
+    "mtime": 1778575688.177852,
+    "hash": "203ceef54e7608b2188664a00d75ddfb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/use-refresh.ts": {
+    "mtime": 1778575688.1779418,
+    "hash": "0123ec0b98d0b78c78d075237e3236d1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/src/use-content-maximize.ts": {
+    "mtime": 1778575688.1774826,
+    "hash": "52a3019248d787dad6fc4299a81bba75"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/index.ts": {
+    "mtime": 1778575688.1961288,
+    "hash": "5259492d0929655350ac8360dd761de0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/preset-interceptors.ts": {
+    "mtime": 1778575688.1971903,
+    "hash": "dc5fc55dd723318ada4a088e724eb3de"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/types.ts": {
+    "mtime": 1778575688.197508,
+    "hash": "8b3106361420490947a24662d46f0568"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/request-client.test.ts": {
+    "mtime": 1778575688.1972897,
+    "hash": "99db4c2a2912fd8b5921b9413b4df648"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/index.ts": {
+    "mtime": 1778575688.1962802,
+    "hash": "b1a7df4d600db903e47b306740edc2f4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/request-client.ts": {
+    "mtime": 1778575688.1974087,
+    "hash": "a52a6e536563c8a0c8cf39fa0261a5d4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/modules/uploader.test.ts": {
+    "mtime": 1778575688.1969771,
+    "hash": "e7ed504159b2c7ba4be571d9a601a90c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/modules/interceptor.ts": {
+    "mtime": 1778575688.196655,
+    "hash": "1a071468dcda04eae24464072f0e90f2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/modules/downloader.test.ts": {
+    "mtime": 1778575688.1964595,
+    "hash": "4fbdf067c337e9189e6b08d8e14068b8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/modules/sse.ts": {
+    "mtime": 1778575688.196868,
+    "hash": "5d72a550dab0b39763cbe1708a956cb7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/modules/uploader.ts": {
+    "mtime": 1778575688.197071,
+    "hash": "c632caae67ab58931fe2f4a2d2837414"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/modules/downloader.ts": {
+    "mtime": 1778575688.196561,
+    "hash": "c6dc8b80e78b4f62312c97636af188d7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/request/src/request-client/modules/sse.test.ts": {
+    "mtime": 1778575688.1967592,
+    "hash": "2d5a012c8f1fac8d47fb929301da77d6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/index.ts": {
+    "mtime": 1778575688.1713293,
+    "hash": "30cf2616773ead9401bbc1a26e0caf8c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/index.ts": {
+    "mtime": 1778575688.1761096,
+    "hash": "0248ac2e97b2e704bd83ac45a1c1990c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/fallback.ts": {
+    "mtime": 1778575688.1745112,
+    "hash": "39547736b7fa819cef5d9be3b820fe17"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/index.ts": {
+    "mtime": 1778575688.1760197,
+    "hash": "da3587f6ee9259f95ca79a96e69efea0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/fallback.vue": {
+    "mtime": 1778575688.1746078,
+    "hash": "a0f75dbfb8e7b89d102ed52623b19f6b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/icons/icon-offline.vue": {
+    "mtime": 1778575688.1757736,
+    "hash": "839e2d674ba2cb3c70a6ebe50158ca29"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/icons/icon-coming-soon.vue": {
+    "mtime": 1778575688.1756158,
+    "hash": "f7c46241b5cc70a6d8ee30566bb07c52"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/icons/icon-404.vue": {
+    "mtime": 1778575688.1749885,
+    "hash": "9d83f10a93d90f1bc1ac2cd4a463ef39"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/icons/icon-403.vue": {
+    "mtime": 1778575688.1748283,
+    "hash": "de1c6c41b38e64ca349e8aaccf611e96"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/icons/icon-500.vue": {
+    "mtime": 1778575688.1753662,
+    "hash": "5a6275ed106fab01642bc67473e076eb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/about/about.ts": {
+    "mtime": 1778575688.171548,
+    "hash": "ff3cc9b5ef14b82e67ef8c661e5af61d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/about/index.ts": {
+    "mtime": 1778575688.171768,
+    "hash": "c6938f5855c6a9d38f27410c32fdc86a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/about/about.vue": {
+    "mtime": 1778575688.1716754,
+    "hash": "6ae165238c7ff536c1e02defc4ece043"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/typing.ts": {
+    "mtime": 1778575688.1737053,
+    "hash": "6bb12d3f1a266bc2e73417d9455f8673"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/index.ts": {
+    "mtime": 1778575688.1735935,
+    "hash": "33a8986b8df26823a8ec9c312c33103a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/analysis/analysis-overview.vue": {
+    "mtime": 1778575688.173367,
+    "hash": "dce280fb64bac8f140a0ffa15c4b3143"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/analysis/analysis-chart-card.vue": {
+    "mtime": 1778575688.1731844,
+    "hash": "4a7873b9baf1e57e5e4da0ed2c3ee352"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/analysis/analysis-charts-tabs.vue": {
+    "mtime": 1778575688.1732752,
+    "hash": "b1bf799c5d0035e3cf4723a9c45a65e6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/analysis/index.ts": {
+    "mtime": 1778575688.173467,
+    "hash": "98a62d5efee12da8482ed980dc0b4e79"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/workbench/workbench-project.vue": {
+    "mtime": 1778575688.1740744,
+    "hash": "38f21392853ca6cea7fab7e9e1d198e3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/workbench/workbench-quick-nav.vue": {
+    "mtime": 1778575688.1741698,
+    "hash": "71e30bc00ff80a370a047dce9005524c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/workbench/workbench-header.vue": {
+    "mtime": 1778575688.17397,
+    "hash": "7e213776e98f79c5b71390428e8c4770"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/workbench/index.ts": {
+    "mtime": 1778575688.1738672,
+    "hash": "c37b6fd2a9ae7277cc22f0045e2e7e9d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/workbench/workbench-trends.vue": {
+    "mtime": 1778575688.174366,
+    "hash": "9a358912313b6999063d1bdae3a6ac69"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/dashboard/workbench/workbench-todo.vue": {
+    "mtime": 1778575688.174267,
+    "hash": "bfc310b6b9f4ed47cef57045910e05e5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/profile/base-setting.vue": {
+    "mtime": 1778575688.1762643,
+    "hash": "a7bc697311fd87b0f1be224c64be7474"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/profile/notification-setting.vue": {
+    "mtime": 1778575688.176445,
+    "hash": "72af12cfaab91bf28f3a06facde0141c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/profile/types.ts": {
+    "mtime": 1778575688.17683,
+    "hash": "9dafef38ca6055a8e45abd8f88b668b2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/profile/profile.vue": {
+    "mtime": 1778575688.1766396,
+    "hash": "50b2c0d863dfde5fc7dd521515b1305d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/profile/index.ts": {
+    "mtime": 1778575688.1763515,
+    "hash": "5f2c1f92e54290e94a888c9e13403b66"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/profile/security-setting.vue": {
+    "mtime": 1778575688.1767397,
+    "hash": "72af12cfaab91bf28f3a06facde0141c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/qrcode-login.vue": {
+    "mtime": 1778575688.1726456,
+    "hash": "4a8ac5f2bbabeb9c687e68e59f272a61"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/login.vue": {
+    "mtime": 1778575688.172537,
+    "hash": "022a96ffee2b044f9b6e6271e5e69a3f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/auth-title.vue": {
+    "mtime": 1778575688.1719232,
+    "hash": "9e475a324b41a1718e93b9004f5cfdbf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/code-login.vue": {
+    "mtime": 1778575688.1720424,
+    "hash": "b7cddef7f7a7da4d08988ed572e9d344"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/register.vue": {
+    "mtime": 1778575688.1727593,
+    "hash": "20d5e6a8afe8659b815b567e0f498605"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/types.ts": {
+    "mtime": 1778575688.1729698,
+    "hash": "e808b81a16de0db0ff76e8a37d17697a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/dingding-login.vue": {
+    "mtime": 1778575688.172144,
+    "hash": "a695875d3749c03096ae42e1b4d4f006"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/index.ts": {
+    "mtime": 1778575688.1723294,
+    "hash": "ea953827c5426feb8ff47f12499c6680"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/login-expired-modal.vue": {
+    "mtime": 1778575688.1724308,
+    "hash": "5a34a723c75d2a3711500d98f7017bac"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/authentication/third-party-login.vue": {
+    "mtime": 1778575688.1728623,
+    "hash": "1a1503080839472ce350835f633fe1c2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/index.ts": {
+    "mtime": 1778575688.1690178,
+    "hash": "943721eca9bf05378bbddec32d9ab6dc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/tree/tree.vue": {
+    "mtime": 1778575688.1712382,
+    "hash": "9c5e9c7c15221fc2cc6cf2e9534226a6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/tree/index.ts": {
+    "mtime": 1778575688.1711419,
+    "hash": "6238bfe61879fea7a2a361c1c3902793"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/page/types.ts": {
+    "mtime": 1778575688.1704261,
+    "hash": "e9faff6defd559f01ce2eebe2a5f01d3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/page/index.ts": {
+    "mtime": 1778575688.1702375,
+    "hash": "d92d9e8ba23ac26b2a1c95abbeaca7df"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/page/page.vue": {
+    "mtime": 1778575688.1703393,
+    "hash": "d724fb67fbaeaf3c59e1fc9e3ff0b4f0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/page/__tests__/page.test.ts": {
+    "mtime": 1778575688.1701465,
+    "hash": "fc6d9a2589cfe18b4f9a8737ffea248b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/col-page/types.ts": {
+    "mtime": 1778575688.16611,
+    "hash": "2757503f6cd436b0fe176e458fef8800"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/col-page/index.ts": {
+    "mtime": 1778575688.1660078,
+    "hash": "75ea3e3574acc5c7185c4375f7251859"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/col-page/col-page.vue": {
+    "mtime": 1778575688.1658669,
+    "hash": "0f98111b90f9eb29d436fbcaaf04f1da"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/loading/directive.ts": {
+    "mtime": 1778575688.1696553,
+    "hash": "51f1b701713f22c3afc101a3b1b8090f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/loading/loading.vue": {
+    "mtime": 1778575688.169832,
+    "hash": "ccec35fc454bf4823531888e72382ce1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/loading/index.ts": {
+    "mtime": 1778575688.1697438,
+    "hash": "18ddd6c2bc06b6b7ec3f3fb3212c59c8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/loading/spinner.vue": {
+    "mtime": 1778575688.1699247,
+    "hash": "ab904a12bac5848f7fc36150e4b2dff8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/count-to/count-to.vue": {
+    "mtime": 1778575688.166295,
+    "hash": "57b625de5f3f4b0f9ef9b372575a2b40"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/count-to/types.ts": {
+    "mtime": 1778575688.1665025,
+    "hash": "f144eddcee4177b612bfabcb9872e870"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/count-to/index.ts": {
+    "mtime": 1778575688.1663995,
+    "hash": "9589e16843b57634ad775aa0fb50a8df"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/cropper/cropper.vue": {
+    "mtime": 1778575688.1667693,
+    "hash": "89e8cce9197d8c204f5cf4af3352573e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/cropper/index.ts": {
+    "mtime": 1778575688.166935,
+    "hash": "cf1104763d8ff7163c9a04ec871d969a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/tippy/directive.ts": {
+    "mtime": 1778575688.170901,
+    "hash": "c0f8a60df6a548a94244e1f78fb38df3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/tippy/index.ts": {
+    "mtime": 1778575688.1709952,
+    "hash": "10e97f82a61d30acff89f7d1f5cd3f73"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/icon-picker/types.ts": {
+    "mtime": 1778575688.1688924,
+    "hash": "831df23ec2fa110a0f408e020bd36696"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/icon-picker/icons.ts": {
+    "mtime": 1778575688.1685514,
+    "hash": "8976a15bdcf32db86faf8627af5fc8a7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/icon-picker/index.ts": {
+    "mtime": 1778575688.1686869,
+    "hash": "cbfcc5403ec39d5757c16fd1633dfa6e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/icon-picker/icon-picker.vue": {
+    "mtime": 1778575688.1683755,
+    "hash": "7403f2e0ffb32abe77088dd7afe97991"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/types.ts": {
+    "mtime": 1778575688.1655054,
+    "hash": "9c83218ae4aaa2fa65a53d8ffd263341"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/index.ts": {
+    "mtime": 1778575688.1639926,
+    "hash": "766a58956e4fe01d0a9afee74aede248"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/hooks/useCaptchaPoints.ts": {
+    "mtime": 1778575688.1638622,
+    "hash": "33e183433060b07439524618fe1ad42b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/slider-rotate-captcha/index.vue": {
+    "mtime": 1778575688.165221,
+    "hash": "1b6814d431dda5d292628eeb71869aff"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/point-selection-captcha/index.vue": {
+    "mtime": 1778575688.1642191,
+    "hash": "1fac83ac410be46719e0ffc371f4de38"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/point-selection-captcha/point-selection-captcha-card.vue": {
+    "mtime": 1778575688.1643927,
+    "hash": "e6f8b9ffaa873f9cea8a54cd1574026e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/slider-translate-captcha/index.vue": {
+    "mtime": 1778575688.16541,
+    "hash": "d7a338bc9484db51cfe3805a2557458b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/slider-captcha/index.vue": {
+    "mtime": 1778575688.1645834,
+    "hash": "a98c65839082bc8f812c51e577a10a52"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/slider-captcha/slider-captcha-content.vue": {
+    "mtime": 1778575688.1649873,
+    "hash": "4b29b50ccf174eb615dfa706f362a945"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/slider-captcha/slider-captcha-action.vue": {
+    "mtime": 1778575688.1646876,
+    "hash": "7f8b90f489ff834e88736b07bbcfbb5f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/captcha/slider-captcha/slider-captcha-bar.vue": {
+    "mtime": 1778575688.1648757,
+    "hash": "fc37b92f4469b11dff95992b6c575213"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/ellipsis-text/ellipsis-text.vue": {
+    "mtime": 1778575688.1672866,
+    "hash": "8a013071b1055a5add6d6019958a1b12"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/ellipsis-text/index.ts": {
+    "mtime": 1778575688.1674,
+    "hash": "138039eed817161d1cb476db0b5604f1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/api-component/types.ts": {
+    "mtime": 1778575688.1636117,
+    "hash": "9563025a549a34a7300bc87548371fad"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/api-component/index.ts": {
+    "mtime": 1778575688.163499,
+    "hash": "e7e727429c99dc54feaa0e7f082c880c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/api-component/api-component.vue": {
+    "mtime": 1778575688.163376,
+    "hash": "5515fe2e2b6d71fe04dde7bfb1c597ac"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/resize/index.ts": {
+    "mtime": 1778575688.170574,
+    "hash": "780f9760e964abf561708287b0f5b11c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/resize/resize.vue": {
+    "mtime": 1778575688.1707063,
+    "hash": "3a35a2ce03e0c86b776c9b242b926515"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/json-viewer/index.vue": {
+    "mtime": 1778575688.169284,
+    "hash": "3d51a41949703372d83208466aaafcc6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/json-viewer/types.ts": {
+    "mtime": 1778575688.169492,
+    "hash": "ad59f01522a77c18a56f3bca5381c718"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/components/json-viewer/index.ts": {
+    "mtime": 1778575688.169174,
+    "hash": "569cccc0f385514e4e740bcb62bdca6c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/tsdown.config.ts": {
+    "mtime": 1778575688.1172473,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/__tests__/preferences.test.ts": {
+    "mtime": 1778738006.129611,
+    "hash": "1e4d88985f53e458a0270080ca76d96a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/__tests__/config.test.ts": {
+    "mtime": 1778575688.1125436,
+    "hash": "5118601965e7457e19cd7548bf8e5f05"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/src/update-css-variables.ts": {
+    "mtime": 1778575688.113815,
+    "hash": "7411170883562ed99bf9465a64874554"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/src/types.ts": {
+    "mtime": 1778575688.1136754,
+    "hash": "fb614aaddf0d4571105023d015a45dbf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/src/preferences.ts": {
+    "mtime": 1778738022.9824452,
+    "hash": "9eaba466ede51c10041af6da5fb963fc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/src/constants.ts": {
+    "mtime": 1778575688.11318,
+    "hash": "00aebb0468eaca7dc2bb602afea45c00"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/src/use-preferences.ts": {
+    "mtime": 1778575688.1170478,
+    "hash": "a3417f4ad8cf34b999abfe6f5a7c8783"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/src/index.ts": {
+    "mtime": 1778575688.113284,
+    "hash": "91cf90c0a8978b77a041848dbf8a0e15"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/preferences/src/config.ts": {
+    "mtime": 1778575688.113072,
+    "hash": "8525ef605e22ee15443ae6745b58dff6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/tsdown.config.ts": {
+    "mtime": 1778575688.1121426,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-layout-style.ts": {
+    "mtime": 1778575688.1111956,
+    "hash": "5291f4af3d7aa67daca0ac375366d1fc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-namespace.ts": {
+    "mtime": 1778575688.1112914,
+    "hash": "96a0f4702ea4499d8f6a345d37c1288e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-scroll-lock.ts": {
+    "mtime": 1778575688.111487,
+    "hash": "d6cf79cb525fa703b596881a957c19ac"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-priority-value.ts": {
+    "mtime": 1778575688.111385,
+    "hash": "a602cc66a898e969565d46d87e62d57c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-sortable.ts": {
+    "mtime": 1778575688.1119564,
+    "hash": "cff585327cbf9fd4471719cb09d18c1a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/index.ts": {
+    "mtime": 1778575688.110997,
+    "hash": "7b9883cba61411a8a20e8d08666c472c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-is-mobile.ts": {
+    "mtime": 1778575688.111094,
+    "hash": "d7e96b5c7624ee6e0b31904c99291ce6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-simple-locale/messages.ts": {
+    "mtime": 1778575688.1118593,
+    "hash": "2b7aeeba89c78ff58c2f1ba28f40cfcd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-simple-locale/index.ts": {
+    "mtime": 1778575688.1117656,
+    "hash": "8945cc8186fe59820fae097963098f4f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/__tests__/use-sortable.test.ts": {
+    "mtime": 1778575688.110892,
+    "hash": "79fcb9068d61a1590f63651b6e88eee5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/tsdown.config.ts": {
+    "mtime": 1778575688.122464,
+    "hash": "929235919aef23d49aea72255bdc298b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/vben-layout.ts": {
+    "mtime": 1778575688.1220386,
+    "hash": "89f65a1dc2c8723f89712df4e305b2cf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/index.ts": {
+    "mtime": 1778575688.1219392,
+    "hash": "3ae142cececefbac611393fdbfd9d982"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/vben-layout.vue": {
+    "mtime": 1778575688.1222641,
+    "hash": "ce88f521962ff90ec9dee8a39aa16d05"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/layout-tabbar.vue": {
+    "mtime": 1778575688.121243,
+    "hash": "3f8f68b3b895b86ba7e13d96d89788ad"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/layout-sidebar.vue": {
+    "mtime": 1778575688.1211083,
+    "hash": "5ad56a83c60235a0a7d3143efe858970"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/layout-header.vue": {
+    "mtime": 1778575688.120958,
+    "hash": "dcf1cc14aacd081539280c44918dda71"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/layout-footer.vue": {
+    "mtime": 1778575688.1208584,
+    "hash": "38aefde15314d3a7f18da1544a5bbaf0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/index.ts": {
+    "mtime": 1778575688.120657,
+    "hash": "38a7b93ab539a6d85e1ec0c2d8bc788c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/layout-content.vue": {
+    "mtime": 1778575688.1207657,
+    "hash": "08b80012f32a34978f68a27c1d290b70"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/widgets/sidebar-collapse-button.vue": {
+    "mtime": 1778575688.1215131,
+    "hash": "77f853d6cea51ce39e324e0f096e25f7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/widgets/sidebar-fixed-button.vue": {
+    "mtime": 1778575688.1216073,
+    "hash": "d6fea05e4a8d97f70284e0aa186ddfd2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/components/widgets/index.ts": {
+    "mtime": 1778575688.1214154,
+    "hash": "8d056ce365dda6fff731d2f01f1503d2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/hooks/use-layout.ts": {
+    "mtime": 1778575688.121757,
+    "hash": "652fa5f4ea841558f8ceec9519ffffc4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/layout-ui/src/hooks/use-sidebar-drag.ts": {
+    "mtime": 1778575688.1218517,
+    "hash": "41a2b8356609fae66f73319eb0e7a899"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/tsdown.config.ts": {
+    "mtime": 1778575688.1279538,
+    "hash": "929235919aef23d49aea72255bdc298b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/index.ts": {
+    "mtime": 1778575688.1267855,
+    "hash": "911615f308938e8e1285ddaccccf219d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/drawer/use-drawer.ts": {
+    "mtime": 1778575688.1266944,
+    "hash": "e4d18b05438df0a93f519d8cf49fbb3a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/drawer/drawer.vue": {
+    "mtime": 1778575688.126507,
+    "hash": "3aeeefdff0ec581524be3a9ab3b4f708"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/drawer/index.ts": {
+    "mtime": 1778575688.1265996,
+    "hash": "ff7842f57f186d7f30b5e1c6f52aca43"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/drawer/drawer-api.ts": {
+    "mtime": 1778575688.1262567,
+    "hash": "509c602fdc450d86251ae46e0b35f56b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/drawer/drawer.ts": {
+    "mtime": 1778575688.1263528,
+    "hash": "72ebb1928053bf04dcbaae09acaa7ce9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/drawer/__tests__/drawer-api.test.ts": {
+    "mtime": 1778575688.1261537,
+    "hash": "f6b8c661a5b6910ce311199b5f7a6ee9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/alert/alert.ts": {
+    "mtime": 1778575688.125678,
+    "hash": "ffef1b718d58637eea38b69a3ec49adf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/alert/alert.vue": {
+    "mtime": 1778575688.1258109,
+    "hash": "7430bebdffc82b8b8a858676cf395f4a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/alert/index.ts": {
+    "mtime": 1778575688.1259215,
+    "hash": "bb7d9dbbe60c9b01bac067bf413e1ed0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/alert/AlertBuilder.ts": {
+    "mtime": 1778575688.125574,
+    "hash": "97cab82775ffeaf69e2f2efc3fa674a7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/modal/modal-api.ts": {
+    "mtime": 1778575688.1272604,
+    "hash": "da6cddb6489b12f469181805a95cd459"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/modal/modal.ts": {
+    "mtime": 1778575688.1273723,
+    "hash": "0c803cd8aeef411bc26989777940e342"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/modal/use-modal.ts": {
+    "mtime": 1778575688.1277688,
+    "hash": "1e4d11f59d801f726bc2933173707946"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/modal/use-modal-draggable.ts": {
+    "mtime": 1778575688.1276517,
+    "hash": "feea56c04cd5788499a7a0a08d755529"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/modal/index.ts": {
+    "mtime": 1778575688.1271284,
+    "hash": "98476f86b6c67c9d2917dcfb85309e0b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/modal/modal.vue": {
+    "mtime": 1778575688.127545,
+    "hash": "c03438d3ca8255f5dc581ed0c6bc44cc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/popup-ui/src/modal/__tests__/modal-api.test.ts": {
+    "mtime": 1778575688.127024,
+    "hash": "64857755a9a1668da385569e66b29401"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/index.ts": {
+    "mtime": 1778575688.137319,
+    "hash": "6aaa07cac55d23509d62d0c98edbce8a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/index.ts": {
+    "mtime": 1778575688.1490493,
+    "hash": "baa55b9df7c9e8123719e4d125ae01ba"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tabs/Tabs.vue": {
+    "mtime": 1778575688.1563892,
+    "hash": "091d0dd48d6dd9dc62bf9bee754fda34"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tabs/TabsContent.vue": {
+    "mtime": 1778575688.1565006,
+    "hash": "6a99f898d81b71a9c17ffba65399789b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tabs/TabsTrigger.vue": {
+    "mtime": 1778575688.1567147,
+    "hash": "c2d6dbda8c66a8ef6ec5edc347ccccfc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tabs/TabsList.vue": {
+    "mtime": 1778575688.1566138,
+    "hash": "094c58b31f3fb42ce21c103791c855bd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tabs/index.ts": {
+    "mtime": 1778575688.1568015,
+    "hash": "06ee681ea0e3d31ca9842f4d127e75db"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tree/tree.vue": {
+    "mtime": 1778575688.1587865,
+    "hash": "be5294b8434f06067e352ab3a25142ab"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tree/types.ts": {
+    "mtime": 1778575688.15889,
+    "hash": "011d388ac535fd5b5dd4ec83d0cc616b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tree/index.ts": {
+    "mtime": 1778575688.1584299,
+    "hash": "23078d08963bd01b3c42deb4b0c1ef4f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pagination/PaginationPrev.vue": {
+    "mtime": 1778575688.150934,
+    "hash": "4973c572c616adef38b1a6ab5c715898"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pagination/PaginationFirst.vue": {
+    "mtime": 1778575688.1506302,
+    "hash": "a286b82ab67667d7bba807ba9087d0b6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pagination/PaginationNext.vue": {
+    "mtime": 1778575688.1508262,
+    "hash": "ccf676735ede9175676280c3d0845b36"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pagination/PaginationLast.vue": {
+    "mtime": 1778575688.150728,
+    "hash": "890e8ccb9be599e8a311908a70da3677"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pagination/index.ts": {
+    "mtime": 1778575688.1510422,
+    "hash": "007f62f3f8fa0f47f9ecc7be168fe04d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pagination/PaginationEllipsis.vue": {
+    "mtime": 1778575688.1505263,
+    "hash": "bb0d550ddcf751ddb8ecd417424f4560"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/FormLabel.vue": {
+    "mtime": 1778575688.1480296,
+    "hash": "660a42fe7b55557bb23366cc7c9287b6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/FormMessage.vue": {
+    "mtime": 1778575688.1481345,
+    "hash": "4792cf75378dc8bdc59baee17db719c2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/FormItem.vue": {
+    "mtime": 1778575688.1479192,
+    "hash": "75f2f2086cb4d01c598f37787e5c925c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/injectionKeys.ts": {
+    "mtime": 1778575688.1483412,
+    "hash": "b780f2abdf60312622f617f735edf875"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/FormDescription.vue": {
+    "mtime": 1778575688.1478162,
+    "hash": "0c1a5d4bff07a7558cfb024584ec16b8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/FormControl.vue": {
+    "mtime": 1778575688.1477113,
+    "hash": "b1ca1acbfbe9e8b627302037a464f95c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/useFormField.ts": {
+    "mtime": 1778575688.1484468,
+    "hash": "a10e15670bd4255138912d248444a3f5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/form/index.ts": {
+    "mtime": 1778575688.1482394,
+    "hash": "324a780a69b2301154f651e844d30775"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tooltip/Tooltip.vue": {
+    "mtime": 1778575688.1579258,
+    "hash": "c84e46f88adf79233e2a580f15b14236"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tooltip/TooltipProvider.vue": {
+    "mtime": 1778575688.1581032,
+    "hash": "0437f13ad4147546dcf93881ee1de23d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tooltip/index.ts": {
+    "mtime": 1778575688.1582758,
+    "hash": "05b1297e0ded955f8fe5bad4edcb1f8b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tooltip/TooltipTrigger.vue": {
+    "mtime": 1778575688.1581852,
+    "hash": "71a9396f072de94f8e690b70da25ce21"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/tooltip/TooltipContent.vue": {
+    "mtime": 1778575688.1580126,
+    "hash": "85e3f6b6f550ba08a1a04fc8d9fdf03f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/card/Card.vue": {
+    "mtime": 1778575688.1415262,
+    "hash": "65022f0fa94d11724103a0a337ac72fd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/card/CardContent.vue": {
+    "mtime": 1778575688.141643,
+    "hash": "45518c7db82b0d2453e3a29c6dcd2d97"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/card/CardTitle.vue": {
+    "mtime": 1778575688.142074,
+    "hash": "373c411951ad4bbb62d2d9de4a1d1450"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/card/CardHeader.vue": {
+    "mtime": 1778575688.1419744,
+    "hash": "feb3dfbec92ecd90b8605adac87f6075"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/card/CardFooter.vue": {
+    "mtime": 1778575688.1418617,
+    "hash": "429072e488ad947be4ec137e05970c56"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/card/index.ts": {
+    "mtime": 1778575688.142178,
+    "hash": "cd3ef0b7a54dbc53377eedc295259a7d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/card/CardDescription.vue": {
+    "mtime": 1778575688.1417549,
+    "hash": "70c38fb98da630d0f0ee1d507b150488"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/AlertDialog.vue": {
+    "mtime": 1778575688.1381068,
+    "hash": "05b54a30d78650896ddeb22cee357c83"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/AlertDialogTitle.vue": {
+    "mtime": 1778575688.138757,
+    "hash": "9bb7326b46dac71b4fd1f3333a5d35fd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/AlertDialogOverlay.vue": {
+    "mtime": 1778575688.1386392,
+    "hash": "ab646fea1255bc577d954dd2a12634b3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/AlertDialogContent.vue": {
+    "mtime": 1778575688.1384213,
+    "hash": "af0cafc5f1fa2383eec3a3a430a224b8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/AlertDialogAction.vue": {
+    "mtime": 1778575688.1381958,
+    "hash": "3df29f4b5a4641d131625101daab1262"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/index.ts": {
+    "mtime": 1778575688.1388562,
+    "hash": "e371db70f483f965ece784b831add809"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/AlertDialogCancel.vue": {
+    "mtime": 1778575688.1383002,
+    "hash": "0d62e1d361a72382198fc3708c929b31"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/alert-dialog/AlertDialogDescription.vue": {
+    "mtime": 1778575688.138533,
+    "hash": "1346b5836a014c6a8385e39358944979"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/input/index.ts": {
+    "mtime": 1778575688.149324,
+    "hash": "2df766c02d7dfae514d0f6cc971924b6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/input/Input.vue": {
+    "mtime": 1778575688.1492198,
+    "hash": "d7d009edacb7de0f2556a8b0a6f494d6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/accordion/AccordionTrigger.vue": {
+    "mtime": 1778575688.1378598,
+    "hash": "3aa78fc70ab97426b6b6538f47862fd9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/accordion/AccordionContent.vue": {
+    "mtime": 1778575688.137664,
+    "hash": "1a8aeaadcdaa8ad2fb7953327453b6e1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/accordion/AccordionItem.vue": {
+    "mtime": 1778575688.1377666,
+    "hash": "511768149fc5127f5343acf0a24c579f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/accordion/Accordion.vue": {
+    "mtime": 1778575688.1375632,
+    "hash": "1f7cc422aea28f8c7e291595f0129ba0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/accordion/index.ts": {
+    "mtime": 1778575688.1379478,
+    "hash": "81a6182bd4db7b605ae05046cd41174a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/separator/index.ts": {
+    "mtime": 1778575688.1546242,
+    "hash": "09ac084cec624c60c17b61a8ee05756e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/separator/Separator.vue": {
+    "mtime": 1778575688.1545298,
+    "hash": "b21bfe65f3cb3a1d26e07a2ef1de3549"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/number-field/NumberFieldInput.vue": {
+    "mtime": 1778575688.1502352,
+    "hash": "6e497c340cac32e895b42e9e0302fed9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/number-field/NumberFieldContent.vue": {
+    "mtime": 1778575688.149907,
+    "hash": "7b02c696730dd6186f226e93d9c7d5d5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/number-field/NumberField.vue": {
+    "mtime": 1778575688.149802,
+    "hash": "87bd8bc116ba4d5f75e6894ec8212f24"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/number-field/NumberFieldDecrement.vue": {
+    "mtime": 1778575688.150015,
+    "hash": "8316275d00d630545b34f8afc1cc8187"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/number-field/index.ts": {
+    "mtime": 1778575688.1503391,
+    "hash": "a40be2c88e8fcaf2b4faf2f927873cec"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/number-field/NumberFieldIncrement.vue": {
+    "mtime": 1778575688.1501267,
+    "hash": "1c572f4d6a1b17a325fd82add6d6e755"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/hover-card/HoverCard.vue": {
+    "mtime": 1778575688.148634,
+    "hash": "18d26248646d25102f8a7944be24f695"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/hover-card/index.ts": {
+    "mtime": 1778575688.1489437,
+    "hash": "2ac0e4ac9c64a19518bcba7d168300c8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/hover-card/HoverCardTrigger.vue": {
+    "mtime": 1778575688.1488438,
+    "hash": "ffea10033008bb36a7e08505b06a470e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/hover-card/HoverCardContent.vue": {
+    "mtime": 1778575688.1487396,
+    "hash": "674011d9ce4c41022cdc724081448654"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/checkbox/index.ts": {
+    "mtime": 1778575688.1424522,
+    "hash": "d220b8939ce797c17f1edc3be2b9eb66"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/checkbox/Checkbox.vue": {
+    "mtime": 1778575688.142352,
+    "hash": "e0f26fa593974a0488369d198aab8eeb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/label/Label.vue": {
+    "mtime": 1778575688.149512,
+    "hash": "00d95fe22db519a239b77acd466b4392"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/label/index.ts": {
+    "mtime": 1778575688.149614,
+    "hash": "5905f60ec58186a3d1bfc399a777b865"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuLabel.vue": {
+    "mtime": 1778575688.14648,
+    "hash": "bdd55a6ef61d28540fad62aca703e223"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuRadioItem.vue": {
+    "mtime": 1778575688.1467183,
+    "hash": "b14c19675f6be56f84ba0cbd6f8c3423"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuSeparator.vue": {
+    "mtime": 1778575688.1468267,
+    "hash": "e6c5bae66e9f94c9986e4229d477c466"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuGroup.vue": {
+    "mtime": 1778575688.1462379,
+    "hash": "d0c8f1c1a4141b3d7fd8514bd078d474"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuTrigger.vue": {
+    "mtime": 1778575688.1474016,
+    "hash": "2ae85df4eb34916d4ace11806a951bdc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuContent.vue": {
+    "mtime": 1778575688.1461205,
+    "hash": "13ed8d90c8fb6bd6c956d0a8ed1fe0a9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuShortcut.vue": {
+    "mtime": 1778575688.1469402,
+    "hash": "becf38bb7131caa82efa8a2e73c2816c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuCheckboxItem.vue": {
+    "mtime": 1778575688.146014,
+    "hash": "a091e17c4b7730255c0a0e4008ee62d4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuItem.vue": {
+    "mtime": 1778575688.1463645,
+    "hash": "8c70c0b69cfc760bdff5c6e6a426bed4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuRadioGroup.vue": {
+    "mtime": 1778575688.1466,
+    "hash": "1614f1077c2b7badefc5aec911108b1c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenu.vue": {
+    "mtime": 1778575688.1459117,
+    "hash": "d0bccc887cbc39e51fb00fcb6e561092"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/index.ts": {
+    "mtime": 1778575688.14752,
+    "hash": "a8f6bc2e66f889564e404564d7112c6e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuSubContent.vue": {
+    "mtime": 1778575688.1471682,
+    "hash": "b596863e63dba66a4affe8cb1f3148bc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuSubTrigger.vue": {
+    "mtime": 1778575688.1472852,
+    "hash": "193a7ca87c55fc492b6040bb66c551e3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dropdown-menu/DropdownMenuSub.vue": {
+    "mtime": 1778575688.1470554,
+    "hash": "1ad1c9e460239e2273ff2277dd51fd94"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/toggle-group/ToggleGroup.vue": {
+    "mtime": 1778575688.1572387,
+    "hash": "2f29a113e14e439f44df0d58d126e166"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/toggle-group/index.ts": {
+    "mtime": 1778575688.1574438,
+    "hash": "e69a38fa3831c6bb2d45abeaa6277f9f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/toggle-group/ToggleGroupItem.vue": {
+    "mtime": 1778575688.1573493,
+    "hash": "11880d3b456054800f63ea8e5fa69354"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuRadioGroup.vue": {
+    "mtime": 1778575688.143373,
+    "hash": "b87f3a17f8e4bb4784a61cae484b53b9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuSubContent.vue": {
+    "mtime": 1778575688.1440973,
+    "hash": "cfe4d06b1f11a5069bed939e71eace37"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuSubTrigger.vue": {
+    "mtime": 1778575688.1442266,
+    "hash": "e823e1c55d5994ac83b208fb4477bc45"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuLabel.vue": {
+    "mtime": 1778575688.14316,
+    "hash": "de17e2f49d0c645383b01b9534d4ae0e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuGroup.vue": {
+    "mtime": 1778575688.1429522,
+    "hash": "6550bc8a2b52d302de619b4a69ff325c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuCheckboxItem.vue": {
+    "mtime": 1778575688.1427348,
+    "hash": "9ed09d8f1fb78581f2b2d070e2e8a8a3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuRadioItem.vue": {
+    "mtime": 1778575688.143485,
+    "hash": "8658897076434ba2bf81edad28902ef8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuSeparator.vue": {
+    "mtime": 1778575688.1437178,
+    "hash": "935029d8a32dc6912c2e1ed3c352bc67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuPortal.vue": {
+    "mtime": 1778575688.143263,
+    "hash": "3d5065adaf2d2a9abd3543824b5acd23"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuShortcut.vue": {
+    "mtime": 1778575688.1438634,
+    "hash": "2564e55835b1b81a17a6f88e149e4dc5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenu.vue": {
+    "mtime": 1778575688.1426098,
+    "hash": "f74584d9c70f6fa4fd7b5a2c87ec1adc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuSub.vue": {
+    "mtime": 1778575688.143981,
+    "hash": "cbec691129c381732756bf477333e49d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuContent.vue": {
+    "mtime": 1778575688.142849,
+    "hash": "5b8862be2418ea1800dde13a1097622d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/index.ts": {
+    "mtime": 1778575688.1444337,
+    "hash": "f52791d2f40cc2f9aa6fd1063c87ac7e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuItem.vue": {
+    "mtime": 1778575688.1430554,
+    "hash": "06d83c2255def9fd68bec2f827454458"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/context-menu/ContextMenuTrigger.vue": {
+    "mtime": 1778575688.1443317,
+    "hash": "21a404d8d792f61de2b10a148e4d1563"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/toggle/index.ts": {
+    "mtime": 1778575688.1576898,
+    "hash": "3108fd68ad9f6cda90d160ff269840ae"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/toggle/Toggle.vue": {
+    "mtime": 1778575688.1576035,
+    "hash": "e4a25af27cbf444e959300bc900e7668"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/toggle/toggle.ts": {
+    "mtime": 1778575688.15778,
+    "hash": "342b8645f8bbb34fd9d444f4c2fc1fe2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogTitle.vue": {
+    "mtime": 1778575688.1455052,
+    "hash": "91d191c93b9e2964979c47869b39ea1c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogHeader.vue": {
+    "mtime": 1778575688.1451604,
+    "hash": "babeb2b0ec447995d51c56585ebd347a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogFooter.vue": {
+    "mtime": 1778575688.145048,
+    "hash": "ce616283ee7bcf3101bc16a99639ff36"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogContent.vue": {
+    "mtime": 1778575688.1448314,
+    "hash": "4cc452ae0be56f176de96479fe939275"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogTrigger.vue": {
+    "mtime": 1778575688.1456141,
+    "hash": "88f6b8bd76a0d6f5c4e90f05f9ec562f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogScrollContent.vue": {
+    "mtime": 1778575688.1453872,
+    "hash": "94f3559e02252c7c4184b11f74684b11"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogOverlay.vue": {
+    "mtime": 1778575688.145265,
+    "hash": "a99b22ff5495729ad8be9b22d1b61d13"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/Dialog.vue": {
+    "mtime": 1778575688.1446166,
+    "hash": "8ee0bfe3a8442931ef4d3c5f42fed336"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogDescription.vue": {
+    "mtime": 1778575688.1449416,
+    "hash": "baf18c8044a60a870557e374da01aa6d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/DialogClose.vue": {
+    "mtime": 1778575688.144725,
+    "hash": "d8b686e4bfec60ea77cd6823f6308a3f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/dialog/index.ts": {
+    "mtime": 1778575688.145722,
+    "hash": "6e8995a6abde4308fb3067acaa1d5cae"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/popover/Popover.vue": {
+    "mtime": 1778575688.1517692,
+    "hash": "cbf871a9c428659a68ad55c663b82a1e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/popover/PopoverContent.vue": {
+    "mtime": 1778575688.1518872,
+    "hash": "a4408398858615d70a384c6edaa57902"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/popover/index.ts": {
+    "mtime": 1778575688.1520805,
+    "hash": "8ff26e96af571dca7b81bd41e3648732"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/popover/PopoverTrigger.vue": {
+    "mtime": 1778575688.1519978,
+    "hash": "f70ef39aabad23d046ae8a2dc45c4442"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/textarea/index.ts": {
+    "mtime": 1778575688.1570632,
+    "hash": "0d436c43395194cf685f57f1a39c1ebc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/textarea/Textarea.vue": {
+    "mtime": 1778575688.1569705,
+    "hash": "e73cdfbd1ce8fe54f8b2ac2e24721349"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/button/button.ts": {
+    "mtime": 1778575688.1411378,
+    "hash": "181c0473c35a5487a005940992466088"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/button/types.ts": {
+    "mtime": 1778575688.141353,
+    "hash": "8f4a0cd8c5a69b982a8354ca8ac69d4d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/button/index.ts": {
+    "mtime": 1778575688.1412435,
+    "hash": "03dc2b50a711cd4c15d8e91f05c9229e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/button/Button.vue": {
+    "mtime": 1778575688.1410308,
+    "hash": "e54152f1e054aa812ea2e4c397026351"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/scroll-area/ScrollArea.vue": {
+    "mtime": 1778575688.1529436,
+    "hash": "3ee977ed691f9d79e5cd148aaa4c213d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/scroll-area/ScrollBar.vue": {
+    "mtime": 1778575688.1530397,
+    "hash": "26ab61e2c59328845bb9b291bfc81dc5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/scroll-area/index.ts": {
+    "mtime": 1778575688.153126,
+    "hash": "2e9b13a46e656cc477056590026fb642"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/avatar/AvatarFallback.vue": {
+    "mtime": 1778575688.1391368,
+    "hash": "50140f1be0577aae480b19186f220562"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/avatar/AvatarImage.vue": {
+    "mtime": 1778575688.1392226,
+    "hash": "be92f27e17ce686635d26aefecf61b78"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/avatar/avatar.ts": {
+    "mtime": 1778575688.1393795,
+    "hash": "7d74d220275ea90e4eea266a8af1c5da"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/avatar/Avatar.vue": {
+    "mtime": 1778575688.139039,
+    "hash": "07dcf3b1d4bf40ac0bd19adcf7eaf0cf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/avatar/index.ts": {
+    "mtime": 1778575688.1394808,
+    "hash": "c3d7d67170a7d687ea0490abf1cb6eed"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/switch/Switch.vue": {
+    "mtime": 1778575688.1560066,
+    "hash": "09dcffd1918b498088b2090c67a183d3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/switch/index.ts": {
+    "mtime": 1778575688.156205,
+    "hash": "16f46d7217baae0a4c989beccea26342"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/resizable/ResizablePanelGroup.vue": {
+    "mtime": 1778575688.1526833,
+    "hash": "84b3dfd3aa5e5d2bf0e01383f8924fd5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/resizable/ResizableHandle.vue": {
+    "mtime": 1778575688.1525753,
+    "hash": "af80c6a47e03a85d62d1a893b86ac937"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/resizable/index.ts": {
+    "mtime": 1778575688.1527774,
+    "hash": "47ecfdfa7b1df347a140370bcdf14174"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/radio-group/RadioGroupItem.vue": {
+    "mtime": 1778575688.152322,
+    "hash": "1e2907c6460c3b901ab5c956d0af5c71"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/radio-group/index.ts": {
+    "mtime": 1778575688.152408,
+    "hash": "95a49659654fe10131609b0da7d33ef7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/radio-group/RadioGroup.vue": {
+    "mtime": 1778575688.1522331,
+    "hash": "3621e5a03b8d2bc2bd6ef8a139820aba"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectItem.vue": {
+    "mtime": 1778575688.1536033,
+    "hash": "519cf1f5269361cde9824501fba7c264"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectTrigger.vue": {
+    "mtime": 1778575688.154165,
+    "hash": "144bdeb6e5784696ca51aab03e8ff5c1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectContent.vue": {
+    "mtime": 1778575688.1534061,
+    "hash": "d7b92f96e93b264e4f661e1a08235de3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectGroup.vue": {
+    "mtime": 1778575688.1535091,
+    "hash": "3c08e140833ad927536598eaa946d0d9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectSeparator.vue": {
+    "mtime": 1778575688.154074,
+    "hash": "a56a2ccd340436465b4039444ce199db"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectScrollUpButton.vue": {
+    "mtime": 1778575688.1539905,
+    "hash": "bb4e175fb7102d2e7a0820ee5f59a351"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/index.ts": {
+    "mtime": 1778575688.15435,
+    "hash": "cfd246a2ce92fbd62e6cb58936bb112d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectScrollDownButton.vue": {
+    "mtime": 1778575688.1539,
+    "hash": "3412460744426381c988e61014d41121"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectValue.vue": {
+    "mtime": 1778575688.1542544,
+    "hash": "7a6c87dcd42d6691b67aba00f03e8ab9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectLabel.vue": {
+    "mtime": 1778575688.1537988,
+    "hash": "f778e91a30184718773f4e42f4129662"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/Select.vue": {
+    "mtime": 1778575688.1532679,
+    "hash": "d084c535f89d3ad52dba86b092bb2edc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/select/SelectItemText.vue": {
+    "mtime": 1778575688.1537054,
+    "hash": "a224c7c748930ee5606d7ae874740ee6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/BreadcrumbEllipsis.vue": {
+    "mtime": 1778575688.140182,
+    "hash": "efc6133d63cbcc31f4644e34f4243d0e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/BreadcrumbList.vue": {
+    "mtime": 1778575688.140507,
+    "hash": "6eaf0d5897e7b54a26603ccac7c492bf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/BreadcrumbSeparator.vue": {
+    "mtime": 1778575688.140732,
+    "hash": "9f2ec7421acec35265995d0302d5ae47"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/BreadcrumbLink.vue": {
+    "mtime": 1778575688.1403995,
+    "hash": "cb065a503965b8002c91cc6cb970b93f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/Breadcrumb.vue": {
+    "mtime": 1778575688.1400542,
+    "hash": "3968838277dee49e9c19f08f0078f72c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/BreadcrumbPage.vue": {
+    "mtime": 1778575688.1406214,
+    "hash": "189833614d23c6894eebc2adf51b2a11"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/index.ts": {
+    "mtime": 1778575688.1408477,
+    "hash": "e62ec34130c12ed54d54b1948a315802"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/breadcrumb/BreadcrumbItem.vue": {
+    "mtime": 1778575688.1402962,
+    "hash": "8e08887160f3805535e0be1d8fc7ab70"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetClose.vue": {
+    "mtime": 1778575688.1549244,
+    "hash": "d8b686e4bfec60ea77cd6823f6308a3f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetDescription.vue": {
+    "mtime": 1778575688.155128,
+    "hash": "1ca526f35b2c817c8e88e9a1bc3ef606"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetOverlay.vue": {
+    "mtime": 1778575688.1554453,
+    "hash": "03a247fff201d05fcfa6926a91ba13df"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/Sheet.vue": {
+    "mtime": 1778575688.154831,
+    "hash": "8ee0bfe3a8442931ef4d3c5f42fed336"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetFooter.vue": {
+    "mtime": 1778575688.1552484,
+    "hash": "ce616283ee7bcf3101bc16a99639ff36"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/sheet.ts": {
+    "mtime": 1778575688.1558187,
+    "hash": "71eeb86a68c656298ffeebcd33f05232"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetHeader.vue": {
+    "mtime": 1778575688.1553533,
+    "hash": "be63ddb6e9a8d8999951f63456c9d7fc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetContent.vue": {
+    "mtime": 1778575688.155036,
+    "hash": "80f3da25a19d3fb6b829b51ffe225e56"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetTrigger.vue": {
+    "mtime": 1778575688.1556115,
+    "hash": "88f6b8bd76a0d6f5c4e90f05f9ec562f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/index.ts": {
+    "mtime": 1778575688.15571,
+    "hash": "21a443139ea41e5eba1bf0f4713a3a3c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/sheet/SheetTitle.vue": {
+    "mtime": 1778575688.15553,
+    "hash": "89d1b3c6724ee5352af893f3241d326f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pin-input/PinInputGroup.vue": {
+    "mtime": 1778575688.1513186,
+    "hash": "bade243e8b2b4b5e9db69824b191cbc8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pin-input/PinInput.vue": {
+    "mtime": 1778575688.1512237,
+    "hash": "80ee1c9cb27ac00100e7d70ef7778b4a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pin-input/PinInputInput.vue": {
+    "mtime": 1778575688.1514153,
+    "hash": "89aab59f18372b8067f2ec15faba0210"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pin-input/index.ts": {
+    "mtime": 1778575688.1516051,
+    "hash": "a59a8e1ae7e291a8896b7a12228a10a7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/pin-input/PinInputSeparator.vue": {
+    "mtime": 1778575688.1515162,
+    "hash": "76bbe9fa6ca076348c8568e9603905d1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/badge/badge.ts": {
+    "mtime": 1778575688.139783,
+    "hash": "e4f0c168635803e8c5dd164f2612ffc1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/badge/Badge.vue": {
+    "mtime": 1778575688.139666,
+    "hash": "588734e796defb2b7b0496f26185b27a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/ui/badge/index.ts": {
+    "mtime": 1778575688.1398757,
+    "hash": "d68a913722422f6bf74215da34700882"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/index.ts": {
+    "mtime": 1778575688.1333811,
+    "hash": "0629f35a929b2627f4de87fe0194f17b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/tooltip/tooltip.vue": {
+    "mtime": 1778575688.13721,
+    "hash": "9e8812b93bb944e0a81811ad2cb76911"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/tooltip/help-tooltip.vue": {
+    "mtime": 1778575688.1369843,
+    "hash": "798b20c9de46e13535a25aa929aace85"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/tooltip/index.ts": {
+    "mtime": 1778575688.1370995,
+    "hash": "37b3ae56adb08f728b99caed138fb9a3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/expandable-arrow/expandable-arrow.vue": {
+    "mtime": 1778575688.132394,
+    "hash": "2ad21bba56122ecc227901ce9717d65b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/expandable-arrow/index.ts": {
+    "mtime": 1778575688.1324837,
+    "hash": "c02e7ba17fbac71c525ddbdc790b8806"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/segmented/types.ts": {
+    "mtime": 1778575688.1358175,
+    "hash": "3a883db8ebec1deb036ac46a47aa489b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/segmented/segmented.vue": {
+    "mtime": 1778575688.1356013,
+    "hash": "09e32f543254e95b401079b28bb50dfe"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/segmented/tabs-indicator.vue": {
+    "mtime": 1778575688.1357164,
+    "hash": "0dd1e5b1ff77fd5d5cb7251dce4c5078"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/segmented/index.ts": {
+    "mtime": 1778575688.1354878,
+    "hash": "516c28764eeb15cd9af4d402445de4e9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/hover-card/hover-card.vue": {
+    "mtime": 1778575688.1329181,
+    "hash": "886f1a765431b933c611d129abd9b898"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/hover-card/index.ts": {
+    "mtime": 1778575688.133009,
+    "hash": "1790bfa5f19475e7c38e5fdc98889ced"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/checkbox/index.ts": {
+    "mtime": 1778575688.1306152,
+    "hash": "1897780b3cc1370938b20058afddad86"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/checkbox/checkbox.vue": {
+    "mtime": 1778575688.1305273,
+    "hash": "932ffa303cfcf7e125bc6ebac8bbc046"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/dropdown-menu/interface.ts": {
+    "mtime": 1778575688.1322296,
+    "hash": "0d2bd854835a335475bb65d77bbfde93"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/dropdown-menu/index.ts": {
+    "mtime": 1778575688.1321316,
+    "hash": "74ac2d7f63218aeb1a798d859ff32a5b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/dropdown-menu/dropdown-menu.vue": {
+    "mtime": 1778575688.1319466,
+    "hash": "7431b45a8c56f39ea9ef63bcd6bc1251"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/dropdown-menu/dropdown-radio-menu.vue": {
+    "mtime": 1778575688.132046,
+    "hash": "6e595d5c76394190efcd1f0f62e61901"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/back-top/use-backtop.ts": {
+    "mtime": 1778575688.1290936,
+    "hash": "6bbd4063d36b6b59eff38c2c3cc2f023"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/back-top/back-top.vue": {
+    "mtime": 1778575688.1288166,
+    "hash": "66166a51202f499ac298f06164d4d8e4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/back-top/index.ts": {
+    "mtime": 1778575688.1289976,
+    "hash": "998ea1da07025570a15dbec42c8d175d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/back-top/backtop.ts": {
+    "mtime": 1778575688.128912,
+    "hash": "bfbf59267307ba7bdae7265e1d61dd3e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/spinner/loading.vue": {
+    "mtime": 1778575688.1366818,
+    "hash": "f444003a9b42ec5a3185d1b4220dab30"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/spinner/index.ts": {
+    "mtime": 1778575688.1365619,
+    "hash": "7744517a8e4132ee59d9b92d8093b345"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/spinner/spinner.vue": {
+    "mtime": 1778575688.1367931,
+    "hash": "fa7ebe766ae10e4fd68980b8c2bed32c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/context-menu/interface.ts": {
+    "mtime": 1778575688.1315258,
+    "hash": "2381c450761fa7ddb7ef388fa1338263"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/context-menu/index.ts": {
+    "mtime": 1778575688.1314328,
+    "hash": "9a4199f84cd01935bfe1953c0f92ae53"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/context-menu/context-menu.vue": {
+    "mtime": 1778575688.1313457,
+    "hash": "5bb2ae52e423a8eb29fa8f2a775cb614"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/popover/popover.vue": {
+    "mtime": 1778575688.1347086,
+    "hash": "4734e67e7a59753c086b0c0db274be2f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/popover/index.ts": {
+    "mtime": 1778575688.1346042,
+    "hash": "8857a77132667df415beacd0bf008fb0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/full-screen/index.ts": {
+    "mtime": 1778575688.1327524,
+    "hash": "2bbf68f2e5bc20dd1a57433585b91819"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/full-screen/full-screen.vue": {
+    "mtime": 1778575688.1326458,
+    "hash": "0e7eaed6c5f378f60363f8d7e62d89c0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/button/check-button-group.vue": {
+    "mtime": 1778575688.1301856,
+    "hash": "0343cee6b83dc55a859403358e6ecb0b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/button/button-group.vue": {
+    "mtime": 1778575688.12987,
+    "hash": "c98e25e5befdcca9a5cdd212b7efa8f7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/button/button.ts": {
+    "mtime": 1778575688.1299791,
+    "hash": "0d16f3c589867515c0beae2641c58bd3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/button/icon-button.vue": {
+    "mtime": 1778575688.1302757,
+    "hash": "6a63bc50817d7d8559ab947c17e36126"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/button/index.ts": {
+    "mtime": 1778575688.13036,
+    "hash": "cb57e2525c23cb5cfa3414cb95a72cd0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/button/button.vue": {
+    "mtime": 1778575688.1300743,
+    "hash": "f81a188a25ff0ef80c7e481b637199d8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/spine-text/spine-text.vue": {
+    "mtime": 1778575688.1363854,
+    "hash": "d0293ce38a49a4f6fd9b4b2a95e09cc7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/spine-text/index.ts": {
+    "mtime": 1778575688.1362693,
+    "hash": "de41e4c37f08473e4b20630b94685954"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/logo/logo.vue": {
+    "mtime": 1778575688.134063,
+    "hash": "bd74409a8361499de82b6a6d7e94a9f5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/logo/index.ts": {
+    "mtime": 1778575688.1339567,
+    "hash": "365146c5368942a499b50092a49dd1ca"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/collapsible/collapsible-params.vue": {
+    "mtime": 1778575688.1308982,
+    "hash": "c5ea3da5ec3d9267ee757c222e29edd2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/collapsible/type.ts": {
+    "mtime": 1778575688.1311824,
+    "hash": "4b922c0d709d1665ab1b0c5431c61330"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/collapsible/index.ts": {
+    "mtime": 1778575688.1310828,
+    "hash": "ec91bd6efb72cfaebfd1061f3b811716"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/collapsible/collapsible-params-item.vue": {
+    "mtime": 1778575688.1307824,
+    "hash": "676138eab5e10f94f6b6d9e898f4e593"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/collapsible/collapsible.vue": {
+    "mtime": 1778575688.130991,
+    "hash": "9ac46e156c77468c14df3c0db18f7204"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/render-content/index.ts": {
+    "mtime": 1778575688.134882,
+    "hash": "5d6a1b3f1fdfbbb69c74aba217ac818f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/render-content/render-content.vue": {
+    "mtime": 1778575688.1349936,
+    "hash": "f4785aef8ce642236d00dd572bd7db14"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/avatar/avatar.vue": {
+    "mtime": 1778575688.1285892,
+    "hash": "d7d2d9a4d548d9fa88c0dbeaa1db860c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/avatar/index.ts": {
+    "mtime": 1778575688.128671,
+    "hash": "5a1e32891e3cffd4f32f15a9a2eec4e9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/input-password/index.ts": {
+    "mtime": 1778575688.1335638,
+    "hash": "5dc8bbe5ab0cbce9898680a80e057ec5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/count-to-animator/count-to-animator.vue": {
+    "mtime": 1778575688.131692,
+    "hash": "c8ff9f5a045cd006e3f0aafa0340d133"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/count-to-animator/index.ts": {
+    "mtime": 1778575688.1317828,
+    "hash": "3891ad78bdc8368ef5e3641d945b186b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/select/index.ts": {
+    "mtime": 1778575688.1359866,
+    "hash": "89568240204d353ed923db3ef21fbc39"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/select/select.vue": {
+    "mtime": 1778575688.1360948,
+    "hash": "38978e2961fa0de216b3f091e5508ea9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/breadcrumb/breadcrumb-view.vue": {
+    "mtime": 1778575688.1293788,
+    "hash": "7b0fcbc53ba830d27267527829944ddf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/breadcrumb/breadcrumb-background.vue": {
+    "mtime": 1778575688.1292655,
+    "hash": "25a31ed0ac8597cdc3572eb8fbc7b5c2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/breadcrumb/breadcrumb.vue": {
+    "mtime": 1778575688.1294868,
+    "hash": "74d9882fbb285567e8b872966bed64b2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/breadcrumb/types.ts": {
+    "mtime": 1778575688.1296961,
+    "hash": "0a1b133351c26ae1d18ca347e079b5cd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/breadcrumb/index.ts": {
+    "mtime": 1778575688.1295812,
+    "hash": "60f53656db19d28e4e63343a8235597e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/icon/icon.vue": {
+    "mtime": 1778575688.1331763,
+    "hash": "982c842d09862b6267d0c79b918cbffa"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/icon/index.ts": {
+    "mtime": 1778575688.1332717,
+    "hash": "95b07a15cc1e86168233a9d80dc94864"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/scrollbar/scrollbar.vue": {
+    "mtime": 1778575688.1353092,
+    "hash": "cc5f9dddfc3970f22c9f20a9bd4b9063"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/scrollbar/index.ts": {
+    "mtime": 1778575688.135176,
+    "hash": "d95a5f8e6f1593f7bc54974073867702"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/pin-input/types.ts": {
+    "mtime": 1778575688.1344345,
+    "hash": "a243574d153ef3ba2500921c98e8387e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/pin-input/index.ts": {
+    "mtime": 1778575688.134226,
+    "hash": "10b37d4e131063255e8075cf147c993b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/shadcn-ui/src/components/pin-input/input.vue": {
+    "mtime": 1778575688.134333,
+    "hash": "b1de5acab62cc7b77259d2dd6ec0cde8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/tsdown.config.ts": {
+    "mtime": 1778575688.1611302,
+    "hash": "929235919aef23d49aea72255bdc298b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/use-tabs-drag.ts": {
+    "mtime": 1778575688.1607847,
+    "hash": "a0637c19676a1a319e52f1cb298755ff"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/types.ts": {
+    "mtime": 1778575688.1606705,
+    "hash": "c8916d2f3d6d267172ed8fcb00c31820"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/tabs-view.vue": {
+    "mtime": 1778575688.1605594,
+    "hash": "2358965fd24142d198186909df3a0edf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/index.ts": {
+    "mtime": 1778575688.160438,
+    "hash": "2f8f44ce4b19b06d2159d8fa5e319f19"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/use-tabs-view-scroll.ts": {
+    "mtime": 1778575688.160915,
+    "hash": "5bfd58d9ee01ac36fbb5bce2c1c17cc1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/components/index.ts": {
+    "mtime": 1778575688.1593633,
+    "hash": "755023599fcdd45f03be5b79e4c1a3bb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/components/tabs/tabs.vue": {
+    "mtime": 1778575688.1597779,
+    "hash": "bfd6ad23270bde8c10880e70db9693e8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/components/tabs-chrome/tabs.vue": {
+    "mtime": 1778575688.1595857,
+    "hash": "79fca61da41072675f8a76eb74ca2323"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/components/widgets/tool-refresh.vue": {
+    "mtime": 1778575688.1601858,
+    "hash": "c64a680e39b100b0007a8f15a1852825"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/components/widgets/tool-screen.vue": {
+    "mtime": 1778575688.1603403,
+    "hash": "b74c2e37a03f3008f87ce50114a2dbed"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/components/widgets/tool-more.vue": {
+    "mtime": 1778575688.160086,
+    "hash": "86d18129c9d6206f02c9e9e62d30aea6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/tabs-ui/src/components/widgets/index.ts": {
+    "mtime": 1778575688.1599848,
+    "hash": "d90ae117c724cfa8bbdf25950bc8be21"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/tsdown.config.ts": {
+    "mtime": 1778575688.120275,
+    "hash": "929235919aef23d49aea72255bdc298b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/__tests__/form-api.test.ts": {
+    "mtime": 1778575688.1176565,
+    "hash": "024543f19ee8be6d9639b062f7baaf8e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/use-form-context.ts": {
+    "mtime": 1778575688.1197317,
+    "hash": "2d4e01f4afd362a672eca4be3a07165a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/use-vben-form.ts": {
+    "mtime": 1778575688.1198218,
+    "hash": "4f2d38e135af013d2a183772b31e41c2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-api.ts": {
+    "mtime": 1778575688.1183162,
+    "hash": "f1ba055caa9a543dbcf67049c8320a17"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/vben-form.vue": {
+    "mtime": 1778575688.1199265,
+    "hash": "85a2eab58b9b7dca77684fcd6aff0b38"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/types.ts": {
+    "mtime": 1778575688.1196287,
+    "hash": "fd60b3e986bb19e1692e83558f57d818"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/vben-use-form.vue": {
+    "mtime": 1778575688.1200678,
+    "hash": "e5d4dfc1e9aa5c3098b5f3a46fc02443"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/index.ts": {
+    "mtime": 1778575688.1193864,
+    "hash": "aa00b75a34c7b61a9a18883d00060171"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/config.ts": {
+    "mtime": 1778575688.1180952,
+    "hash": "fe5905043bc991e6fa92f912d0de225e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/field-name.ts": {
+    "mtime": 1778575688.1181858,
+    "hash": "9cbb7cb8b594ca584729f0f9f6f2ddca"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/dependencies.ts": {
+    "mtime": 1778575688.11864,
+    "hash": "2ec03505ac2bbf750cd2f8666e59eb10"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/expandable.ts": {
+    "mtime": 1778575688.1187472,
+    "hash": "c297615711ca6ca8cced481aa20edd45"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/form-field.vue": {
+    "mtime": 1778575688.1189013,
+    "hash": "9724439632418697e278082f2d711ade"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/form-label.vue": {
+    "mtime": 1778575688.1189995,
+    "hash": "5f3c0a4ae1c7d27e6997c1b0b0cc0d07"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/helper.ts": {
+    "mtime": 1778575688.1192005,
+    "hash": "cac711edf80f412c12635d5d47d8e34f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/context.ts": {
+    "mtime": 1778575688.1185172,
+    "hash": "1613fcafa66a9cb8595166918f133c76"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/index.ts": {
+    "mtime": 1778575688.11929,
+    "hash": "2ff45559bc4c9ba4614f136737b1e121"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/form-render/form.vue": {
+    "mtime": 1778575688.1191075,
+    "hash": "ee3710ecc330d71fd270591dee571a17"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/form-ui/src/components/form-actions.vue": {
+    "mtime": 1778575688.1179993,
+    "hash": "610751326f22a9012b9f30a8b535a0c6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/tsdown.config.ts": {
+    "mtime": 1778575688.1251998,
+    "hash": "929235919aef23d49aea72255bdc298b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/sub-menu.vue": {
+    "mtime": 1778575688.1247575,
+    "hash": "53653421ef4cc73509819590585b6800"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/types.ts": {
+    "mtime": 1778575688.124872,
+    "hash": "6fe0ba8c35ba9d5ecbdf22ec184c91d8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/menu.vue": {
+    "mtime": 1778575688.124637,
+    "hash": "03041ea7450efc21a945c47ad754428d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/index.ts": {
+    "mtime": 1778575688.1245375,
+    "hash": "c440dd96e546707b56461eb99b99c34c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/utils/index.ts": {
+    "mtime": 1778575688.125027,
+    "hash": "5f9aad8f8015c75feb79718582f587f8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/sub-menu.vue": {
+    "mtime": 1778575688.1240032,
+    "hash": "aaed29a9a8815d38d153cb6b2088cf77"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/collapse-transition.vue": {
+    "mtime": 1778575688.1228986,
+    "hash": "f2f042cd2f72e8fbfa69df5cb4bb83b7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/menu-item.vue": {
+    "mtime": 1778575688.1232717,
+    "hash": "91ea793cc48e71a2c54cbc5c5cc04dfc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/menu-badge-dot.vue": {
+    "mtime": 1778575688.1230683,
+    "hash": "811320b05815554de4f3c1566a651f68"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/sub-menu-content.vue": {
+    "mtime": 1778575688.1238873,
+    "hash": "a7c7059f0f55d19ab38029b2684ffb0a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/menu.vue": {
+    "mtime": 1778575688.1234028,
+    "hash": "7dd84b990be20f942ab37651a2961f48"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/index.ts": {
+    "mtime": 1778575688.1229827,
+    "hash": "8c5fee32b300b58a3537ccbccf36501a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/menu-badge.vue": {
+    "mtime": 1778575688.1231701,
+    "hash": "6e6ef094a52fc34743d463aa3d4c9171"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/normal-menu/normal-menu.vue": {
+    "mtime": 1778575688.1237943,
+    "hash": "552a434ee80b9ce1a9399b35633cb01f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/normal-menu/normal-menu.ts": {
+    "mtime": 1778575688.1236885,
+    "hash": "ecebe55d92ad5ab38bd5d17f57aecaab"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/components/normal-menu/index.ts": {
+    "mtime": 1778575688.12359,
+    "hash": "92c90660e6533f3a243d6e3e7e63b597"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/hooks/use-menu-context.ts": {
+    "mtime": 1778575688.1242313,
+    "hash": "7b23031134610cee9e956b9cc2a88adc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/hooks/use-menu.ts": {
+    "mtime": 1778575688.124452,
+    "hash": "6cd2da94a0ae0ad6011bba1b675f078d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/hooks/use-menu-scroll.ts": {
+    "mtime": 1778575688.124327,
+    "hash": "f1a9a0af3f72ec6d0472a2091acc1c93"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/src/hooks/index.ts": {
+    "mtime": 1778575688.12414,
+    "hash": "226511077fb6f55bb48d1ff5e50b4e8f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/design/vite.config.ts": {
+    "mtime": 1778575688.1027553,
+    "hash": "3e82ee8b0e3c38d211fd86be8daf50b2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/design/src/index.ts": {
+    "mtime": 1778575688.10231,
+    "hash": "a54672d6309dce39c6b0accfe35cca75"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/design/src/design-tokens/index.ts": {
+    "mtime": 1778575688.1021943,
+    "hash": "c8f3ce86fbac92a74099688af59571e4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/vue-router.d.ts": {
+    "mtime": 1778575688.1104617,
+    "hash": "08a04df40e32654594ac88a09a794ad3"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/tsdown.config.ts": {
+    "mtime": 1778575688.1103332,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/src/app.d.ts": {
+    "mtime": 1778575688.1093507,
+    "hash": "8ba49252fae2df7511a9dfe5946d174e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/src/menu-record.ts": {
+    "mtime": 1778575688.1097534,
+    "hash": "7b9a84bd1d02805412b0e902b2b84b5b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/src/tabs.ts": {
+    "mtime": 1778575688.109848,
+    "hash": "2122eae55ce917bd7d6667ded215ead0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/src/index.ts": {
+    "mtime": 1778575688.109646,
+    "hash": "c21d71275f476e9808e133b28d076a6d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/src/helper.d.ts": {
+    "mtime": 1778575688.1095424,
+    "hash": "c416a18ec18f20a128d007ba7d4666c7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/src/vue-router.d.ts": {
+    "mtime": 1778575688.1099448,
+    "hash": "97570b56f5a26cb1b69658bcc166fe15"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/typings/src/basic.d.ts": {
+    "mtime": 1778575688.109442,
+    "hash": "52e05d14c080a340d114d2511777a1f0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/tsdown.config.ts": {
+    "mtime": 1778575688.10904,
+    "hash": "62a03d4d8edfa4ac3ba463729764198d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/global-state.ts": {
+    "mtime": 1778575688.1054204,
+    "hash": "56bc3b897a415433756ad62ca0af0802"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/store.ts": {
+    "mtime": 1778575688.105515,
+    "hash": "d0326be3107859c8e4abf92226ba9191"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/cache/types.ts": {
+    "mtime": 1778575688.1042714,
+    "hash": "68f80e3ebafc64d0f6764f240d048838"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/cache/index.ts": {
+    "mtime": 1778575688.1040635,
+    "hash": "805981533a334be76bb1de66ae73faf9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/cache/storage-manager.ts": {
+    "mtime": 1778575688.1041672,
+    "hash": "4f8f3bca68e5e7300ee0424bf59facc7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/cache/__tests__/storage-manager.test.ts": {
+    "mtime": 1778575688.1039615,
+    "hash": "aab0af0739584bff6ba485aaca53a548"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/constants/vben.ts": {
+    "mtime": 1778575688.1052983,
+    "hash": "9bc005686d6dcae47ab27801efe0a807"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/constants/globals.ts": {
+    "mtime": 1778575688.105105,
+    "hash": "edf2a3afcb14a8807099d8b00a388df0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/constants/index.ts": {
+    "mtime": 1778575688.1052022,
+    "hash": "2e0dcd4d09754603d20187456f5cae8b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/color/generator.ts": {
+    "mtime": 1778575688.1048362,
+    "hash": "dfb892180f92a556785db4d53164b7cb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/color/convert.ts": {
+    "mtime": 1778575688.1047416,
+    "hash": "524845a628af5f8fa30b6efeaeb9a07b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/color/index.ts": {
+    "mtime": 1778575688.1049263,
+    "hash": "e40e5ef3cad610db354aac9e2e035151"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/color/color.ts": {
+    "mtime": 1778575688.104639,
+    "hash": "b8cc326b2b88e3203ed6d171300f456b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/color/__tests__/convert.test.ts": {
+    "mtime": 1778575688.1045327,
+    "hash": "c1f65a13144180e38d9095d91d7ef38f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/nprogress.ts": {
+    "mtime": 1778575688.1079814,
+    "hash": "ea50597e3c0e0e42126a452b7f2516b4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/update-css-variables.ts": {
+    "mtime": 1778575688.1086552,
+    "hash": "a5e5eca5e8e4b6117f624fb253ea0558"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/dom.ts": {
+    "mtime": 1778575688.107373,
+    "hash": "40979bf24ffdb5cb08130d5a92515cd4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/date.ts": {
+    "mtime": 1778575688.107165,
+    "hash": "611b6c31fdd3bb2aad429c01443bd47b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/state-handler.ts": {
+    "mtime": 1778575688.10829,
+    "hash": "3082560670c163165b4a70b147faabc8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/cn.ts": {
+    "mtime": 1778575688.1070704,
+    "hash": "bfdd4764ece9464c0a267ee64610a9b7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/inference.ts": {
+    "mtime": 1778575688.107705,
+    "hash": "cdf05542d402cbc3ea6df6590c446906"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/resources.ts": {
+    "mtime": 1778575688.1080778,
+    "hash": "621b071f3b240f76cf78752e21613fb4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/diff.ts": {
+    "mtime": 1778575688.1072671,
+    "hash": "e3a65a755fb0fd18f104e71a229ecffc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/letter.ts": {
+    "mtime": 1778575688.1078012,
+    "hash": "0409d4c8dbaaccf74bee8693dda85308"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/stack.ts": {
+    "mtime": 1778575688.1081862,
+    "hash": "8d70d085302d6072b4e9c515e961f4e4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/to.ts": {
+    "mtime": 1778575688.108382,
+    "hash": "2fcabadb8fc3f8a80808ca54442e30fd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/unique.ts": {
+    "mtime": 1778575688.1085627,
+    "hash": "4152556f434af484dfde5e7736a92bb7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/download.ts": {
+    "mtime": 1778575688.1074867,
+    "hash": "722ab1f970016b7cb698850e7d6c05ae"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/util.ts": {
+    "mtime": 1778575688.1087549,
+    "hash": "2a66f324b9a297c121802553d5f960e5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/window.ts": {
+    "mtime": 1778575688.1088512,
+    "hash": "86799c45117c89a34d0421087dd08993"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/index.ts": {
+    "mtime": 1778575688.107583,
+    "hash": "257d82b71f217784e13f98557944a3ea"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/merge.ts": {
+    "mtime": 1778575688.107894,
+    "hash": "c26c70b16f8d01145e1d8a7cf2399601"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/tree.ts": {
+    "mtime": 1778575688.1084716,
+    "hash": "0c2da251eadddbfb25a18534db75f543"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/update-css-variables.test.ts": {
+    "mtime": 1778575688.1067715,
+    "hash": "01565c73f031e575bf1aa97c03aac05d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/state-handler.test.ts": {
+    "mtime": 1778575688.1064818,
+    "hash": "c28c50a807cb4d0982be41ffdb07275a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/util.test.ts": {
+    "mtime": 1778575688.1068723,
+    "hash": "f96eb5c149012c81a71e15e022688594"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/diff.test.ts": {
+    "mtime": 1778575688.1058698,
+    "hash": "c0248302efb61672c405a7309ed06235"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/inference.test.ts": {
+    "mtime": 1778575688.1060944,
+    "hash": "6ac1363b6ae8a63a8d0cf01ec23b0736"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/resources.test.ts": {
+    "mtime": 1778575688.1062815,
+    "hash": "269b66c4d20819e11f9b1fbf5627eeb7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/date.test.ts": {
+    "mtime": 1778575688.105768,
+    "hash": "9f32fa85b995b42fdeb96aa7caef60d0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/letter.test.ts": {
+    "mtime": 1778575688.1061876,
+    "hash": "e164293a2759f767a2007d3cf6169226"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/tree.test.ts": {
+    "mtime": 1778575688.1065912,
+    "hash": "7100026fedb2689db7f5c78429514497"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/stack.test.ts": {
+    "mtime": 1778575688.1063774,
+    "hash": "dee2881821a0ea413502546bae2325d9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/window.test.ts": {
+    "mtime": 1778575688.1069655,
+    "hash": "c50b6425ccbaef40e171bf7e844f4e94"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/unique.test.ts": {
+    "mtime": 1778575688.1066802,
+    "hash": "46f163d78929a697b1cf58fe5487c166"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/shared/src/utils/__tests__/dom.test.ts": {
+    "mtime": 1778575688.1059797,
+    "hash": "12a1fcb7a8719d52b7fb7f679f90a719"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/icons/tsdown.config.ts": {
+    "mtime": 1778575688.1034734,
+    "hash": "b606590ab4403d3f829ad6dc16f76f67"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/icons/src/lucide.ts": {
+    "mtime": 1778575688.1032908,
+    "hash": "560837addbafde2f8d7976693238326f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/icons/src/create-icon.ts": {
+    "mtime": 1778575688.103072,
+    "hash": "aba71501a2b870e1f340d9169ba16a97"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/icons/src/index.ts": {
+    "mtime": 1778575688.1031857,
+    "hash": "1163fc698f4823fa5a19f8b892498456"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/nitro.config.ts": {
+    "mtime": 1778575688.0715532,
+    "hash": "8d39df09df5e22fdaf52f23ab551eb29"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/error.ts": {
+    "mtime": 1778575688.0712852,
+    "hash": "867988be3a8d30503e6b57b643ae9bfd"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/middleware/1.api.ts": {
+    "mtime": 1778575688.071458,
+    "hash": "4797a723b0fffe402b39ee86f36bfb40"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/utils/system-users.ts": {
+    "mtime": 1778636049.3989773,
+    "hash": "da5fe97b0c61a92eca1cf69ee617db6f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/utils/timezone-utils.ts": {
+    "mtime": 1778575688.0728953,
+    "hash": "c39ad436ffae5f4375a406dbde1d9533"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/utils/response.ts": {
+    "mtime": 1778644095.575739,
+    "hash": "c441bd0c5a79fc218dff14dec5441a52"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/utils/cookie-utils.ts": {
+    "mtime": 1778575688.0722022,
+    "hash": "046e46a4f7b85e8c09979a0592c98c42"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/utils/jwt-utils.ts": {
+    "mtime": 1778575688.0723045,
+    "hash": "c86b3d3a90af0e5221c0e60ef58c42e8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/utils/mock-data.ts": {
+    "mtime": 1778579855.167344,
+    "hash": "0c7a65a16b577d747c7215c36769a969"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/test.post.ts": {
+    "mtime": 1778575688.070552,
+    "hash": "3c7ecc8425eefb0c47ee9a7e63f24f09"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/status.ts": {
+    "mtime": 1778575688.0681186,
+    "hash": "d2c156f02ade07c3ea5611a112aa824c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/test.get.ts": {
+    "mtime": 1778575688.0704563,
+    "hash": "5ccc16a51a388624d25573fb3bc7c348"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/upload.ts": {
+    "mtime": 1778575688.0710194,
+    "hash": "778818486559b39aa34952a76002d75e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/demo/bigint.ts": {
+    "mtime": 1778575688.0678513,
+    "hash": "f977f06a51de802a8e0e5a3721380768"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/timezone/getTimezone.ts": {
+    "mtime": 1778575688.0707119,
+    "hash": "e10d9aede9f00b91c25bbb9f4da3455c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/timezone/setTimezone.ts": {
+    "mtime": 1778658090.444429,
+    "hash": "fbc8f8911d3b501f2c1c265df14bf04b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/timezone/getTimezoneOptions.ts": {
+    "mtime": 1778575688.0708091,
+    "hash": "fe5877f7799ea20f88ed733536df2b88"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/auth/logout.post.ts": {
+    "mtime": 1778575688.067572,
+    "hash": "7227a8cde2977e51d379c1be453ae13b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/auth/login.post.ts": {
+    "mtime": 1778724730.7444904,
+    "hash": "69a1947dae81a8be63c744e409094b3a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/auth/codes.ts": {
+    "mtime": 1778575688.0673647,
+    "hash": "47122e563ee1a481980c944a7389a988"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/auth/refresh.post.ts": {
+    "mtime": 1778638538.2087903,
+    "hash": "ce4f2190f8b94b541033d029308150bf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/users.get.ts": {
+    "mtime": 1778644324.1669524,
+    "hash": "e16aa39a13e5be74d3753db3d46c8c2e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/users.post.ts": {
+    "mtime": 1778658092.6790645,
+    "hash": "892959360fc9ccc7c7781a3ece57dd04"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/roles/options.get.ts": {
+    "mtime": 1778644324.531646,
+    "hash": "9260e64ae49003de0363cef37adce5e8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/users/[uuid].put.ts": {
+    "mtime": 1778658092.6177704,
+    "hash": "3dad7e22757a8e45cbab5b452bf014fc"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/users/[uuid].delete.ts": {
+    "mtime": 1778644324.3352253,
+    "hash": "c6b29296eca37bfc44a502c803542706"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/users/me.get.ts": {
+    "mtime": 1778658090.4420853,
+    "hash": "049c6fd87bef81fb8e018886c7ef62af"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/users/[uuid]/status.put.ts": {
+    "mtime": 1778658092.669033,
+    "hash": "7ffd362b0fa82ee9b5ebdd6985a41664"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/admin/users/[uuid]/password/reset.post.ts": {
+    "mtime": 1778644324.4419296,
+    "hash": "ff3ed8232f603cf21abc3e59594eb562"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/user/info.ts": {
+    "mtime": 1778575688.0711842,
+    "hash": "a02fe5c16eb932a091ae03aa16b38412"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/role/[id].delete.ts": {
+    "mtime": 1778578847.682312,
+    "hash": "b664034d3d36ccae294cb91e2bbc177d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/role/[id].put.ts": {
+    "mtime": 1778658090.4429235,
+    "hash": "edc92f71e64e7a943e47a37186a124e4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/role/list.ts": {
+    "mtime": 1778658090.4434817,
+    "hash": "a4c57e1dcbee6da3b0dfd9fe0d3bcd68"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/role/options.ts": {
+    "mtime": 1778575688.0694718,
+    "hash": "22778b15927001b5fc1249b43c6f0e08"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/user/[id].delete.ts": {
+    "mtime": 1778575688.0697165,
+    "hash": "9672c1d91ccf36d95254b677e56191af"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/user/[id].put.ts": {
+    "mtime": 1778575688.0698245,
+    "hash": "d3d4d649c69ca708493dc30ba1c4f51c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/user/list.ts": {
+    "mtime": 1778636056.5819833,
+    "hash": "56f4152692e804ebe33deec3eda675c6"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/user/[id]/status.put.ts": {
+    "mtime": 1778575688.0701008,
+    "hash": "2e09212d3cb70fee807ae521af466a10"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/menu/[id].delete.ts": {
+    "mtime": 1778724730.7446418,
+    "hash": "59efc29e37eb4ec32f817a3ea7ec3942"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/menu/name-exists.ts": {
+    "mtime": 1778575688.069131,
+    "hash": "f855878c0c96cfaa4ddef1f1db0f65b0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/menu/[id].put.ts": {
+    "mtime": 1778724730.7449036,
+    "hash": "dc284d03869bef04696f244b267b4c26"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/menu/list.ts": {
+    "mtime": 1778575688.0688155,
+    "hash": "7d361e3069f86d4d8327a49fbf416ceb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/menu/path-exists.ts": {
+    "mtime": 1778575688.0692143,
+    "hash": "0777a7d8f742dcdae473d173fa2e9b20"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/dept/[id].delete.ts": {
+    "mtime": 1778575688.068435,
+    "hash": "fa4e13e33402aa83972a22211832088d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/dept/[id].put.ts": {
+    "mtime": 1778575688.06855,
+    "hash": "72c12bdbbfbc8ceebc4f64234ba1487c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/system/dept/list.ts": {
+    "mtime": 1778575688.0686553,
+    "hash": "b245e48d0afb3c27fdfa862e2a23eed9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/table/list.ts": {
+    "mtime": 1778575688.0703678,
+    "hash": "59e3c9758ae7aee356ee09deb915de79"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/api/menu/all.ts": {
+    "mtime": 1778575688.0680223,
+    "hash": "4bc85da2a9a6fd79879901264b521d3f"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/routes/[...].ts": {
+    "mtime": 1778575688.071805,
+    "hash": "589c97d1e7c64e28460f73c733428b42"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/vite.config.ts": {
+    "mtime": 1778644642.902229,
+    "hash": "d6eaadb6588e680d53ec2062852a25b2"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/app.vue": {
+    "mtime": 1778575688.0816119,
     "hash": "48814e7b8138f956c68948dff9e0b579"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\bootstrap.ts": {
-    "mtime": 1778402183.1142461,
-    "hash": "f3be47ab4f2483b870811014811fe595"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\main.ts": {
-    "mtime": 1778402183.1202471,
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/main.ts": {
+    "mtime": 1778575688.083249,
     "hash": "b99f15057a5c3e572ca75a62b3aa2533"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\preferences.ts": {
-    "mtime": 1778402572.749281,
-    "hash": "2a38fe5cedd7ab846012086030a335d1"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/preferences.ts": {
+    "mtime": 1778737565.5101435,
+    "hash": "9091d33807cf9613440301e4dd651c94"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\adapter\\form.ts": {
-    "mtime": 1778402183.111246,
-    "hash": "c163f0a76a2991ad11ea97b4c1b18cea"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/bootstrap.ts": {
+    "mtime": 1778575688.081743,
+    "hash": "f3be47ab4f2483b870811014811fe595"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\adapter\\vxe-table.ts": {
-    "mtime": 1778402183.111246,
-    "hash": "3c6ef4b35fc20061902db85564536771"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\adapter\\component\\index.ts": {
-    "mtime": 1778402183.1102464,
-    "hash": "372c36d8ef49bb988d2bb7e9b53e4f71"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\index.ts": {
-    "mtime": 1778402634.5116732,
-    "hash": "270c8eceeaa24b1c7701dffc1eaa1ab7"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\request.ts": {
-    "mtime": 1778402183.1142461,
-    "hash": "d505b54a26a5c90095d3c0a185681aed"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\auth.ts": {
-    "mtime": 1778402183.112246,
-    "hash": "9461ec03ac242984d3a7d3790c2f1942"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\index.ts": {
-    "mtime": 1778402183.112246,
-    "hash": "e133852f9532a8b82c6d1522be5d8d0a"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\menu.ts": {
-    "mtime": 1778402183.1132462,
-    "hash": "0e7aa693b77f36d001427ef53f752c90"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\core\\user.ts": {
-    "mtime": 1778402183.1132462,
-    "hash": "911ba5b1843d5330001084c872b8e7cc"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\index.ts": {
-    "mtime": 1778402634.3943622,
-    "hash": "269d4b9b7a7557d93587b00cbcd35410"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\model.ts": {
-    "mtime": 1778402634.0258882,
-    "hash": "697fc4a5f82adf8cfe6aa2b40cd1c439"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\role.ts": {
-    "mtime": 1778402634.1550596,
-    "hash": "9406ea628983a9b5bfb327da01d22ddb"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\api\\system\\user.ts": {
-    "mtime": 1778402634.277239,
-    "hash": "ae67020fa4c75494de629ea0d44837a4"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\layouts\\auth.vue": {
-    "mtime": 1778402183.1152463,
-    "hash": "f54fa69e3b6dab9ac7996cc154af0d0c"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\layouts\\basic.vue": {
-    "mtime": 1778402785.5836036,
-    "hash": "c32603e43cc55391bd29138bb32d61da"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\layouts\\index.ts": {
-    "mtime": 1778402183.116247,
-    "hash": "c6a6b9d5bea59d6b45c689bb56cd74de"
-  },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\locales\\index.ts": {
-    "mtime": 1778402183.117247,
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/locales/index.ts": {
+    "mtime": 1778575688.082449,
     "hash": "6d55cf50e1ba276cd23319c0217b3c81"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\access.ts": {
-    "mtime": 1778402183.121248,
-    "hash": "1790604f09047af2fc74aa8f0d26c659"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/adapter/form.ts": {
+    "mtime": 1778575688.0800152,
+    "hash": "c163f0a76a2991ad11ea97b4c1b18cea"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\guard.ts": {
-    "mtime": 1778402183.1222508,
-    "hash": "309a8fb34c651087e1ad8b6788794d2a"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/adapter/vxe-table.ts": {
+    "mtime": 1778579739.4199739,
+    "hash": "e11882bbfdae63eab3adec11e9060af7"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\index.ts": {
-    "mtime": 1778402183.1228518,
-    "hash": "34614c1fc5870b9884665cd5222b1a9e"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/adapter/component/index.ts": {
+    "mtime": 1778575688.0798464,
+    "hash": "372c36d8ef49bb988d2bb7e9b53e4f71"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\core.ts": {
-    "mtime": 1778402764.5536172,
-    "hash": "b4006e67c5d109eda9c831775669731a"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/layouts/auth.vue": {
+    "mtime": 1778575688.0819461,
+    "hash": "f54fa69e3b6dab9ac7996cc154af0d0c"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\index.ts": {
-    "mtime": 1778402183.1238558,
-    "hash": "563be98780da8cbb78b9c0e241834469"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/layouts/basic.vue": {
+    "mtime": 1778575688.0820599,
+    "hash": "c32603e43cc55391bd29138bb32d61da"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\modules\\dashboard.ts": {
-    "mtime": 1778402572.98201,
-    "hash": "6a4b23d79379a37b0ae8d9362c59e768"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/layouts/index.ts": {
+    "mtime": 1778575688.0821538,
+    "hash": "c6a6b9d5bea59d6b45c689bb56cd74de"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\router\\routes\\modules\\system.ts": {
-    "mtime": 1778402573.4048848,
-    "hash": "b8c4c29d53200c6b9b2eee71b72010e3"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/request.ts": {
+    "mtime": 1778644940.0696816,
+    "hash": "c32e90b41047ce41187a36535f42b21d"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\store\\auth.ts": {
-    "mtime": 1778402183.1258552,
-    "hash": "98d79a20556a117d941f2c45bb80803b"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/index.ts": {
+    "mtime": 1778575688.0808394,
+    "hash": "270c8eceeaa24b1c7701dffc1eaa1ab7"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\store\\index.ts": {
-    "mtime": 1778402183.1258552,
-    "hash": "41b6cf4f1fb0e18863b36a06b0965384"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/core/menu.ts": {
+    "mtime": 1778737759.1460145,
+    "hash": "d1b04c3eb570e1818485c647904de441"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\dashboard\\index.vue": {
-    "mtime": 1778402573.5235798,
-    "hash": "98983b7e6ffb698fa17e5281c6753813"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/core/index.ts": {
+    "mtime": 1778575688.0805042,
+    "hash": "e133852f9532a8b82c6d1522be5d8d0a"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\system\\user\\index.vue": {
-    "mtime": 1778415923.305536,
-    "hash": "6c2daf2b31c5d2212300e2b9609335d6"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/core/user.ts": {
+    "mtime": 1778645598.499716,
+    "hash": "71876e444f60770d628e07f0da71e2fb"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\authentication\\login.vue": {
-    "mtime": 1778417293.933081,
-    "hash": "eb13689c11f01f3f3ff8f81371a10b93"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/core/auth.ts": {
+    "mtime": 1778644897.2567399,
+    "hash": "c19f96d5ebaffc067ce3fa84a2fd5e0e"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\coming-soon.vue": {
-    "mtime": 1778402183.1308565,
-    "hash": "42f389dd53db4896dc556c250f309d16"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/system/menu.ts": {
+    "mtime": 1778724794.4284415,
+    "hash": "79ff1a9057f75eedb4ad4cf9b34c27ff"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\forbidden.vue": {
-    "mtime": 1778402183.1308565,
-    "hash": "65878dd87eb5212ed5a33e6543330372"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/system/model.ts": {
+    "mtime": 1778724730.7452383,
+    "hash": "f76b063bfb226ac43bb04fc2ad2727c2"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\internal-error.vue": {
-    "mtime": 1778402183.1318562,
-    "hash": "74790bd039498529d281a99c607c36de"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/system/role.ts": {
+    "mtime": 1778643494.308586,
+    "hash": "8f8c19618610ee07f200157791671832"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\not-found.vue": {
-    "mtime": 1778402183.1318562,
-    "hash": "39daf9c7ccf392f1887540abf8cdfe65"
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/system/index.ts": {
+    "mtime": 1778578404.9531496,
+    "hash": "e618305525dabf39d8f3e2aeb873a126"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\fallback\\offline.vue": {
-    "mtime": 1778402183.1318562,
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/api/system/user.ts": {
+    "mtime": 1778643494.277905,
+    "hash": "06a6bb782fb3590e1d83ad1341291a4c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/_core/fallback/offline.vue": {
+    "mtime": 1778575688.0857346,
     "hash": "ec0f4d9f39f5c6e49964794cbb72c822"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\index.html": {
-    "mtime": 1778402183.1082473,
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/_core/fallback/coming-soon.vue": {
+    "mtime": 1778575688.085313,
+    "hash": "42f389dd53db4896dc556c250f309d16"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/_core/fallback/forbidden.vue": {
+    "mtime": 1778575688.085414,
+    "hash": "65878dd87eb5212ed5a33e6543330372"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/_core/fallback/internal-error.vue": {
+    "mtime": 1778575688.0855117,
+    "hash": "74790bd039498529d281a99c607c36de"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/_core/fallback/not-found.vue": {
+    "mtime": 1778575688.0856311,
+    "hash": "39daf9c7ccf392f1887540abf8cdfe65"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/_core/authentication/login.vue": {
+    "mtime": 1778575688.085109,
+    "hash": "eb13689c11f01f3f3ff8f81371a10b93"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/dashboard/index.vue": {
+    "mtime": 1778575688.0858936,
+    "hash": "98983b7e6ffb698fa17e5281c6753813"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/system/role/data.ts": {
+    "mtime": 1778578734.9344451,
+    "hash": "089a6e178463a5d2a8bfcadedce3a997"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/system/role/list.vue": {
+    "mtime": 1778578734.9662375,
+    "hash": "2157655dd35bae7835b77677d6876099"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/system/role/modules/form.vue": {
+    "mtime": 1778578734.987862,
+    "hash": "5b0540fe11a9a7617cd15dd21cf1282b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/system/user/index.vue": {
+    "mtime": 1778724730.7456229,
+    "hash": "e5ae368dbe4d2c3562e2eb5af7c421f4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/system/menu/data.ts": {
+    "mtime": 1778578525.7866664,
+    "hash": "2d2bd5add511fac3f05bfcf0f798af5a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/system/menu/list.vue": {
+    "mtime": 1778579758.8043127,
+    "hash": "464665f5f6cee31aeb5baa361565da29"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/system/menu/modules/form.vue": {
+    "mtime": 1778578640.9490192,
+    "hash": "414bea3d75c8e100a20211005b9407e5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/store/index.ts": {
+    "mtime": 1778575688.0846655,
+    "hash": "41b6cf4f1fb0e18863b36a06b0965384"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/store/auth.ts": {
+    "mtime": 1778645458.6829586,
+    "hash": "a751f2db277d0c96202f3645dad3d768"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/router/guard.ts": {
+    "mtime": 1778646252.2016125,
+    "hash": "956e4197be15bf4e5d68a578f278ebbf"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/router/access.ts": {
+    "mtime": 1778733865.0818934,
+    "hash": "1790604f09047af2fc74aa8f0d26c659"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/router/index.ts": {
+    "mtime": 1778575688.083786,
+    "hash": "34614c1fc5870b9884665cd5222b1a9e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/router/routes/core.ts": {
+    "mtime": 1778575688.0839689,
+    "hash": "b4006e67c5d109eda9c831775669731a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/router/routes/index.ts": {
+    "mtime": 1778578425.0509648,
+    "hash": "dabc30aabd853e2318efb00d8c2135c7"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/router/routes/modules/dashboard.ts": {
+    "mtime": 1778733865.0830312,
+    "hash": "6a4b23d79379a37b0ae8d9362c59e768"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/router/routes/modules/system.ts": {
+    "mtime": 1778733865.0839708,
+    "hash": "57e019a04cfb26e14a9a8ed5c988759c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/README.md": {
+    "mtime": 1778658091.0401149,
+    "hash": "52422f0dd0d369b9dbb6a35617ce47d1"
+  },
+  "/Users/w/Desktop/web/self-admin-web/lefthook.yml": {
+    "mtime": 1778724880.8055637,
+    "hash": "f0d2ab8d1cbdd53429a3a6ce9265b116"
+  },
+  "/Users/w/Desktop/web/self-admin-web/AGENTS.md": {
+    "mtime": 1778575688.0666206,
+    "hash": "277fc01ce5370cffcdac0ba6a268e965"
+  },
+  "/Users/w/Desktop/web/self-admin-web/CLAUDE.md": {
+    "mtime": 1778658091.1174717,
+    "hash": "846a7072e11a5cb84fee62856bf77cea"
+  },
+  "/Users/w/Desktop/web/self-admin-web/tea.yaml": {
+    "mtime": 1778575688.2184062,
+    "hash": "d0336c1484b32d1a70b488d7116ad2b9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/pnpm-workspace.yaml": {
+    "mtime": 1778575688.2142031,
+    "hash": "af3f89dbcd04de60d3446d5f2ba4a89b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/inject-app-loading/README.md": {
+    "mtime": 1778575688.0984719,
+    "hash": "c826429429db285877882fd9c3438059"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/inject-app-loading/default-loading-antd.html": {
+    "mtime": 1778575688.0985744,
+    "hash": "1a670f575f13b1d2dddce66ad11647a8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/internal/vite-config/src/plugins/inject-app-loading/default-loading.html": {
+    "mtime": 1778575688.0986817,
+    "hash": "42668182b645d478cce80b206a6cd7f9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/docs/superpowers/specs/2026-05-12-backend-api-design.md": {
+    "mtime": 1778638781.5079517,
+    "hash": "99d18b1da0e0f972f5ccfdd608d8fd25"
+  },
+  "/Users/w/Desktop/web/self-admin-web/docs/superpowers/specs/2026-05-13-backend-follow-up-work.md": {
+    "mtime": 1778658785.920457,
+    "hash": "16f63476a5dad2f53478cc76ac885fd8"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/turbo-run/README.md": {
+    "mtime": 1778575688.2149255,
+    "hash": "458293fb6b220aca031db0dc4e20b7f4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/scripts/vsh/README.md": {
+    "mtime": 1778575688.215849,
+    "hash": "12082710d005f866fc72195948252b80"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/types/README.md": {
+    "mtime": 1778575688.208336,
+    "hash": "3e6a48ecfb62e2072701e5caff4a4159"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/constants/README.md": {
+    "mtime": 1778575688.1612985,
+    "hash": "1b3a984eb21367c08b95878f44f02e8b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/utils/README.md": {
+    "mtime": 1778575688.209066,
+    "hash": "eb65bba5d26d5e6ccf1ea141495bc291"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/styles/README.md": {
+    "mtime": 1778575688.2067099,
+    "hash": "3aae63c30d31b878a5bbf2ee7cd30f28"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/README.md": {
+    "mtime": 1778575688.1977499,
+    "hash": "41bc3af08ebe50bd1059b4ceaec6ec0d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/README.md": {
+    "mtime": 1778575688.1619403,
+    "hash": "053c7a9cedff153631b5dcbd638347d0"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/README.md": {
+    "mtime": 1778575688.1913,
+    "hash": "7e94e2632f85389b671811d85889b69d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/motion/README.md": {
+    "mtime": 1778575688.1923606,
+    "hash": "450e3c79f2fde81559c99fe97655024d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/echarts/README.md": {
+    "mtime": 1778575688.1916444,
+    "hash": "c21ed42aaacd86e5cdce1d3640fc591a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/plugins/src/vxe-table/README.md": {
+    "mtime": 1778575688.1943464,
+    "hash": "c89ae93408efda8ba21528499b44657c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/layouts/src/basic/README.md": {
+    "mtime": 1778575688.1796355,
+    "hash": "625c8e9ee5affb02057303c5ff6f71ff"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/hooks/README.md": {
+    "mtime": 1778575688.1770654,
+    "hash": "f9d3986fa71039e16f364e37402bdd37"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/README.md": {
+    "mtime": 1778575688.1004815,
+    "hash": "6407b7d32fc424dbb7ed9c382d4b4af5"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/composables/src/use-simple-locale/README.md": {
+    "mtime": 1778575688.1116507,
+    "hash": "fab8d4c41203b3af476326724ed51742"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/README.md": {
+    "mtime": 1778575688.1174057,
+    "hash": "31b51fe8c5f5a402cb808fd8c75ec5c4"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/ui-kit/menu-ui/README.md": {
+    "mtime": 1778575688.1226146,
+    "hash": "b48302ce316c319fb6bac5a8827c2669"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/@core/base/README.md": {
+    "mtime": 1778575688.100628,
+    "hash": "122cb06e7b8aef24e49ce5de3f15e78b"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/backend-mock/README.md": {
+    "mtime": 1778575688.067163,
+    "hash": "168be3749314b28333c71bce9caf1420"
+  },
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/index.html": {
+    "mtime": 1778575688.0791962,
     "hash": "63a248b87f2b61c71974aaa29bb14459"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\locales\\README.md": {
-    "mtime": 1778402183.116247,
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/locales/README.md": {
+    "mtime": 1778575688.0823307,
     "hash": "b78460ba0f45ffa068261f79bf90d844"
   },
-  "C:\\Users\\w\\Desktop\\www\\self-admin-web\\apps\\web-antd\\src\\views\\_core\\README.md": {
-    "mtime": 1778402183.126855,
+  "/Users/w/Desktop/web/self-admin-web/apps/web-antd/src/views/_core/README.md": {
+    "mtime": 1778575688.0848992,
     "hash": "eeb56c071d14232f7cec41fbd2f4a188"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/tdesign-logo.svg": {
+    "mtime": 1778575688.2010021,
+    "hash": "6e9a25d2f691da6ab384d6f1350aecf9"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/github.svg": {
+    "mtime": 1778575688.200641,
+    "hash": "0818a90716c70376ca00b8526023fc55"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/avatar-4.svg": {
+    "mtime": 1778575688.1998644,
+    "hash": "8ce1fef3e71d51f21763066e5361fb9d"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/download.svg": {
+    "mtime": 1778575688.2005258,
+    "hash": "dffb9523ea45ff609840209a33e4d978"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/antdv-logo.svg": {
+    "mtime": 1778575688.198557,
+    "hash": "0f102d1c6da0b22b0a5d0ba293706a53"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/avatar-3.svg": {
+    "mtime": 1778575688.199664,
+    "hash": "ab15d8101e31bb6f382cb3209384450c"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/bell.svg": {
+    "mtime": 1778575688.200035,
+    "hash": "3205c1f4546f89e901bce2b74ded30ad"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/cake.svg": {
+    "mtime": 1778575688.2001579,
+    "hash": "6eaa8f5a2af1c37819c5a2252f2b7682"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/avatar-2.svg": {
+    "mtime": 1778575688.199261,
+    "hash": "4aaa378316db038c91414d0a4733cb76"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/antdv-next-logo.svg": {
+    "mtime": 1778575688.198693,
+    "hash": "14ec00490dc55e32fddab31c0476f332"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/avatar-1.svg": {
+    "mtime": 1778575688.1988485,
+    "hash": "c92c427fc1761d15382fef4c745796ea"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/card.svg": {
+    "mtime": 1778575688.2002814,
+    "hash": "24b2fb3462d0877d74ab3d573b547aba"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/dingding.svg": {
+    "mtime": 1778575688.2004075,
+    "hash": "1972c16a0338052c57b7ffa4278e233a"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/wechat.svg": {
+    "mtime": 1778575688.2011223,
+    "hash": "3eea7c075c3832f307b297386085b33e"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/google.svg": {
+    "mtime": 1778575688.200751,
+    "hash": "eeb0dfd1ab7c15925797423f210904bb"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/icons/src/svg/icons/qqchat.svg": {
+    "mtime": 1778575688.2008781,
+    "hash": "572cb3de8f17b88a8d706241052227ba"
+  },
+  "/Users/w/Desktop/web/self-admin-web/packages/effects/common-ui/src/ui/fallback/icons/warning.svg": {
+    "mtime": 1778575688.175932,
+    "hash": "42258e669cb003d6fa0cc3082c0b7faf"
   }
 }

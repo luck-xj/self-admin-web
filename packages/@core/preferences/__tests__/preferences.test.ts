@@ -86,6 +86,33 @@ describe('preferences', () => {
     expect(preferenceManager.getPreferences()).toEqual(expected);
   });
 
+  it('keeps initialization overrides when cached preferences contain stale values', async () => {
+    vi.mocked(localStorage.getItem).mockImplementation((key) => {
+      if (key.endsWith('cached-overrides-preferences')) {
+        return JSON.stringify({
+          value: {
+            app: {
+              accessMode: 'frontend',
+            },
+          },
+        });
+      }
+
+      return null;
+    });
+
+    await preferenceManager.initPreferences({
+      namespace: 'cached-overrides',
+      overrides: {
+        app: {
+          accessMode: 'backend',
+        },
+      },
+    });
+
+    expect(preferenceManager.getPreferences().app.accessMode).toBe('backend');
+  });
+
   it('updates theme mode correctly', () => {
     preferenceManager.updatePreferences({
       theme: {

@@ -133,6 +133,7 @@ class PreferenceManager {
     const cachedPreferences = this.loadFromCache() || {};
     const mergedPreference = merge(
       {},
+      overrides,
       cachedPreferences,
       this.initialPreferences,
     );
