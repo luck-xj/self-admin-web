@@ -3,40 +3,40 @@ export interface RoleOption {
   value: string;
 }
 
-export type UserStatus = 'disabled' | 'enabled';
+export type UserStatus = 0 | 1;
 
 export interface UserItem {
-  id: string;
-  createdAt: string;
+  uuid: string;
+  created_at: string;
   email: string;
   nickname: string;
   phone: string;
   remark?: string;
-  roleNames: string[];
   roles: string[];
+  role_names: string[];
   status: UserStatus;
   username: string;
 }
 
 export interface UserListParams {
-  keyword?: string;
+  username?: string;
   page?: number;
-  pageSize?: number;
-  role?: string;
+  page_size?: number;
   status?: UserStatus;
 }
 
 export interface UserListResult {
-  items: UserItem[];
+  list: UserItem[];
   total: number;
 }
 
 export interface UserFormData {
   email: string;
   nickname: string;
+  password?: string;
   phone: string;
   remark?: string;
-  roles: string[];
+  role: string;
   status: UserStatus;
   username: string;
 }

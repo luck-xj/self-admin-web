@@ -1,43 +1,19 @@
-import { faker } from '@faker-js/faker';
 import { eventHandler, getQuery } from 'h3';
 import { verifyAccessToken } from '~/utils/jwt-utils';
-import { getMenuIds, MOCK_MENU_LIST } from '~/utils/mock-data';
+import { getMenuIds, MOCK_MENU_LIST, MOCK_ROLE_LIST } from '~/utils/mock-data';
 import { unAuthorizedResponse, usePageResponseSuccess } from '~/utils/response';
-
-const formatterCN = new Intl.DateTimeFormat('zh-CN', {
-  timeZone: 'Asia/Shanghai',
-  year: 'numeric',
-  month: '2-digit',
-  day: '2-digit',
-  hour: '2-digit',
-  minute: '2-digit',
-  second: '2-digit',
-});
 
 const menuIds = getMenuIds(MOCK_MENU_LIST);
 
-function generateMockDataList(count: number) {
-  const dataList = [];
-
-  for (let i = 0; i < count; i++) {
-    const dataItem: Record<string, any> = {
-      id: faker.string.uuid(),
-      name: faker.commerce.product(),
-      status: faker.helpers.arrayElement([0, 1]),
-      createTime: formatterCN.format(
-        faker.date.between({ from: '2022-01-01', to: '2025-01-01' }),
-      ),
-      permissions: faker.helpers.arrayElements(menuIds),
-      remark: faker.lorem.sentence(),
-    };
-
-    dataList.push(dataItem);
+// 给角色随机分配权限
+for (const role of MOCK_ROLE_LIST) {
+  if (!role.permissions || role.permissions.length === 0) {
+    role.permissions = menuIds.slice(
+      0,
+      Math.floor(Math.random() * menuIds.length) + 1,
+    );
   }
-
-  return dataList;
 }
-
-const mockData = generateMockDataList(100);
 
 export default eventHandler(async (event) => {
   const userinfo = verifyAccessToken(event);
@@ -55,7 +31,7 @@ export default eventHandler(async (event) => {
     endTime,
     status,
   } = getQuery(event);
-  let listData = structuredClone(mockData);
+  let listData = structuredClone(MOCK_ROLE_LIST);
   if (name) {
     listData = listData.filter((item) =>
       item.name.toLowerCase().includes(String(name).toLowerCase()),

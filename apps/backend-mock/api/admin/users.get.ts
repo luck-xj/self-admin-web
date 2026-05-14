@@ -9,15 +9,13 @@ export default eventHandler(async (event) => {
     return unAuthorizedResponse(event);
   }
 
-  const { keyword, page = 1, pageSize = 20, role, status } = getQuery(event);
+  const { username, page = 1, pageSize = 20, status } = getQuery(event);
   let listData = structuredClone(users);
 
-  if (keyword) {
-    const value = String(keyword).toLowerCase();
+  if (username) {
+    const value = String(username).toLowerCase();
     listData = listData.filter((item) =>
-      [item.username, item.nickname, item.email, item.phone].some((field) =>
-        field.toLowerCase().includes(value),
-      ),
+      item.username.toLowerCase().includes(value),
     );
   }
 
@@ -25,9 +23,11 @@ export default eventHandler(async (event) => {
     listData = listData.filter((item) => item.status === status);
   }
 
-  if (role) {
-    listData = listData.filter((item) => item.role === String(role));
-  }
+  // 适配后端字段：id → uuid, roleNames → roleName（单数）
+  const mapped = listData.map((item) => ({
+    ...item,
+    uuid: item.id,
+  }));
 
-  return usePageResponseSuccess(page as string, pageSize as string, listData);
+  return usePageResponseSuccess(page as string, pageSize as string, mapped);
 });

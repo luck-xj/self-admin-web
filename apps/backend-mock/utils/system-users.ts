@@ -12,8 +12,8 @@ export interface UserItem {
   nickname: string;
   phone: string;
   remark?: string;
-  roleNames: string[];
-  roles: string[];
+  role: string;
+  roleName: string;
   status: UserStatus;
   username: string;
 }
@@ -23,7 +23,7 @@ export interface UserFormData {
   nickname: string;
   phone: string;
   remark?: string;
-  roles: string[];
+  role: string;
   status: UserStatus;
   username: string;
 }
@@ -42,8 +42,8 @@ export const users: UserItem[] = [
     nickname: '系统管理员',
     phone: '13800000000',
     remark: '内置管理员账号',
-    roleNames: ['管理员'],
-    roles: ['admin'],
+    role: 'admin',
+    roleName: '管理员',
     status: 'enabled',
     username: 'admin',
   },
@@ -54,21 +54,20 @@ export const users: UserItem[] = [
     nickname: '运营人员',
     phone: '13900000000',
     remark: '日常运营账号',
-    roleNames: ['运营'],
-    roles: ['operator'],
+    role: 'operator',
+    roleName: '运营',
     status: 'enabled',
     username: 'operator',
   },
 ];
 
-export function enrichRoleNames<T extends Pick<UserItem, 'roles'>>(
+export function enrichRoleNames<T extends { role: string }>(
   user: T,
-): T & { roleNames: string[] } {
+): T & { roleName: string } {
   return {
     ...user,
-    roleNames: user.roles.map(
-      (role) => roleOptions.find((item) => item.value === role)?.label ?? role,
-    ),
+    roleName:
+      roleOptions.find((item) => item.value === user.role)?.label ?? user.role,
   };
 }
 

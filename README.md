@@ -10,19 +10,22 @@
 
 当前项目通过 corepack 使用 pnpm：
 
-```powershell
+```bash
+# macOS / Linux / Windows (bash)
 corepack pnpm --version
 ```
 
 ## 安装依赖
 
-```powershell
+```bash
+# macOS / Linux / Windows (bash)
 corepack pnpm install
 ```
 
 ## 启动开发服务
 
-```powershell
+```bash
+# macOS / Linux / Windows (bash)
 corepack pnpm dev
 ```
 
@@ -36,7 +39,8 @@ VITE_PORT=5666
 
 ## 构建
 
-```powershell
+```bash
+# macOS / Linux / Windows (bash)
 corepack pnpm run build
 ```
 
@@ -49,7 +53,8 @@ apps/web-antd/dist.zip
 
 ## 类型检查
 
-```powershell
+```bash
+# macOS / Linux / Windows (bash)
 corepack pnpm -F @vben/web-antd run typecheck
 ```
 
@@ -57,11 +62,11 @@ corepack pnpm -F @vben/web-antd run typecheck
 
 模拟服务内置账号：
 
-| 用户名 | 密码 | 说明 |
-| --- | --- | --- |
-| `admin` | `123456` | 管理员 |
-| `vben` | `123456` | 系统管理员 |
-| `jack` | `123456` | 普通用户 |
+| 用户名  | 密码     | 说明       |
+| ------- | -------- | ---------- |
+| `admin` | `123456` | 管理员     |
+| `vben`  | `123456` | 系统管理员 |
+| `jack`  | `123456` | 普通用户   |
 
 ## 当前功能
 

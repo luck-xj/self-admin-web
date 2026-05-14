@@ -50,10 +50,9 @@ function createRequestClient(baseURL: string, options?: RequestClientOptions) {
    */
   async function doRefreshToken() {
     const accessStore = useAccessStore();
-    const resp = await refreshTokenApi();
-    const newToken = resp.data;
-    accessStore.setAccessToken(newToken);
-    return newToken;
+    const { access_token } = await refreshTokenApi();
+    accessStore.setAccessToken(access_token);
+    return access_token;
   }
 
   function formatToken(token: null | string) {
@@ -75,7 +74,7 @@ function createRequestClient(baseURL: string, options?: RequestClientOptions) {
   client.addResponseInterceptor(
     defaultResponseInterceptor({
       codeField: 'code',
-      dataField: 'data',
+      dataField: 'value',
       successCode: 0,
     }),
   );
@@ -97,7 +96,7 @@ function createRequestClient(baseURL: string, options?: RequestClientOptions) {
       // 这里可以根据业务进行定制,你可以拿到 error 内的信息进行定制化处理，根据不同的 code 做不同的提示，而不是直接使用 message.error 提示 msg
       // 当前mock接口返回的错误字段是 error 或者 message
       const responseData = error?.response?.data ?? {};
-      const errorMessage = responseData?.error ?? responseData?.message ?? '';
+      const errorMessage = responseData?.message ?? '';
       // 如果没有错误信息，则会根据状态码进行提示
       message.error(errorMessage || msg);
     }),

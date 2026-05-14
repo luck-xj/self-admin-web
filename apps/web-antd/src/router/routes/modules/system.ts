@@ -1,24 +1,43 @@
 import type { RouteRecordRaw } from 'vue-router';
 
+import { $t } from '#/locales';
+
 const routes: RouteRecordRaw[] = [
   {
     meta: {
-      icon: 'lucide:settings',
-      order: 10,
-      title: '系统管理',
+      icon: 'ion:settings-outline',
+      order: 9997,
+      title: $t('system.title'),
     },
     name: 'System',
     path: '/system',
-    redirect: '/system/user',
     children: [
       {
-        name: 'SystemUser',
         path: '/system/user',
-        component: () => import('#/views/system/user/index.vue'),
+        name: 'SystemUser',
         meta: {
-          icon: 'lucide:users',
+          icon: 'mdi:account-group',
           title: '用户管理',
         },
+        component: () => import('#/views/system/user/index.vue'),
+      },
+      {
+        path: '/system/menu',
+        name: 'SystemMenu',
+        meta: {
+          icon: 'mdi:menu',
+          title: $t('system.menu.title'),
+        },
+        component: () => import('#/views/system/menu/list.vue'),
+      },
+      {
+        path: '/system/role',
+        name: 'SystemRole',
+        meta: {
+          icon: 'mdi:account-group',
+          title: $t('system.role.title'),
+        },
+        component: () => import('#/views/system/role/list.vue'),
       },
     ],
   },

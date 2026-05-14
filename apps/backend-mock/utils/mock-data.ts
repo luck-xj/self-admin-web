@@ -1,3 +1,5 @@
+import { faker } from '@faker-js/faker';
+
 export interface UserInfo {
   id: number;
   password: string;
@@ -121,7 +123,28 @@ export const MOCK_MENUS = [
   },
 ];
 
-export const MOCK_MENU_LIST = [
+export const MOCK_ROLE_LIST = Array.from({ length: 30 }, (_, i) => {
+  const d = faker.date.between({ from: '2024-01-01', to: '2025-06-01' });
+  const createTime = new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  }).format(d);
+  return {
+    id: faker.string.uuid(),
+    name: `角色${i + 1}`,
+    status: (i % 3 === 0 ? 0 : 1) as 0 | 1,
+    createTime,
+    permissions: [],
+    remark: faker.lorem.sentence(),
+  };
+});
+
+export const MOCK_MENU_LIST: any[] = [
   {
     id: 1,
     name: 'DashboardIndex',

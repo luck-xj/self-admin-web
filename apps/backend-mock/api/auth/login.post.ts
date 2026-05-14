@@ -7,7 +7,7 @@ import { generateAccessToken, generateRefreshToken } from '~/utils/jwt-utils';
 import { MOCK_USERS } from '~/utils/mock-data';
 import {
   forbiddenResponse,
-  useResponseError,
+  useResponseErrorWithCode,
   useResponseSuccess,
 } from '~/utils/response';
 
@@ -15,10 +15,7 @@ export default defineEventHandler(async (event) => {
   const { password, username } = await readBody(event);
   if (!password || !username) {
     setResponseStatus(event, 400);
-    return useResponseError(
-      'BadRequestException',
-      'Username and password are required',
-    );
+    return useResponseErrorWithCode(3, '用户名和密码不能为空');
   }
 
   const findUser = MOCK_USERS.find(
@@ -27,7 +24,7 @@ export default defineEventHandler(async (event) => {
 
   if (!findUser) {
     clearRefreshTokenCookie(event);
-    return forbiddenResponse(event, 'Username or password is incorrect.');
+    return forbiddenResponse(event, '用户名或密码错误');
   }
 
   const accessToken = generateAccessToken(findUser);
@@ -36,7 +33,11 @@ export default defineEventHandler(async (event) => {
   setRefreshTokenCookie(event, refreshToken);
 
   return useResponseSuccess({
-    ...findUser,
     accessToken,
+    uuid: String(findUser.id),
+    username: findUser.username,
+    nickname: findUser.realName,
+    roles: findUser.roles,
+    homePath: findUser.homePath || '/dashboard/index',
   });
 });

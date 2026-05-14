@@ -1,7 +1,11 @@
-import { eventHandler, readBody } from 'h3';
+import { eventHandler, readBody, setResponseStatus } from 'h3';
 import { verifyAccessToken } from '~/utils/jwt-utils';
 import { TIME_ZONE_OPTIONS } from '~/utils/mock-data';
-import { unAuthorizedResponse, useResponseSuccess } from '~/utils/response';
+import {
+  unAuthorizedResponse,
+  useResponseErrorWithCode,
+  useResponseSuccess,
+} from '~/utils/response';
 import { setTimezone } from '~/utils/timezone-utils';
 
 export default eventHandler(async (event) => {
@@ -15,7 +19,7 @@ export default eventHandler(async (event) => {
   const allowed = TIME_ZONE_OPTIONS.some((o) => o.timezone === timezone);
   if (!timezone || !allowed) {
     setResponseStatus(event, 400);
-    return useResponseError('Bad Request', 'Invalid timezone');
+    return useResponseErrorWithCode(3, '无效的时区');
   }
   setTimezone(timezone);
   return useResponseSuccess({});

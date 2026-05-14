@@ -1,13 +1,19 @@
 import type { EventHandlerRequest, H3Event } from 'h3';
 
 import { setResponseStatus } from 'h3';
+import crypto from 'node:crypto';
+
+function genNonce(): string {
+  return crypto.randomUUID();
+}
 
 export function useResponseSuccess<T = any>(data: T) {
   return {
     code: 0,
-    data,
-    error: null,
     message: 'ok',
+    nonce: genNonce(),
+    success: true,
+    value: data,
   };
 }
 
@@ -25,19 +31,30 @@ export function usePageResponseSuccess<T = any>(
 
   return {
     ...useResponseSuccess({
-      items: pageData,
+      list: pageData,
       total: list.length,
     }),
     message,
   };
 }
 
-export function useResponseError(message: string, error: any = null) {
+export function useResponseError(message: string) {
   return {
     code: -1,
-    data: null,
-    error,
     message,
+    nonce: genNonce(),
+    success: false,
+    value: null,
+  };
+}
+
+export function useResponseErrorWithCode(code: number, message: string) {
+  return {
+    code,
+    message,
+    nonce: genNonce(),
+    success: false,
+    value: null,
   };
 }
 
@@ -46,12 +63,12 @@ export function forbiddenResponse(
   message = 'Forbidden Exception',
 ) {
   setResponseStatus(event, 403);
-  return useResponseError(message, message);
+  return useResponseErrorWithCode(7, message);
 }
 
 export function unAuthorizedResponse(event: H3Event<EventHandlerRequest>) {
   setResponseStatus(event, 401);
-  return useResponseError('Unauthorized Exception', 'Unauthorized Exception');
+  return useResponseErrorWithCode(16, 'token 无效或已过期');
 }
 
 export function sleep(ms: number) {
